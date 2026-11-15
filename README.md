@@ -40,4 +40,4 @@ Written to `OUT_DIR`: `Tables/*.tex`, `Figures/*.pdf`, CSV files with all per-co
 
 ## Archived version
 
-https://doi.org/10.5281/zenodo.24230324
+https://doi.org/10.5281/zenodo.24230323
