@@ -14,6 +14,7 @@ Code for a source-disjoint evaluation of image steganalysis on BOSSbase 1.01, wi
 | Path | Description |
 |---|---|
 | `Cover_Stego_Separability_Pattern_Recognition.ipynb` | Complete pipeline: cover preparation, embedding, features, detectors, protocols, controls, tables and figures |
+| `outputs/` | Tables, figures, per-condition CSV files and `results.json` of the complete run |
 
 ## Experimental design
 
