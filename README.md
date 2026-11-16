@@ -38,6 +38,8 @@ On a cluster, `CSS_DATA_ROOT`, `CSS_WORK_DIR` and `CSS_OUT_DIR` set the dataset,
 
 Written to `OUT_DIR`: `Tables/*.tex`, `Figures/*.pdf`, CSV files with all per-condition results, `results.json` and `outputs_summary.txt`.
 
+The folder `outputs/` holds these files from the complete run on BOSSbase 1.01 (feature-based detectors and SRNet on one NVIDIA H100 GPU) whose numbers are reported in the accompanying article.
+
 ## Archived version
 
 https://doi.org/10.5281/zenodo.24230323

@@ -1,0 +1,1943 @@
+[16:38:26] Project Cover_Stego_Separability | QUICK=False | covers=10000 | jobs=31
+[16:38:26] DATA_ROOT=/scratch/hamamh/Datasets
+WORK_DIR=/scratch/hamamh/work/Cover_Stego_Separability
+OUT_DIR=/home/hamamh/Outputs/Cover_Stego_Separability
+[16:38:28]   covers 1000/10000 (3s)
+[16:38:31]   covers 2000/10000 (5s)
+[16:38:34]   covers 3000/10000 (8s)
+[16:38:37]   covers 4000/10000 (11s)
+[16:38:40]   covers 5000/10000 (14s)
+[16:38:44]   covers 6000/10000 (18s)
+[16:38:47]   covers 7000/10000 (21s)
+[16:38:50]   covers 8000/10000 (24s)
+[16:38:53]   covers 9000/10000 (27s)
+[16:38:55]   covers 10000/10000 (29s)
+[16:38:56] Covers (10000, 256, 256), shifted test covers (5000, 256, 256), source=BOSSbase_1.01
+[16:38:56] Embedding self-tests passed (simulator rate, S-UNIWARD cost vs brute force, LSBM change rate).
+[16:38:56] Generating 20 stego sets on the main source and on the shifted test source
+[16:38:59]   LSBM@0.05: 2000/10000 (3s)
+[16:39:01]   LSBM@0.05: 4000/10000 (5s)
+[16:39:03]   LSBM@0.05: 6000/10000 (6s)
+[16:39:04]   LSBM@0.05: 8000/10000 (8s)
+[16:39:06]   LSBM@0.05: 10000/10000 (10s)
+[16:39:08]   shift_LSBM@0.05: 2000/5000 (2s)
+[16:39:10]   shift_LSBM@0.05: 4000/5000 (4s)
+[16:39:10]   shift_LSBM@0.05: 5000/5000 (4s)
+[16:39:12]   LSBM@0.10: 2000/10000 (2s)
+[16:39:14]   LSBM@0.10: 4000/10000 (4s)
+[16:39:16]   LSBM@0.10: 6000/10000 (5s)
+[16:39:18]   LSBM@0.10: 8000/10000 (7s)
+[16:39:19]   LSBM@0.10: 10000/10000 (9s)
+[16:39:22]   shift_LSBM@0.10: 2000/5000 (2s)
+[16:39:24]   shift_LSBM@0.10: 4000/5000 (4s)
+[16:39:25]   shift_LSBM@0.10: 5000/5000 (5s)
+[16:39:28]   LSBM@0.20: 2000/10000 (2s)
+[16:39:30]   LSBM@0.20: 4000/10000 (4s)
+[16:39:32]   LSBM@0.20: 6000/10000 (6s)
+[16:39:33]   LSBM@0.20: 8000/10000 (8s)
+[16:39:35]   LSBM@0.20: 10000/10000 (9s)
+[16:39:38]   shift_LSBM@0.20: 2000/5000 (2s)
+[16:39:40]   shift_LSBM@0.20: 4000/5000 (4s)
+[16:39:41]   shift_LSBM@0.20: 5000/5000 (4s)
+[16:39:43]   LSBM@0.30: 2000/10000 (2s)
+[16:39:45]   LSBM@0.30: 4000/10000 (4s)
+[16:39:46]   LSBM@0.30: 6000/10000 (6s)
+[16:39:48]   LSBM@0.30: 8000/10000 (7s)
+[16:39:50]   LSBM@0.30: 10000/10000 (9s)
+[16:39:52]   shift_LSBM@0.30: 2000/5000 (2s)
+[16:39:54]   shift_LSBM@0.30: 4000/5000 (4s)
+[16:39:55]   shift_LSBM@0.30: 5000/5000 (4s)
+[16:39:56]   LSBM@0.40: 2000/10000 (2s)
+[16:39:58]   LSBM@0.40: 4000/10000 (4s)
+[16:40:00]   LSBM@0.40: 6000/10000 (5s)
+[16:40:02]   LSBM@0.40: 8000/10000 (7s)
+[16:40:03]   LSBM@0.40: 10000/10000 (9s)
+[16:40:05]   shift_LSBM@0.40: 2000/5000 (2s)
+[16:40:07]   shift_LSBM@0.40: 4000/5000 (4s)
+[16:40:08]   shift_LSBM@0.40: 5000/5000 (4s)
+[16:40:10]   LSBM-A@0.05: 2000/10000 (2s)
+[16:40:12]   LSBM-A@0.05: 4000/10000 (4s)
+[16:40:14]   LSBM-A@0.05: 6000/10000 (5s)
+[16:40:16]   LSBM-A@0.05: 8000/10000 (7s)
+[16:40:17]   LSBM-A@0.05: 10000/10000 (9s)
+[16:40:19]   shift_LSBM-A@0.05: 2000/5000 (2s)
+[16:40:21]   shift_LSBM-A@0.05: 4000/5000 (4s)
+[16:40:22]   shift_LSBM-A@0.05: 5000/5000 (4s)
+[16:40:24]   LSBM-A@0.10: 2000/10000 (2s)
+[16:40:26]   LSBM-A@0.10: 4000/10000 (3s)
+[16:40:28]   LSBM-A@0.10: 6000/10000 (5s)
+[16:40:29]   LSBM-A@0.10: 8000/10000 (7s)
+[16:40:31]   LSBM-A@0.10: 10000/10000 (9s)
+[16:40:34]   shift_LSBM-A@0.10: 2000/5000 (2s)
+[16:40:35]   shift_LSBM-A@0.10: 4000/5000 (4s)
+[16:40:36]   shift_LSBM-A@0.10: 5000/5000 (4s)
+[16:40:38]   LSBM-A@0.20: 2000/10000 (2s)
+[16:40:40]   LSBM-A@0.20: 4000/10000 (4s)
+[16:40:42]   LSBM-A@0.20: 6000/10000 (5s)
+[16:40:43]   LSBM-A@0.20: 8000/10000 (7s)
+[16:40:45]   LSBM-A@0.20: 10000/10000 (9s)
+[16:40:47]   shift_LSBM-A@0.20: 2000/5000 (2s)
+[16:40:49]   shift_LSBM-A@0.20: 4000/5000 (4s)
+[16:40:50]   shift_LSBM-A@0.20: 5000/5000 (5s)
+[16:40:52]   LSBM-A@0.30: 2000/10000 (2s)
+[16:40:54]   LSBM-A@0.30: 4000/10000 (4s)
+[16:40:55]   LSBM-A@0.30: 6000/10000 (6s)
+[16:40:57]   LSBM-A@0.30: 8000/10000 (7s)
+[16:40:59]   LSBM-A@0.30: 10000/10000 (9s)
+[16:41:01]   shift_LSBM-A@0.30: 2000/5000 (2s)
+[16:41:03]   shift_LSBM-A@0.30: 4000/5000 (3s)
+[16:41:03]   shift_LSBM-A@0.30: 5000/5000 (4s)
+[16:41:05]   LSBM-A@0.40: 2000/10000 (2s)
+[16:41:07]   LSBM-A@0.40: 4000/10000 (4s)
+[16:41:09]   LSBM-A@0.40: 6000/10000 (5s)
+[16:41:11]   LSBM-A@0.40: 8000/10000 (7s)
+[16:41:13]   LSBM-A@0.40: 10000/10000 (9s)
+[16:41:14]   shift_LSBM-A@0.40: 2000/5000 (2s)
+[16:41:16]   shift_LSBM-A@0.40: 4000/5000 (4s)
+[16:41:17]   shift_LSBM-A@0.40: 5000/5000 (5s)
+[16:41:21]   HILL@0.05: 2000/10000 (3s)
+[16:41:23]   HILL@0.05: 4000/10000 (6s)
+[16:41:26]   HILL@0.05: 6000/10000 (9s)
+[16:41:29]   HILL@0.05: 8000/10000 (12s)
+[16:41:32]   HILL@0.05: 10000/10000 (15s)
+[16:41:36]   shift_HILL@0.05: 2000/5000 (3s)
+[16:41:38]   shift_HILL@0.05: 4000/5000 (6s)
+[16:41:40]   shift_HILL@0.05: 5000/5000 (7s)
+[16:41:43]   HILL@0.10: 2000/10000 (3s)
+[16:41:46]   HILL@0.10: 4000/10000 (6s)
+[16:41:49]   HILL@0.10: 6000/10000 (9s)
+[16:41:51]   HILL@0.10: 8000/10000 (11s)
+[16:41:54]   HILL@0.10: 10000/10000 (14s)
+[16:41:58]   shift_HILL@0.10: 2000/5000 (3s)
+[16:42:00]   shift_HILL@0.10: 4000/5000 (6s)
+[16:42:02]   shift_HILL@0.10: 5000/5000 (7s)
+[16:42:05]   HILL@0.20: 2000/10000 (3s)
+[16:42:07]   HILL@0.20: 4000/10000 (6s)
+[16:42:10]   HILL@0.20: 6000/10000 (8s)
+[16:42:13]   HILL@0.20: 8000/10000 (11s)
+[16:42:16]   HILL@0.20: 10000/10000 (14s)
+[16:42:19]   shift_HILL@0.20: 2000/5000 (3s)
+[16:42:22]   shift_HILL@0.20: 4000/5000 (6s)
+[16:42:23]   shift_HILL@0.20: 5000/5000 (7s)
+[16:42:27]   HILL@0.30: 2000/10000 (3s)
+[16:42:30]   HILL@0.30: 4000/10000 (6s)
+[16:42:33]   HILL@0.30: 6000/10000 (9s)
+[16:42:36]   HILL@0.30: 8000/10000 (11s)
+[16:42:39]   HILL@0.30: 10000/10000 (14s)
+[16:42:42]   shift_HILL@0.30: 2000/5000 (3s)
+[16:42:45]   shift_HILL@0.30: 4000/5000 (6s)
+[16:42:46]   shift_HILL@0.30: 5000/5000 (7s)
+[16:42:49]   HILL@0.40: 2000/10000 (3s)
+[16:42:52]   HILL@0.40: 4000/10000 (6s)
+[16:42:55]   HILL@0.40: 6000/10000 (9s)
+[16:42:58]   HILL@0.40: 8000/10000 (12s)
+[16:43:01]   HILL@0.40: 10000/10000 (14s)
+[16:43:04]   shift_HILL@0.40: 2000/5000 (3s)
+[16:43:07]   shift_HILL@0.40: 4000/5000 (6s)
+[16:43:08]   shift_HILL@0.40: 5000/5000 (7s)
+[16:43:12]   S-UNIWARD@0.05: 2000/10000 (3s)
+[16:43:15]   S-UNIWARD@0.05: 4000/10000 (7s)
+[16:43:18]   S-UNIWARD@0.05: 6000/10000 (10s)
+[16:43:22]   S-UNIWARD@0.05: 8000/10000 (13s)
+[16:43:25]   S-UNIWARD@0.05: 10000/10000 (16s)
+[16:43:29]   shift_S-UNIWARD@0.05: 2000/5000 (4s)
+[16:43:32]   shift_S-UNIWARD@0.05: 4000/5000 (7s)
+[16:43:34]   shift_S-UNIWARD@0.05: 5000/5000 (9s)
+[16:43:37]   S-UNIWARD@0.10: 2000/10000 (3s)
+[16:43:41]   S-UNIWARD@0.10: 4000/10000 (6s)
+[16:43:44]   S-UNIWARD@0.10: 6000/10000 (10s)
+[16:43:47]   S-UNIWARD@0.10: 8000/10000 (13s)
+[16:43:50]   S-UNIWARD@0.10: 10000/10000 (16s)
+[16:43:54]   shift_S-UNIWARD@0.10: 2000/5000 (3s)
+[16:43:57]   shift_S-UNIWARD@0.10: 4000/5000 (6s)
+[16:43:59]   shift_S-UNIWARD@0.10: 5000/5000 (8s)
+[16:44:02]   S-UNIWARD@0.20: 2000/10000 (3s)
+[16:44:05]   S-UNIWARD@0.20: 4000/10000 (7s)
+[16:44:09]   S-UNIWARD@0.20: 6000/10000 (10s)
+[16:44:12]   S-UNIWARD@0.20: 8000/10000 (13s)
+[16:44:16]   S-UNIWARD@0.20: 10000/10000 (18s)
+[16:44:20]   shift_S-UNIWARD@0.20: 2000/5000 (4s)
+[16:44:23]   shift_S-UNIWARD@0.20: 4000/5000 (7s)
+[16:44:25]   shift_S-UNIWARD@0.20: 5000/5000 (8s)
+[16:44:31]   S-UNIWARD@0.30: 2000/10000 (5s)
+[16:44:35]   S-UNIWARD@0.30: 4000/10000 (10s)
+[16:44:40]   S-UNIWARD@0.30: 6000/10000 (15s)
+[16:44:45]   S-UNIWARD@0.30: 8000/10000 (20s)
+[16:44:49]   S-UNIWARD@0.30: 10000/10000 (24s)
+[16:44:53]   shift_S-UNIWARD@0.30: 2000/5000 (3s)
+[16:44:56]   shift_S-UNIWARD@0.30: 4000/5000 (6s)
+[16:44:58]   shift_S-UNIWARD@0.30: 5000/5000 (8s)
+[16:45:01]   S-UNIWARD@0.40: 2000/10000 (3s)
+[16:45:04]   S-UNIWARD@0.40: 4000/10000 (6s)
+[16:45:07]   S-UNIWARD@0.40: 6000/10000 (9s)
+[16:45:10]   S-UNIWARD@0.40: 8000/10000 (13s)
+[16:45:13]   S-UNIWARD@0.40: 10000/10000 (16s)
+[16:45:18]   shift_S-UNIWARD@0.40: 2000/5000 (3s)
+[16:45:21]   shift_S-UNIWARD@0.40: 4000/5000 (6s)
+[16:45:23]   shift_S-UNIWARD@0.40: 5000/5000 (8s)
+[16:45:24]   ctrl_q0.50_a0.00: 2000/10000 (2s)
+[16:45:26]   ctrl_q0.50_a0.00: 4000/10000 (4s)
+[16:45:28]   ctrl_q0.50_a0.00: 6000/10000 (5s)
+[16:45:30]   ctrl_q0.50_a0.00: 8000/10000 (7s)
+[16:45:31]   ctrl_q0.50_a0.00: 10000/10000 (9s)
+[16:45:33]   ctrl_q0.50_a0.50: 2000/10000 (2s)
+[16:45:35]   ctrl_q0.50_a0.50: 4000/10000 (3s)
+[16:45:37]   ctrl_q0.50_a0.50: 6000/10000 (5s)
+[16:45:38]   ctrl_q0.50_a0.50: 8000/10000 (7s)
+[16:45:40]   ctrl_q0.50_a0.50: 10000/10000 (9s)
+[16:45:42]   ctrl_q0.50_a1.00: 2000/10000 (2s)
+[16:45:44]   ctrl_q0.50_a1.00: 4000/10000 (4s)
+[16:45:46]   ctrl_q0.50_a1.00: 6000/10000 (5s)
+[16:45:48]   ctrl_q0.50_a1.00: 8000/10000 (7s)
+[16:45:50]   ctrl_q0.50_a1.00: 10000/10000 (9s)
+[16:45:51]   ctrl_q0.75_a0.00: 2000/10000 (2s)
+[16:45:53]   ctrl_q0.75_a0.00: 4000/10000 (4s)
+[16:45:55]   ctrl_q0.75_a0.00: 6000/10000 (5s)
+[16:45:57]   ctrl_q0.75_a0.00: 8000/10000 (7s)
+[16:45:58]   ctrl_q0.75_a0.00: 10000/10000 (9s)
+[16:46:00]   ctrl_q0.75_a0.50: 2000/10000 (2s)
+[16:46:02]   ctrl_q0.75_a0.50: 4000/10000 (4s)
+[16:46:04]   ctrl_q0.75_a0.50: 6000/10000 (5s)
+[16:46:05]   ctrl_q0.75_a0.50: 8000/10000 (7s)
+[16:46:07]   ctrl_q0.75_a0.50: 10000/10000 (9s)
+[16:46:09]   ctrl_q0.75_a1.00: 2000/10000 (2s)
+[16:46:11]   ctrl_q0.75_a1.00: 4000/10000 (3s)
+[16:46:12]   ctrl_q0.75_a1.00: 6000/10000 (5s)
+[16:46:14]   ctrl_q0.75_a1.00: 8000/10000 (7s)
+[16:46:16]   ctrl_q0.75_a1.00: 10000/10000 (9s)
+[16:46:20] Change rates (first 50 covers): LSBM@0.05=0.025, LSBM@0.10=0.050, LSBM@0.20=0.100, LSBM@0.30=0.150, LSBM@0.40=0.200, LSBM-A@0.05=0.025, LSBM-A@0.10=0.050, LSBM-A@0.20=0.100, LSBM-A@0.30=0.150, LSBM-A@0.40=0.200, HILL@0.05=0.007, HILL@0.10=0.017, HILL@0.20=0.037, HILL@0.30=0.061, HILL@0.40=0.087, S-UNIWARD@0.05=0.007, S-UNIWARD@0.10=0.014, S-UNIWARD@0.20=0.033, S-UNIWARD@0.30=0.053, S-UNIWARD@0.40=0.076
+[16:46:20] Extracting features
+[16:46:21]   features F13/cover: (10000, 13) (1s)
+[16:46:22]   features F13/cover_shift: (5000, 13) (0s)
+[16:46:25]   features F13/LSBM@0.05: (10000, 13) (4s)
+[16:46:29]   features F13/shift_LSBM@0.05: (5000, 13) (3s)
+[16:46:29]   features F13/LSBM@0.10: (10000, 13) (1s)
+[16:46:33]   features F13/shift_LSBM@0.10: (5000, 13) (3s)
+[16:46:33]   features F13/LSBM@0.20: (10000, 13) (1s)
+[16:46:36]   features F13/shift_LSBM@0.20: (5000, 13) (3s)
+[16:46:40]   features F13/LSBM@0.30: (10000, 13) (3s)
+[16:46:43]   features F13/shift_LSBM@0.30: (5000, 13) (3s)
+[16:46:43]   features F13/LSBM@0.40: (10000, 13) (1s)
+[16:46:46]   features F13/shift_LSBM@0.40: (5000, 13) (3s)
+[16:46:50]   features F13/LSBM-A@0.05: (10000, 13) (4s)
+[16:46:53]   features F13/shift_LSBM-A@0.05: (5000, 13) (3s)
+[16:46:56]   features F13/LSBM-A@0.10: (10000, 13) (3s)
+[16:46:56]   features F13/shift_LSBM-A@0.10: (5000, 13) (1s)
+[16:46:59]   features F13/LSBM-A@0.20: (10000, 13) (3s)
+[16:47:00]   features F13/shift_LSBM-A@0.20: (5000, 13) (0s)
+[16:47:01]   features F13/LSBM-A@0.30: (10000, 13) (1s)
+[16:47:01]   features F13/shift_LSBM-A@0.30: (5000, 13) (0s)
+[16:47:04]   features F13/LSBM-A@0.40: (10000, 13) (2s)
+[16:47:04]   features F13/shift_LSBM-A@0.40: (5000, 13) (0s)
+[16:47:08]   features F13/HILL@0.05: (10000, 13) (4s)
+[16:47:11]   features F13/shift_HILL@0.05: (5000, 13) (2s)
+[16:47:15]   features F13/HILL@0.10: (10000, 13) (4s)
+[16:47:16]   features F13/shift_HILL@0.10: (5000, 13) (1s)
+[16:47:19]   features F13/HILL@0.20: (10000, 13) (4s)
+[16:47:22]   features F13/shift_HILL@0.20: (5000, 13) (2s)
+[16:47:25]   features F13/HILL@0.30: (10000, 13) (4s)
+[16:47:29]   features F13/shift_HILL@0.30: (5000, 13) (3s)
+[16:47:32]   features F13/HILL@0.40: (10000, 13) (4s)
+[16:47:35]   features F13/shift_HILL@0.40: (5000, 13) (3s)
+[16:47:36]   features F13/S-UNIWARD@0.05: (10000, 13) (1s)
+[16:47:36]   features F13/shift_S-UNIWARD@0.05: (5000, 13) (0s)
+[16:47:37]   features F13/S-UNIWARD@0.10: (10000, 13) (1s)
+[16:47:38]   features F13/shift_S-UNIWARD@0.10: (5000, 13) (1s)
+[16:47:38]   features F13/S-UNIWARD@0.20: (10000, 13) (1s)
+[16:47:39]   features F13/shift_S-UNIWARD@0.20: (5000, 13) (0s)
+[16:47:40]   features F13/S-UNIWARD@0.30: (10000, 13) (1s)
+[16:47:40]   features F13/shift_S-UNIWARD@0.30: (5000, 13) (0s)
+[16:47:41]   features F13/S-UNIWARD@0.40: (10000, 13) (1s)
+[16:47:41]   features F13/shift_S-UNIWARD@0.40: (5000, 13) (0s)
+[16:47:42]   features F13/ctrl_q0.50_a0.00: (10000, 13) (1s)
+[16:47:43]   features F13/ctrl_q0.50_a0.50: (10000, 13) (1s)
+[16:47:44]   features F13/ctrl_q0.50_a1.00: (10000, 13) (1s)
+[16:47:45]   features F13/ctrl_q0.75_a0.00: (10000, 13) (1s)
+[16:47:45]   features F13/ctrl_q0.75_a0.50: (10000, 13) (1s)
+[16:47:46]   features F13/ctrl_q0.75_a1.00: (10000, 13) (1s)
+[16:47:48]   features SPAM/cover: (10000, 686) (2s)
+[16:47:49]   features SPAM/cover_shift: (5000, 686) (1s)
+[16:47:51]   features SPAM/LSBM@0.05: (10000, 686) (2s)
+[16:47:52]   features SPAM/shift_LSBM@0.05: (5000, 686) (1s)
+[16:47:54]   features SPAM/LSBM@0.10: (10000, 686) (2s)
+[16:47:55]   features SPAM/shift_LSBM@0.10: (5000, 686) (2s)
+[16:47:57]   features SPAM/LSBM@0.20: (10000, 686) (2s)
+[16:47:59]   features SPAM/shift_LSBM@0.20: (5000, 686) (1s)
+[16:48:01]   features SPAM/LSBM@0.30: (10000, 686) (2s)
+[16:48:02]   features SPAM/shift_LSBM@0.30: (5000, 686) (1s)
+[16:48:04]   features SPAM/LSBM@0.40: (10000, 686) (2s)
+[16:48:05]   features SPAM/shift_LSBM@0.40: (5000, 686) (1s)
+[16:48:07]   features SPAM/LSBM-A@0.05: (10000, 686) (2s)
+[16:48:08]   features SPAM/shift_LSBM-A@0.05: (5000, 686) (1s)
+[16:48:10]   features SPAM/LSBM-A@0.10: (10000, 686) (2s)
+[16:48:11]   features SPAM/shift_LSBM-A@0.10: (5000, 686) (1s)
+[16:48:13]   features SPAM/LSBM-A@0.20: (10000, 686) (2s)
+[16:48:14]   features SPAM/shift_LSBM-A@0.20: (5000, 686) (1s)
+[16:48:16]   features SPAM/LSBM-A@0.30: (10000, 686) (2s)
+[16:48:17]   features SPAM/shift_LSBM-A@0.30: (5000, 686) (1s)
+[16:48:19]   features SPAM/LSBM-A@0.40: (10000, 686) (2s)
+[16:48:21]   features SPAM/shift_LSBM-A@0.40: (5000, 686) (2s)
+[16:48:23]   features SPAM/HILL@0.05: (10000, 686) (2s)
+[16:48:24]   features SPAM/shift_HILL@0.05: (5000, 686) (1s)
+[16:48:26]   features SPAM/HILL@0.10: (10000, 686) (2s)
+[16:48:27]   features SPAM/shift_HILL@0.10: (5000, 686) (1s)
+[16:48:29]   features SPAM/HILL@0.20: (10000, 686) (2s)
+[16:48:30]   features SPAM/shift_HILL@0.20: (5000, 686) (1s)
+[16:48:32]   features SPAM/HILL@0.30: (10000, 686) (2s)
+[16:48:33]   features SPAM/shift_HILL@0.30: (5000, 686) (1s)
+[16:48:36]   features SPAM/HILL@0.40: (10000, 686) (2s)
+[16:48:37]   features SPAM/shift_HILL@0.40: (5000, 686) (1s)
+[16:48:39]   features SPAM/S-UNIWARD@0.05: (10000, 686) (2s)
+[16:48:40]   features SPAM/shift_S-UNIWARD@0.05: (5000, 686) (1s)
+[16:48:42]   features SPAM/S-UNIWARD@0.10: (10000, 686) (2s)
+[16:48:43]   features SPAM/shift_S-UNIWARD@0.10: (5000, 686) (1s)
+[16:48:45]   features SPAM/S-UNIWARD@0.20: (10000, 686) (2s)
+[16:48:46]   features SPAM/shift_S-UNIWARD@0.20: (5000, 686) (1s)
+[16:48:48]   features SPAM/S-UNIWARD@0.30: (10000, 686) (2s)
+[16:48:49]   features SPAM/shift_S-UNIWARD@0.30: (5000, 686) (1s)
+[16:48:51]   features SPAM/S-UNIWARD@0.40: (10000, 686) (2s)
+[16:48:52]   features SPAM/shift_S-UNIWARD@0.40: (5000, 686) (1s)
+[16:48:54]   features SPAM/ctrl_q0.50_a0.00: (10000, 686) (2s)
+[16:48:56]   features SPAM/ctrl_q0.50_a0.50: (10000, 686) (2s)
+[16:48:58]   features SPAM/ctrl_q0.50_a1.00: (10000, 686) (2s)
+[16:49:00]   features SPAM/ctrl_q0.75_a0.00: (10000, 686) (2s)
+[16:49:02]   features SPAM/ctrl_q0.75_a0.50: (10000, 686) (2s)
+[16:49:05]   features SPAM/ctrl_q0.75_a1.00: (10000, 686) (3s)
+[16:49:05] Feature extraction done.
+[16:49:05] P1 row-level split: 0.395 of test rows have their pair partner in training
+[16:49:23]   [1/20] LSBM@0.05 done (17s)
+[16:49:39]   [2/20] LSBM@0.10 done (34s)
+[16:49:57]   [3/20] LSBM@0.20 done (51s)
+[16:50:13]   [4/20] LSBM@0.30 done (68s)
+[16:50:30]   [5/20] LSBM@0.40 done (84s)
+[16:50:46]   [6/20] LSBM-A@0.05 done (100s)
+[16:51:02]   [7/20] LSBM-A@0.10 done (116s)
+[16:51:18]   [8/20] LSBM-A@0.20 done (133s)
+[16:51:34]   [9/20] LSBM-A@0.30 done (149s)
+[16:51:50]   [10/20] LSBM-A@0.40 done (165s)
+[16:52:07]   [11/20] HILL@0.05 done (182s)
+[16:52:24]   [12/20] HILL@0.10 done (198s)
+[16:52:41]   [13/20] HILL@0.20 done (215s)
+[16:52:58]   [14/20] HILL@0.30 done (233s)
+[16:53:15]   [15/20] HILL@0.40 done (249s)
+[16:53:31]   [16/20] S-UNIWARD@0.05 done (266s)
+[16:53:47]   [17/20] S-UNIWARD@0.10 done (282s)
+[16:54:04]   [18/20] S-UNIWARD@0.20 done (298s)
+[16:54:21]   [19/20] S-UNIWARD@0.30 done (315s)
+[16:54:37]   [20/20] S-UNIWARD@0.40 done (332s)
+[16:54:37] Feature detectors, P2 (source-disjoint):
+detector           FLD-SPAM  LR-F13  RF-F13
+embedder  payload                          
+HILL      0.05       0.4922  0.5002  0.5034
+          0.10       0.4862  0.4996  0.5011
+          0.20       0.4566  0.4990  0.5006
+          0.30       0.4281  0.4977  0.4978
+          0.40       0.3966  0.4953  0.4983
+LSBM      0.05       0.2362  0.4822  0.4838
+          0.10       0.1714  0.4654  0.4637
+          0.20       0.1158  0.4279  0.4170
+          0.30       0.0854  0.3844  0.3749
+          0.40       0.0682  0.3454  0.3308
+LSBM-A    0.05       0.4497  0.4983  0.4968
+          0.10       0.3374  0.4966  0.4910
+          0.20       0.1724  0.4793  0.4567
+          0.30       0.1119  0.4415  0.4240
+          0.40       0.0831  0.3876  0.3749
+S-UNIWARD 0.05       0.4885  0.5005  0.5022
+          0.10       0.4735  0.4990  0.5000
+          0.20       0.4355  0.4974  0.4980
+          0.30       0.3820  0.4952  0.4927
+          0.40       0.3405  0.4899  0.4937
+[16:55:29] SRNet device: cpu
+[16:55:30]   measures [1/20] LSBM@0.05 (1s)
+[16:55:31]   measures [2/20] LSBM@0.10 (1s)
+[16:55:32]   measures [3/20] LSBM@0.20 (2s)
+[16:55:32]   measures [4/20] LSBM@0.30 (3s)
+[16:55:33]   measures [5/20] LSBM@0.40 (4s)
+[16:55:34]   measures [6/20] LSBM-A@0.05 (4s)
+[16:55:34]   measures [7/20] LSBM-A@0.10 (5s)
+[16:55:35]   measures [8/20] LSBM-A@0.20 (6s)
+[16:55:36]   measures [9/20] LSBM-A@0.30 (6s)
+[16:55:37]   measures [10/20] LSBM-A@0.40 (7s)
+[16:55:37]   measures [11/20] HILL@0.05 (8s)
+[16:55:38]   measures [12/20] HILL@0.10 (9s)
+[16:55:39]   measures [13/20] HILL@0.20 (9s)
+[16:55:39]   measures [14/20] HILL@0.30 (10s)
+[16:55:40]   measures [15/20] HILL@0.40 (11s)
+[16:55:41]   measures [16/20] S-UNIWARD@0.05 (11s)
+[16:55:42]   measures [17/20] S-UNIWARD@0.10 (12s)
+[16:55:42]   measures [18/20] S-UNIWARD@0.20 (13s)
+[16:55:43]   measures [19/20] S-UNIWARD@0.30 (14s)
+[16:55:44]   measures [20/20] S-UNIWARD@0.40 (14s)
+[16:55:59] Spearman correlation between measure and P_E (negative = the measure tracks detectability):
+detector                 FLD-SPAM  LR-F13  RF-F13
+space measure                                    
+F13   Deflection           -0.958  -0.979  -0.921
+      Fisher (max)         -0.941  -0.971  -0.908
+      Fisher (mean)        -0.943  -0.970  -0.909
+      JS (mean)            -0.964  -0.964  -0.921
+      MMD                  -0.940  -0.964  -0.896
+      Mean shift           -0.943  -0.970  -0.909
+      Paired deflection    -0.850  -0.872  -0.882
+SPAM  Deflection           -0.998  -0.989  -0.977
+      Fisher (max)         -0.995  -0.986  -0.971
+      Fisher (mean)        -0.986  -0.985  -0.950
+      JS (mean)            -0.974  -0.973  -0.930
+      MMD                  -0.979  -0.976  -0.939
+      Mean shift           -0.986  -0.985  -0.950
+      Paired deflection    -0.971  -0.973  -0.970
+[16:56:32]   control, bit bias 0.5: done
+[16:57:04]   control, bit bias 0.75: done
+[16:57:04] Whitening control under P2:
+protocol  bit_bias  alpha detector    auc  delta_auc      lo      hi  effect_declared
+      P2      0.50    0.0   LR-F13 0.5934     0.0000  0.0000  0.0000            False
+      P2      0.50    0.0   RF-F13 0.6069     0.0000  0.0000  0.0000            False
+      P2      0.50    0.0 FLD-SPAM 0.9538     0.0000  0.0000  0.0000            False
+      P2      0.50    0.5   LR-F13 0.5939     0.0005 -0.0003  0.0011            False
+      P2      0.50    0.5   RF-F13 0.6060    -0.0009 -0.0033  0.0015            False
+      P2      0.50    0.5 FLD-SPAM 0.9539     0.0001 -0.0010  0.0011            False
+      P2      0.50    1.0   LR-F13 0.5938     0.0004 -0.0003  0.0011            False
+      P2      0.50    1.0   RF-F13 0.6078     0.0010 -0.0015  0.0033            False
+      P2      0.50    1.0 FLD-SPAM 0.9535    -0.0003 -0.0014  0.0008            False
+      P2      0.75    0.0   LR-F13 0.9792     0.0000  0.0000  0.0000            False
+      P2      0.75    0.0   RF-F13 0.9954     0.0000  0.0000  0.0000            False
+      P2      0.75    0.0 FLD-SPAM 0.9927     0.0000  0.0000  0.0000            False
+      P2      0.75    0.5   LR-F13 0.9421    -0.0371 -0.0408 -0.0334             True
+      P2      0.75    0.5   RF-F13 0.9855    -0.0099 -0.0118 -0.0081             True
+      P2      0.75    0.5 FLD-SPAM 0.9603    -0.0324 -0.0353 -0.0296             True
+      P2      0.75    1.0   LR-F13 0.5940    -0.3852 -0.3897 -0.3807             True
+      P2      0.75    1.0   RF-F13 0.6072    -0.3882 -0.3938 -0.3830             True
+      P2      0.75    1.0 FLD-SPAM 0.9529    -0.0399 -0.0431 -0.0366             True
+[16:57:04] P0 replicates: 8000 runs x 5 whitening levels
+[16:57:26]   P0 400/8000 (21s)
+[16:57:35]   P0 800/8000 (31s)
+[16:57:45]   P0 1200/8000 (41s)
+[16:57:54]   P0 1600/8000 (50s)
+[16:58:04]   P0 2000/8000 (60s)
+[16:58:14]   P0 2400/8000 (70s)
+[16:58:24]   P0 2800/8000 (80s)
+[16:58:34]   P0 3200/8000 (90s)
+[16:58:45]   P0 3600/8000 (100s)
+[16:58:54]   P0 4000/8000 (110s)
+[16:59:04]   P0 4400/8000 (119s)
+[16:59:15]   P0 4800/8000 (130s)
+[16:59:24]   P0 5200/8000 (140s)
+[16:59:34]   P0 5600/8000 (150s)
+[16:59:44]   P0 6000/8000 (160s)
+[16:59:54]   P0 6400/8000 (170s)
+[17:00:04]   P0 6800/8000 (180s)
+[17:00:14]   P0 7200/8000 (190s)
+[17:00:23]   P0 7600/8000 (199s)
+[17:00:32]   P0 8000/8000 (208s)
+[17:00:32] P0 control summary: {
+ "n_runs": 8000,
+ "rate_preferred_alpha_nonzero": 0.796,
+ "rate_expected_under_exchangeability": 0.8,
+ "preferred_alpha_histogram": {
+  "a0.00": 0.204,
+  "a0.25": 0.201,
+  "a0.50": 0.202375,
+  "a0.75": 0.195,
+  "a1.00": 0.197625
+ },
+ "median_auc_range_across_alpha": 0.04132231404958675,
+ "rate_range_above_0.05": 0.447375,
+ "mean_auc": 0.9222181818181819,
+ "sd_auc_between_replicates": 0.10304558798354368
+}
+[17:00:48] Standard deviation of an AUC estimate from n test covers (all detectors and conditions):
+ n_test  median    max
+     11  0.0505 0.0856
+     50  0.0212 0.0392
+    200  0.0103 0.0186
+   1000  0.0047 0.0085
+   5000  0.0021 0.0037
+[17:00:48]   wrote Tables/tab_detection.tex
+[17:00:48]   wrote Tables/tab_protocol.tex
+[17:00:48]   wrote Tables/tab_predictor.tex
+[17:00:48]   wrote Tables/tab_control.tex
+[17:00:49]   wrote Figures/fig_pe_vs_payload.pdf
+[17:00:50]   wrote Figures/fig_measure_vs_pe.pdf
+[17:00:50]   wrote Figures/fig_control_legacy.pdf
+[17:00:50]   wrote Figures/fig_auc_sd_vs_ntest.pdf
+[17:00:50] All outputs written to /home/hamamh/Outputs/Cover_Stego_Separability
+[17:02:05] Project Cover_Stego_Separability | QUICK=False | covers=10000 | jobs=7
+[17:02:05] DATA_ROOT=/scratch/hamamh/Datasets
+WORK_DIR=/scratch/hamamh/work/Cover_Stego_Separability
+OUT_DIR=/home/hamamh/Outputs/Cover_Stego_Separability
+[17:02:05] Covers already prepared; loading cache.
+[17:02:06] Covers (10000, 256, 256), shifted test covers (5000, 256, 256), source=BOSSbase_1.01
+[17:02:06] Embedding self-tests passed (simulator rate, S-UNIWARD cost vs brute force, LSBM change rate).
+[17:02:06] Generating 20 stego sets on the main source and on the shifted test source
+[17:02:10] Change rates (first 50 covers): LSBM@0.05=0.025, LSBM@0.10=0.050, LSBM@0.20=0.100, LSBM@0.30=0.150, LSBM@0.40=0.200, LSBM-A@0.05=0.025, LSBM-A@0.10=0.050, LSBM-A@0.20=0.100, LSBM-A@0.30=0.150, LSBM-A@0.40=0.200, HILL@0.05=0.007, HILL@0.10=0.017, HILL@0.20=0.037, HILL@0.30=0.061, HILL@0.40=0.087, S-UNIWARD@0.05=0.007, S-UNIWARD@0.10=0.014, S-UNIWARD@0.20=0.033, S-UNIWARD@0.30=0.053, S-UNIWARD@0.40=0.076
+[17:02:10] Extracting features
+[17:02:18] Feature extraction done.
+[17:02:18] P1 row-level split: 0.395 of test rows have their pair partner in training
+[17:02:39]   [1/20] LSBM@0.05 done (22s)
+[17:03:01]   [2/20] LSBM@0.10 done (43s)
+[17:03:22]   [3/20] LSBM@0.20 done (64s)
+[17:03:43]   [4/20] LSBM@0.30 done (85s)
+[17:04:04]   [5/20] LSBM@0.40 done (107s)
+[17:04:26]   [6/20] LSBM-A@0.05 done (128s)
+[17:04:47]   [7/20] LSBM-A@0.10 done (150s)
+[17:05:09]   [8/20] LSBM-A@0.20 done (171s)
+[17:05:30]   [9/20] LSBM-A@0.30 done (192s)
+[17:05:52]   [10/20] LSBM-A@0.40 done (214s)
+[17:06:13]   [11/20] HILL@0.05 done (236s)
+[17:06:35]   [12/20] HILL@0.10 done (257s)
+[17:06:56]   [13/20] HILL@0.20 done (279s)
+[17:07:18]   [14/20] HILL@0.30 done (300s)
+[17:07:40]   [15/20] HILL@0.40 done (322s)
+[17:08:01]   [16/20] S-UNIWARD@0.05 done (344s)
+[17:08:23]   [17/20] S-UNIWARD@0.10 done (365s)
+[17:08:44]   [18/20] S-UNIWARD@0.20 done (387s)
+[17:09:06]   [19/20] S-UNIWARD@0.30 done (408s)
+[17:09:27]   [20/20] S-UNIWARD@0.40 done (430s)
+[17:09:27] Feature detectors, P2 (source-disjoint):
+detector           FLD-SPAM  LR-F13  RF-F13
+embedder  payload                          
+HILL      0.05       0.4922  0.5002  0.5032
+          0.10       0.4862  0.4996  0.5013
+          0.20       0.4566  0.4990  0.4990
+          0.30       0.4281  0.4977  0.4978
+          0.40       0.3966  0.4953  0.4983
+LSBM      0.05       0.2362  0.4822  0.4838
+          0.10       0.1714  0.4654  0.4637
+          0.20       0.1158  0.4279  0.4170
+          0.30       0.0854  0.3844  0.3749
+          0.40       0.0682  0.3454  0.3308
+LSBM-A    0.05       0.4497  0.4983  0.4968
+          0.10       0.3374  0.4966  0.4910
+          0.20       0.1724  0.4793  0.4567
+          0.30       0.1119  0.4415  0.4240
+          0.40       0.0831  0.3876  0.3749
+S-UNIWARD 0.05       0.4885  0.5005  0.5021
+          0.10       0.4735  0.4990  0.5000
+          0.20       0.4355  0.4974  0.4980
+          0.30       0.3820  0.4952  0.4928
+          0.40       0.3405  0.4899  0.4937
+[17:09:30] SRNet device: cuda (NVIDIA H100 80GB HBM3)
+[17:10:51]   LSBM@0.40: epoch   1/400 loss 0.7486 val_err 0.4965 best 0.4965 idle 0 (27s/epoch)
+[17:11:15]   LSBM@0.40: epoch   2/400 loss 0.6931 val_err 0.4885 best 0.4885 idle 0 (23s/epoch)
+[17:11:38]   LSBM@0.40: epoch   3/400 loss 0.6925 val_err 0.4855 best 0.4855 idle 0 (23s/epoch)
+[17:12:25]   LSBM@0.40: epoch   5/400 loss 0.6714 val_err 0.4905 best 0.4855 idle 0 (24s/epoch)
+[17:13:12]   LSBM@0.40: epoch   7/400 loss 0.6005 val_err 0.4695 best 0.4695 idle 0 (23s/epoch)
+[17:13:59]   LSBM@0.40: epoch   9/400 loss 0.5475 val_err 0.3240 best 0.3240 idle 0 (23s/epoch)
+[17:14:23]   LSBM@0.40: epoch  10/400 loss 0.5305 val_err 0.3730 best 0.3240 idle 1 (23s/epoch)
+[17:16:20]   LSBM@0.40: epoch  15/400 loss 0.4587 val_err 0.4800 best 0.3240 idle 6 (23s/epoch)
+[17:18:18]   LSBM@0.40: epoch  20/400 loss 0.3892 val_err 0.4355 best 0.3240 idle 11 (23s/epoch)
+[17:20:31]   LSBM@0.40: epoch  25/400 loss 0.3667 val_err 0.4290 best 0.3240 idle 16 (32s/epoch)
+[17:21:42]   LSBM@0.40: epoch  28/400 loss 0.3170 val_err 0.2555 best 0.2555 idle 0 (23s/epoch)
+[17:22:29]   LSBM@0.40: epoch  30/400 loss 0.3301 val_err 0.4895 best 0.2555 idle 2 (23s/epoch)
+[17:24:27]   LSBM@0.40: epoch  35/400 loss 0.3095 val_err 0.4130 best 0.2555 idle 7 (23s/epoch)
+[17:25:14]   LSBM@0.40: epoch  37/400 loss 0.2845 val_err 0.2415 best 0.2415 idle 0 (23s/epoch)
+[17:26:01]   LSBM@0.40: epoch  39/400 loss 0.2440 val_err 0.2360 best 0.2360 idle 0 (23s/epoch)
+[17:26:25]   LSBM@0.40: epoch  40/400 loss 0.2334 val_err 0.4810 best 0.2360 idle 1 (23s/epoch)
+[17:28:22]   LSBM@0.40: epoch  45/400 loss 0.2090 val_err 0.2895 best 0.2360 idle 6 (23s/epoch)
+[17:29:09]   LSBM@0.40: epoch  47/400 loss 0.2088 val_err 0.2235 best 0.2235 idle 0 (23s/epoch)
+[17:30:20]   LSBM@0.40: epoch  50/400 loss 0.2130 val_err 0.4880 best 0.2235 idle 3 (23s/epoch)
+[17:30:46]   LSBM@0.40: epoch  51/400 loss 0.1925 val_err 0.2165 best 0.2165 idle 0 (26s/epoch)
+[17:31:33]   LSBM@0.40: epoch  53/400 loss 0.1681 val_err 0.1765 best 0.1765 idle 0 (23s/epoch)
+[17:32:29]   LSBM@0.40: epoch  55/400 loss 0.1726 val_err 0.3530 best 0.1765 idle 2 (24s/epoch)
+[17:34:27]   LSBM@0.40: epoch  60/400 loss 0.1641 val_err 0.1885 best 0.1765 idle 7 (23s/epoch)
+[17:36:24]   LSBM@0.40: epoch  65/400 loss 0.1446 val_err 0.2940 best 0.1765 idle 12 (23s/epoch)
+[17:37:59]   LSBM@0.40: epoch  69/400 loss 0.1432 val_err 0.1480 best 0.1480 idle 0 (23s/epoch)
+[17:38:22]   LSBM@0.40: epoch  70/400 loss 0.1664 val_err 0.1725 best 0.1480 idle 1 (23s/epoch)
+[17:39:09]   LSBM@0.40: epoch  72/400 loss 0.1491 val_err 0.1220 best 0.1220 idle 0 (23s/epoch)
+[17:40:20]   LSBM@0.40: epoch  75/400 loss 0.1331 val_err 0.1750 best 0.1220 idle 3 (24s/epoch)
+[17:42:20]   LSBM@0.40: epoch  80/400 loss 0.1342 val_err 0.3545 best 0.1220 idle 8 (23s/epoch)
+[17:44:17]   LSBM@0.40: epoch  85/400 loss 0.1265 val_err 0.2360 best 0.1220 idle 13 (23s/epoch)
+[17:46:15]   LSBM@0.40: epoch  90/400 loss 0.1179 val_err 0.0765 best 0.0765 idle 0 (23s/epoch)
+[17:47:26]   LSBM@0.40: epoch  93/400 loss 0.1164 val_err 0.0445 best 0.0445 idle 0 (23s/epoch)
+[17:48:19]   LSBM@0.40: epoch  95/400 loss 0.1124 val_err 0.1830 best 0.0445 idle 2 (30s/epoch)
+[17:50:17]   LSBM@0.40: epoch 100/400 loss 0.1159 val_err 0.2185 best 0.0445 idle 7 (23s/epoch)
+[17:52:18]   LSBM@0.40: epoch 105/400 loss 0.1183 val_err 0.1775 best 0.0445 idle 12 (23s/epoch)
+[17:54:15]   LSBM@0.40: epoch 110/400 loss 0.0953 val_err 0.1630 best 0.0445 idle 17 (23s/epoch)
+[17:55:26]   LSBM@0.40: no gain above 0.002 for 20 epochs -> learning rate x0.1
+[17:56:13]   LSBM@0.40: epoch 115/400 loss 0.0799 val_err 0.0410 best 0.0410 idle 0 (23s/epoch)
+[17:58:10]   LSBM@0.40: epoch 120/400 loss 0.0660 val_err 0.1085 best 0.0410 idle 5 (23s/epoch)
+[18:00:08]   LSBM@0.40: epoch 125/400 loss 0.0673 val_err 0.1145 best 0.0410 idle 10 (23s/epoch)
+[18:01:19]   LSBM@0.40: epoch 128/400 loss 0.0641 val_err 0.0310 best 0.0310 idle 0 (23s/epoch)
+[18:02:06]   LSBM@0.40: epoch 130/400 loss 0.0658 val_err 0.0395 best 0.0310 idle 2 (23s/epoch)
+[18:04:03]   LSBM@0.40: epoch 135/400 loss 0.0590 val_err 0.1355 best 0.0310 idle 7 (23s/epoch)
+[18:06:04]   LSBM@0.40: epoch 140/400 loss 0.0590 val_err 0.0505 best 0.0310 idle 12 (23s/epoch)
+[18:08:09]   LSBM@0.40: epoch 145/400 loss 0.0611 val_err 0.0465 best 0.0310 idle 17 (23s/epoch)
+[18:09:19]   LSBM@0.40: stopped after 148 epochs (no_significant_improvement); best val_err 0.0310
+[18:10:00]   SRNet LSBM@0.40: P_E(P2)=0.0354  P_E(P3)=0.1510
+[18:10:47]   LSBM@0.30: epoch   1/150 loss 0.4014 val_err 0.2760 best 0.2760 idle 0 (23s/epoch)
+[18:11:10]   LSBM@0.30: epoch   2/150 loss 0.1424 val_err 0.2365 best 0.2365 idle 0 (23s/epoch)
+[18:11:57]   LSBM@0.30: epoch   4/150 loss 0.1750 val_err 0.1915 best 0.1915 idle 0 (23s/epoch)
+[18:12:21]   LSBM@0.30: epoch   5/150 loss 0.1277 val_err 0.2990 best 0.1915 idle 1 (23s/epoch)
+[18:13:55]   LSBM@0.30: epoch   9/150 loss 0.1310 val_err 0.1745 best 0.1745 idle 0 (23s/epoch)
+[18:14:19]   LSBM@0.30: epoch  10/150 loss 0.1325 val_err 0.2035 best 0.1745 idle 1 (23s/epoch)
+[18:15:30]   LSBM@0.30: epoch  13/150 loss 0.1334 val_err 0.0895 best 0.0895 idle 0 (23s/epoch)
+[18:16:17]   LSBM@0.30: epoch  15/150 loss 0.1360 val_err 0.3235 best 0.0895 idle 2 (23s/epoch)
+[18:18:14]   LSBM@0.30: epoch  20/150 loss 0.1261 val_err 0.2335 best 0.0895 idle 7 (23s/epoch)
+[18:18:38]   LSBM@0.30: epoch  21/150 loss 0.1191 val_err 0.0630 best 0.0630 idle 0 (23s/epoch)
+[18:20:19]   LSBM@0.30: epoch  25/150 loss 0.1116 val_err 0.2360 best 0.0630 idle 4 (30s/epoch)
+[18:20:45]   LSBM@0.30: epoch  26/150 loss 0.1115 val_err 0.0470 best 0.0470 idle 0 (26s/epoch)
+[18:22:20]   LSBM@0.30: epoch  30/150 loss 0.1161 val_err 0.2805 best 0.0470 idle 4 (23s/epoch)
+[18:24:18]   LSBM@0.30: epoch  35/150 loss 0.1210 val_err 0.0660 best 0.0470 idle 9 (23s/epoch)
+[18:26:16]   LSBM@0.30: epoch  40/150 loss 0.0951 val_err 0.0960 best 0.0470 idle 14 (23s/epoch)
+[18:28:14]   LSBM@0.30: epoch  45/150 loss 0.1073 val_err 0.2240 best 0.0470 idle 19 (23s/epoch)
+[18:28:37]   LSBM@0.30: no gain above 0.002 for 20 epochs -> learning rate x0.1
+[18:29:01]   LSBM@0.30: epoch  47/150 loss 0.0841 val_err 0.0425 best 0.0425 idle 0 (23s/epoch)
+[18:30:11]   LSBM@0.30: epoch  50/150 loss 0.0744 val_err 0.0515 best 0.0425 idle 3 (23s/epoch)
+[18:32:17]   LSBM@0.30: epoch  55/150 loss 0.0696 val_err 0.0465 best 0.0425 idle 8 (23s/epoch)
+[18:32:41]   LSBM@0.30: epoch  56/150 loss 0.0734 val_err 0.0385 best 0.0385 idle 0 (23s/epoch)
+[18:34:15]   LSBM@0.30: epoch  60/150 loss 0.0666 val_err 0.1230 best 0.0385 idle 4 (23s/epoch)
+[18:36:12]   LSBM@0.30: epoch  65/150 loss 0.0685 val_err 0.0470 best 0.0385 idle 9 (23s/epoch)
+[18:38:09]   LSBM@0.30: epoch  70/150 loss 0.0671 val_err 0.1350 best 0.0385 idle 14 (23s/epoch)
+[18:40:07]   LSBM@0.30: epoch  75/150 loss 0.0651 val_err 0.0890 best 0.0385 idle 19 (23s/epoch)
+[18:40:30]   LSBM@0.30: epoch  76/150 loss 0.0636 val_err 0.0355 best 0.0355 idle 0 (23s/epoch)
+[18:42:06]   LSBM@0.30: epoch  80/150 loss 0.0657 val_err 0.1260 best 0.0355 idle 4 (23s/epoch)
+[18:44:10]   LSBM@0.30: epoch  85/150 loss 0.0594 val_err 0.0990 best 0.0355 idle 9 (23s/epoch)
+[18:46:07]   LSBM@0.30: epoch  90/150 loss 0.0626 val_err 0.0400 best 0.0355 idle 14 (23s/epoch)
+[18:48:04]   LSBM@0.30: epoch  95/150 loss 0.0612 val_err 0.0545 best 0.0355 idle 19 (23s/epoch)
+[18:48:28]   LSBM@0.30: stopped after 96 epochs (no_significant_improvement); best val_err 0.0355
+[18:49:17]   SRNet LSBM@0.30: P_E(P2)=0.0418  P_E(P3)=0.1595
+[18:50:15]   LSBM@0.20: epoch   1/150 loss 0.9171 val_err 0.4705 best 0.4705 idle 0 (23s/epoch)
+[18:50:38]   LSBM@0.20: epoch   2/150 loss 0.6781 val_err 0.4235 best 0.4235 idle 0 (23s/epoch)
+[18:51:02]   LSBM@0.20: epoch   3/150 loss 0.4921 val_err 0.3155 best 0.3155 idle 0 (23s/epoch)
+[18:51:25]   LSBM@0.20: epoch   4/150 loss 0.1946 val_err 0.2645 best 0.2645 idle 0 (23s/epoch)
+[18:51:48]   LSBM@0.20: epoch   5/150 loss 0.1577 val_err 0.2395 best 0.2395 idle 0 (23s/epoch)
+[18:52:59]   LSBM@0.20: epoch   8/150 loss 0.1623 val_err 0.2035 best 0.2035 idle 0 (23s/epoch)
+[18:53:46]   LSBM@0.20: epoch  10/150 loss 0.1431 val_err 0.3185 best 0.2035 idle 2 (23s/epoch)
+[18:54:10]   LSBM@0.20: epoch  11/150 loss 0.1497 val_err 0.1985 best 0.1985 idle 0 (23s/epoch)
+[18:54:57]   LSBM@0.20: epoch  13/150 loss 0.1400 val_err 0.1900 best 0.1900 idle 0 (23s/epoch)
+[18:55:20]   LSBM@0.20: epoch  14/150 loss 0.1416 val_err 0.1355 best 0.1355 idle 0 (23s/epoch)
+[18:55:44]   LSBM@0.20: epoch  15/150 loss 0.1340 val_err 0.3665 best 0.1355 idle 1 (23s/epoch)
+[18:56:31]   LSBM@0.20: epoch  17/150 loss 0.1443 val_err 0.1015 best 0.1015 idle 0 (23s/epoch)
+[18:56:54]   LSBM@0.20: epoch  18/150 loss 0.1501 val_err 0.0810 best 0.0810 idle 0 (23s/epoch)
+[18:57:41]   LSBM@0.20: epoch  20/150 loss 0.1411 val_err 0.1985 best 0.0810 idle 2 (23s/epoch)
+[18:59:45]   LSBM@0.20: epoch  25/150 loss 0.1229 val_err 0.2155 best 0.0810 idle 7 (29s/epoch)
+[19:00:34]   LSBM@0.20: epoch  27/150 loss 0.1260 val_err 0.0620 best 0.0620 idle 0 (23s/epoch)
+[19:01:45]   LSBM@0.20: epoch  30/150 loss 0.1162 val_err 0.1465 best 0.0620 idle 3 (23s/epoch)
+[19:03:42]   LSBM@0.20: epoch  35/150 loss 0.1253 val_err 0.1420 best 0.0620 idle 8 (23s/epoch)
+[19:05:40]   LSBM@0.20: epoch  40/150 loss 0.1170 val_err 0.1115 best 0.0620 idle 13 (23s/epoch)
+[19:07:38]   LSBM@0.20: epoch  45/150 loss 0.1329 val_err 0.2255 best 0.0620 idle 18 (23s/epoch)
+[19:08:26]   LSBM@0.20: no gain above 0.002 for 20 epochs -> learning rate x0.1
+[19:08:49]   LSBM@0.20: epoch  48/150 loss 0.1023 val_err 0.0500 best 0.0500 idle 0 (23s/epoch)
+[19:09:36]   LSBM@0.20: epoch  50/150 loss 0.0904 val_err 0.0555 best 0.0500 idle 2 (23s/epoch)
+[19:11:43]   LSBM@0.20: epoch  55/150 loss 0.0911 val_err 0.0495 best 0.0500 idle 7 (23s/epoch)
+[19:13:45]   LSBM@0.20: epoch  60/150 loss 0.0833 val_err 0.0600 best 0.0500 idle 12 (23s/epoch)
+[19:15:44]   LSBM@0.20: epoch  65/150 loss 0.0816 val_err 0.0530 best 0.0500 idle 17 (23s/epoch)
+[19:16:08]   LSBM@0.20: epoch  66/150 loss 0.0834 val_err 0.0410 best 0.0410 idle 0 (23s/epoch)
+[19:17:41]   LSBM@0.20: epoch  70/150 loss 0.0821 val_err 0.0530 best 0.0410 idle 4 (23s/epoch)
+[19:19:39]   LSBM@0.20: epoch  75/150 loss 0.0817 val_err 0.0915 best 0.0410 idle 9 (23s/epoch)
+[19:21:39]   LSBM@0.20: epoch  80/150 loss 0.0780 val_err 0.0735 best 0.0410 idle 14 (23s/epoch)
+[19:23:38]   LSBM@0.20: epoch  85/150 loss 0.0755 val_err 0.0440 best 0.0410 idle 19 (23s/epoch)
+[19:24:01]   LSBM@0.20: stopped after 86 epochs (no_significant_improvement); best val_err 0.0410
+[19:24:53]   SRNet LSBM@0.20: P_E(P2)=0.0466  P_E(P3)=0.1575
+[19:25:52]   LSBM@0.10: epoch   1/150 loss 0.3718 val_err 0.1960 best 0.1960 idle 0 (23s/epoch)
+[19:27:26]   LSBM@0.10: epoch   5/150 loss 0.1959 val_err 0.3185 best 0.1960 idle 4 (23s/epoch)
+[19:27:49]   LSBM@0.10: epoch   6/150 loss 0.2030 val_err 0.1835 best 0.1835 idle 0 (23s/epoch)
+[19:29:23]   LSBM@0.10: epoch  10/150 loss 0.1917 val_err 0.0925 best 0.0925 idle 0 (23s/epoch)
+[19:31:21]   LSBM@0.10: epoch  15/150 loss 0.1911 val_err 0.2585 best 0.0925 idle 5 (23s/epoch)
+[19:33:19]   LSBM@0.10: epoch  20/150 loss 0.1812 val_err 0.1465 best 0.0925 idle 10 (23s/epoch)
+[19:35:22]   LSBM@0.10: epoch  25/150 loss 0.1781 val_err 0.1435 best 0.0925 idle 15 (29s/epoch)
+[19:35:48]   LSBM@0.10: epoch  26/150 loss 0.1666 val_err 0.0880 best 0.0880 idle 0 (26s/epoch)
+[19:37:22]   LSBM@0.10: epoch  30/150 loss 0.1676 val_err 0.1505 best 0.0880 idle 4 (23s/epoch)
+[19:39:20]   LSBM@0.10: epoch  35/150 loss 0.1667 val_err 0.1795 best 0.0880 idle 9 (23s/epoch)
+[19:40:07]   LSBM@0.10: epoch  37/150 loss 0.1607 val_err 0.0820 best 0.0820 idle 0 (24s/epoch)
+[19:41:17]   LSBM@0.10: epoch  40/150 loss 0.1502 val_err 0.3005 best 0.0820 idle 3 (23s/epoch)
+[19:42:52]   LSBM@0.10: epoch  44/150 loss 0.1616 val_err 0.0795 best 0.0795 idle 0 (23s/epoch)
+[19:43:15]   LSBM@0.10: epoch  45/150 loss 0.1551 val_err 0.2200 best 0.0795 idle 1 (23s/epoch)
+[19:45:13]   LSBM@0.10: epoch  50/150 loss 0.1492 val_err 0.1640 best 0.0795 idle 6 (23s/epoch)
+[19:45:37]   LSBM@0.10: epoch  51/150 loss 0.1619 val_err 0.0760 best 0.0760 idle 0 (23s/epoch)
+[19:47:21]   LSBM@0.10: epoch  55/150 loss 0.1627 val_err 0.1985 best 0.0760 idle 4 (23s/epoch)
+[19:49:19]   LSBM@0.10: epoch  60/150 loss 0.1469 val_err 0.1455 best 0.0760 idle 9 (23s/epoch)
+[19:51:19]   LSBM@0.10: epoch  65/150 loss 0.1482 val_err 0.0810 best 0.0760 idle 14 (23s/epoch)
+[19:53:16]   LSBM@0.10: epoch  70/150 loss 0.1499 val_err 0.1625 best 0.0760 idle 19 (23s/epoch)
+[19:53:40]   LSBM@0.10: no gain above 0.002 for 20 epochs -> learning rate x0.1
+[19:54:27]   LSBM@0.10: epoch  73/150 loss 0.1208 val_err 0.0700 best 0.0700 idle 0 (23s/epoch)
+[19:55:14]   LSBM@0.10: epoch  75/150 loss 0.1173 val_err 0.0735 best 0.0700 idle 2 (23s/epoch)
+[19:55:38]   LSBM@0.10: epoch  76/150 loss 0.1141 val_err 0.0665 best 0.0665 idle 0 (23s/epoch)
+[19:57:12]   LSBM@0.10: epoch  80/150 loss 0.1099 val_err 0.0735 best 0.0665 idle 4 (23s/epoch)
+[19:59:09]   LSBM@0.10: epoch  85/150 loss 0.1066 val_err 0.0680 best 0.0665 idle 9 (23s/epoch)
+[19:59:33]   LSBM@0.10: epoch  86/150 loss 0.1055 val_err 0.0635 best 0.0635 idle 0 (23s/epoch)
+[20:01:07]   LSBM@0.10: epoch  90/150 loss 0.1038 val_err 0.0600 best 0.0600 idle 0 (23s/epoch)
+[20:03:04]   LSBM@0.10: epoch  95/150 loss 0.1032 val_err 0.0690 best 0.0600 idle 5 (23s/epoch)
+[20:05:12]   LSBM@0.10: epoch 100/150 loss 0.1031 val_err 0.0730 best 0.0600 idle 10 (24s/epoch)
+[20:07:11]   LSBM@0.10: epoch 105/150 loss 0.1002 val_err 0.0725 best 0.0600 idle 15 (23s/epoch)
+[20:09:10]   LSBM@0.10: epoch 110/150 loss 0.0993 val_err 0.0625 best 0.0600 idle 20 (23s/epoch)
+[20:09:10]   LSBM@0.10: stopped after 110 epochs (no_significant_improvement); best val_err 0.0600
+[20:10:07]   SRNet LSBM@0.10: P_E(P2)=0.0638  P_E(P3)=0.1817
+[20:10:59]   LSBM@0.05: epoch   1/150 loss 0.8367 val_err 0.5010 best 0.5010 idle 0 (23s/epoch)
+[20:11:22]   LSBM@0.05: epoch   2/150 loss 0.6938 val_err 0.4960 best 0.4960 idle 0 (23s/epoch)
+[20:11:46]   LSBM@0.05: epoch   3/150 loss 0.6847 val_err 0.4725 best 0.4725 idle 0 (23s/epoch)
+[20:12:32]   LSBM@0.05: epoch   5/150 loss 0.6611 val_err 0.4820 best 0.4725 idle 2 (23s/epoch)
+[20:12:56]   LSBM@0.05: epoch   6/150 loss 0.6521 val_err 0.4410 best 0.4410 idle 0 (23s/epoch)
+[20:14:06]   LSBM@0.05: epoch   9/150 loss 0.6392 val_err 0.4320 best 0.4320 idle 0 (23s/epoch)
+[20:14:30]   LSBM@0.05: epoch  10/150 loss 0.6357 val_err 0.4160 best 0.4160 idle 0 (23s/epoch)
+[20:15:17]   LSBM@0.05: epoch  12/150 loss 0.6090 val_err 0.4000 best 0.4000 idle 0 (23s/epoch)
+[20:15:40]   LSBM@0.05: epoch  13/150 loss 0.5983 val_err 0.3940 best 0.3940 idle 0 (23s/epoch)
+[20:16:04]   LSBM@0.05: epoch  14/150 loss 0.5921 val_err 0.3750 best 0.3750 idle 0 (23s/epoch)
+[20:16:27]   LSBM@0.05: epoch  15/150 loss 0.5779 val_err 0.3715 best 0.3715 idle 0 (23s/epoch)
+[20:17:38]   LSBM@0.05: epoch  18/150 loss 0.5556 val_err 0.3670 best 0.3670 idle 0 (23s/epoch)
+[20:18:25]   LSBM@0.05: epoch  20/150 loss 0.5416 val_err 0.3470 best 0.3470 idle 0 (23s/epoch)
+[20:18:48]   LSBM@0.05: epoch  21/150 loss 0.5342 val_err 0.3400 best 0.3400 idle 0 (23s/epoch)
+[20:19:12]   LSBM@0.05: epoch  22/150 loss 0.5281 val_err 0.3380 best 0.3380 idle 0 (23s/epoch)
+[20:20:28]   LSBM@0.05: epoch  25/150 loss 0.5004 val_err 0.2950 best 0.2950 idle 0 (30s/epoch)
+[20:20:54]   LSBM@0.05: epoch  26/150 loss 0.4646 val_err 0.2445 best 0.2445 idle 0 (25s/epoch)
+[20:22:28]   LSBM@0.05: epoch  30/150 loss 0.2761 val_err 0.2175 best 0.2175 idle 0 (23s/epoch)
+[20:22:52]   LSBM@0.05: epoch  31/150 loss 0.2658 val_err 0.1475 best 0.1475 idle 0 (23s/epoch)
+[20:23:15]   LSBM@0.05: epoch  32/150 loss 0.2358 val_err 0.1150 best 0.1150 idle 0 (23s/epoch)
+[20:24:26]   LSBM@0.05: epoch  35/150 loss 0.2257 val_err 0.1330 best 0.1150 idle 3 (23s/epoch)
+[20:24:50]   LSBM@0.05: epoch  36/150 loss 0.2017 val_err 0.0945 best 0.0945 idle 0 (23s/epoch)
+[20:26:24]   LSBM@0.05: epoch  40/150 loss 0.1943 val_err 0.2180 best 0.0945 idle 4 (23s/epoch)
+[20:27:58]   LSBM@0.05: epoch  44/150 loss 0.1880 val_err 0.0900 best 0.0900 idle 0 (23s/epoch)
+[20:28:21]   LSBM@0.05: epoch  45/150 loss 0.1837 val_err 0.0930 best 0.0900 idle 1 (23s/epoch)
+[20:30:19]   LSBM@0.05: epoch  50/150 loss 0.1725 val_err 0.1235 best 0.0900 idle 6 (23s/epoch)
+[20:32:27]   LSBM@0.05: epoch  55/150 loss 0.1625 val_err 0.1240 best 0.0900 idle 11 (23s/epoch)
+[20:34:24]   LSBM@0.05: epoch  60/150 loss 0.1584 val_err 0.1305 best 0.0900 idle 16 (23s/epoch)
+[20:34:48]   LSBM@0.05: epoch  61/150 loss 0.1636 val_err 0.0795 best 0.0795 idle 0 (23s/epoch)
+[20:36:22]   LSBM@0.05: epoch  65/150 loss 0.1477 val_err 0.1295 best 0.0795 idle 4 (23s/epoch)
+[20:38:19]   LSBM@0.05: epoch  70/150 loss 0.1580 val_err 0.0925 best 0.0795 idle 9 (23s/epoch)
+[20:40:17]   LSBM@0.05: epoch  75/150 loss 0.1521 val_err 0.0770 best 0.0770 idle 0 (23s/epoch)
+[20:42:15]   LSBM@0.05: epoch  80/150 loss 0.1499 val_err 0.0715 best 0.0715 idle 0 (23s/epoch)
+[20:44:13]   LSBM@0.05: epoch  85/150 loss 0.1459 val_err 0.0930 best 0.0715 idle 5 (23s/epoch)
+[20:46:15]   LSBM@0.05: epoch  90/150 loss 0.1447 val_err 0.0740 best 0.0715 idle 10 (23s/epoch)
+[20:48:13]   LSBM@0.05: epoch  95/150 loss 0.1450 val_err 0.0890 best 0.0715 idle 15 (23s/epoch)
+[20:50:10]   LSBM@0.05: epoch 100/150 loss 0.1334 val_err 0.1220 best 0.0715 idle 20 (23s/epoch)
+[20:50:10]   LSBM@0.05: no gain above 0.002 for 20 epochs -> learning rate x0.1
+[20:52:08]   LSBM@0.05: epoch 105/150 loss 0.1202 val_err 0.0685 best 0.0685 idle 0 (23s/epoch)
+[20:54:05]   LSBM@0.05: epoch 110/150 loss 0.1149 val_err 0.0675 best 0.0685 idle 5 (23s/epoch)
+[20:56:03]   LSBM@0.05: epoch 115/150 loss 0.1153 val_err 0.0700 best 0.0685 idle 10 (23s/epoch)
+[20:56:26]   LSBM@0.05: epoch 116/150 loss 0.1146 val_err 0.0660 best 0.0660 idle 0 (23s/epoch)
+[20:58:00]   LSBM@0.05: epoch 120/150 loss 0.1130 val_err 0.0690 best 0.0660 idle 4 (23s/epoch)
+[20:59:57]   LSBM@0.05: epoch 125/150 loss 0.1172 val_err 0.0685 best 0.0660 idle 9 (23s/epoch)
+[21:01:54]   LSBM@0.05: epoch 130/150 loss 0.1086 val_err 0.0785 best 0.0660 idle 14 (23s/epoch)
+[21:04:03]   LSBM@0.05: epoch 135/150 loss 0.1084 val_err 0.0805 best 0.0660 idle 19 (23s/epoch)
+[21:04:27]   LSBM@0.05: stopped after 136 epochs (no_significant_improvement); best val_err 0.0660
+[21:05:17]   SRNet LSBM@0.05: P_E(P2)=0.0745  P_E(P3)=0.1812
+[21:06:01]   LSBM-A@0.40: epoch   1/400 loss 0.7833 val_err 0.5000 best 0.5000 idle 0 (23s/epoch)
+[21:07:36]   LSBM-A@0.40: epoch   5/400 loss 0.6932 val_err 0.5000 best 0.5000 idle 0 (23s/epoch)
+[21:09:33]   LSBM-A@0.40: epoch  10/400 loss 0.6933 val_err 0.4990 best 0.5000 idle 0 (23s/epoch)
+[21:10:44]   LSBM-A@0.40: epoch  13/400 loss 0.6930 val_err 0.4940 best 0.4940 idle 0 (23s/epoch)
+[21:11:07]   LSBM-A@0.40: epoch  14/400 loss 0.6685 val_err 0.3070 best 0.3070 idle 0 (23s/epoch)
+[21:11:31]   LSBM-A@0.40: epoch  15/400 loss 0.4403 val_err 0.2835 best 0.2835 idle 0 (23s/epoch)
+[21:12:18]   LSBM-A@0.40: epoch  17/400 loss 0.2657 val_err 0.1520 best 0.1520 idle 0 (23s/epoch)
+[21:12:41]   LSBM-A@0.40: epoch  18/400 loss 0.2309 val_err 0.1410 best 0.1410 idle 0 (23s/epoch)
+[21:13:05]   LSBM-A@0.40: epoch  19/400 loss 0.1673 val_err 0.0750 best 0.0750 idle 0 (23s/epoch)
+[21:13:28]   LSBM-A@0.40: epoch  20/400 loss 0.1465 val_err 0.0815 best 0.0750 idle 1 (23s/epoch)
+[21:14:38]   LSBM-A@0.40: epoch  23/400 loss 0.1320 val_err 0.0490 best 0.0490 idle 0 (23s/epoch)
+[21:15:32]   LSBM-A@0.40: epoch  25/400 loss 0.1185 val_err 0.1000 best 0.0490 idle 2 (30s/epoch)
+[21:17:33]   LSBM-A@0.40: epoch  30/400 loss 0.1103 val_err 0.0590 best 0.0490 idle 7 (23s/epoch)
+[21:19:07]   LSBM-A@0.40: epoch  34/400 loss 0.0871 val_err 0.0380 best 0.0380 idle 0 (24s/epoch)
+[21:19:31]   LSBM-A@0.40: epoch  35/400 loss 0.0883 val_err 0.0380 best 0.0380 idle 1 (23s/epoch)
+[21:21:29]   LSBM-A@0.40: epoch  40/400 loss 0.0774 val_err 0.0475 best 0.0380 idle 6 (23s/epoch)
+[21:22:39]   LSBM-A@0.40: epoch  43/400 loss 0.0735 val_err 0.0315 best 0.0315 idle 0 (23s/epoch)
+[21:23:26]   LSBM-A@0.40: epoch  45/400 loss 0.0810 val_err 0.0585 best 0.0315 idle 2 (23s/epoch)
+[21:25:24]   LSBM-A@0.40: epoch  50/400 loss 0.0768 val_err 0.0370 best 0.0315 idle 7 (23s/epoch)
+[21:27:26]   LSBM-A@0.40: epoch  55/400 loss 0.0728 val_err 0.0325 best 0.0315 idle 12 (23s/epoch)
+[21:29:33]   LSBM-A@0.40: epoch  60/400 loss 0.0683 val_err 0.0710 best 0.0315 idle 17 (31s/epoch)
+[21:30:44]   LSBM-A@0.40: no gain above 0.002 for 20 epochs -> learning rate x0.1
+[21:31:31]   LSBM-A@0.40: epoch  65/400 loss 0.0566 val_err 0.0310 best 0.0315 idle 2 (24s/epoch)
+[21:32:42]   LSBM-A@0.40: epoch  68/400 loss 0.0525 val_err 0.0270 best 0.0270 idle 0 (24s/epoch)
+[21:33:29]   LSBM-A@0.40: epoch  70/400 loss 0.0571 val_err 0.0295 best 0.0270 idle 2 (23s/epoch)
+[21:35:26]   LSBM-A@0.40: epoch  75/400 loss 0.0528 val_err 0.0305 best 0.0270 idle 7 (23s/epoch)
+[21:37:24]   LSBM-A@0.40: epoch  80/400 loss 0.0494 val_err 0.0260 best 0.0270 idle 12 (23s/epoch)
+[21:39:21]   LSBM-A@0.40: epoch  85/400 loss 0.0504 val_err 0.0260 best 0.0270 idle 17 (23s/epoch)
+[21:40:32]   LSBM-A@0.40: stopped after 88 epochs (no_significant_improvement); best val_err 0.0270
+[21:41:19]   SRNet LSBM-A@0.40: P_E(P2)=0.0311  P_E(P3)=0.0960
+[21:42:07]   LSBM-A@0.30: epoch   1/150 loss 0.2846 val_err 0.2085 best 0.2085 idle 0 (23s/epoch)
+[21:42:31]   LSBM-A@0.30: epoch   2/150 loss 0.1486 val_err 0.0815 best 0.0815 idle 0 (23s/epoch)
+[21:42:55]   LSBM-A@0.30: epoch   3/150 loss 0.1397 val_err 0.0595 best 0.0595 idle 0 (23s/epoch)
+[21:43:42]   LSBM-A@0.30: epoch   5/150 loss 0.1372 val_err 0.0580 best 0.0595 idle 2 (23s/epoch)
+[21:45:39]   LSBM-A@0.30: epoch  10/150 loss 0.1241 val_err 0.0580 best 0.0595 idle 7 (23s/epoch)
+[21:46:50]   LSBM-A@0.30: epoch  13/150 loss 0.1259 val_err 0.0570 best 0.0570 idle 0 (23s/epoch)
+[21:47:37]   LSBM-A@0.30: epoch  15/150 loss 0.1210 val_err 0.4325 best 0.0570 idle 2 (23s/epoch)
+[21:48:01]   LSBM-A@0.30: epoch  16/150 loss 0.1176 val_err 0.0515 best 0.0515 idle 0 (23s/epoch)
+[21:49:35]   LSBM-A@0.30: epoch  20/150 loss 0.1230 val_err 0.0810 best 0.0515 idle 4 (23s/epoch)
+[21:49:59]   LSBM-A@0.30: epoch  21/150 loss 0.1100 val_err 0.0460 best 0.0460 idle 0 (23s/epoch)
+[21:51:46]   LSBM-A@0.30: epoch  25/150 loss 0.1292 val_err 0.0490 best 0.0460 idle 4 (33s/epoch)
+[21:53:48]   LSBM-A@0.30: epoch  30/150 loss 0.1066 val_err 0.0530 best 0.0460 idle 9 (23s/epoch)
+[21:55:24]   LSBM-A@0.30: epoch  34/150 loss 0.0984 val_err 0.0435 best 0.0435 idle 0 (24s/epoch)
+[21:55:47]   LSBM-A@0.30: epoch  35/150 loss 0.1009 val_err 0.0515 best 0.0435 idle 1 (23s/epoch)
+[21:57:45]   LSBM-A@0.30: epoch  40/150 loss 0.0920 val_err 0.1240 best 0.0435 idle 6 (23s/epoch)
+[21:59:43]   LSBM-A@0.30: epoch  45/150 loss 0.0945 val_err 0.0675 best 0.0435 idle 11 (23s/epoch)
+[22:01:41]   LSBM-A@0.30: epoch  50/150 loss 0.0914 val_err 0.0775 best 0.0435 idle 16 (23s/epoch)
+[22:03:15]   LSBM-A@0.30: no gain above 0.002 for 20 epochs -> learning rate x0.1
+[22:03:39]   LSBM-A@0.30: epoch  55/150 loss 0.0827 val_err 0.0395 best 0.0395 idle 0 (23s/epoch)
+[22:05:55]   LSBM-A@0.30: epoch  60/150 loss 0.0714 val_err 0.0400 best 0.0395 idle 5 (42s/epoch)
+[22:07:52]   LSBM-A@0.30: epoch  65/150 loss 0.0721 val_err 0.0405 best 0.0395 idle 10 (23s/epoch)
+[22:09:03]   LSBM-A@0.30: epoch  68/150 loss 0.0682 val_err 0.0360 best 0.0360 idle 0 (23s/epoch)
+[22:09:50]   LSBM-A@0.30: epoch  70/150 loss 0.0684 val_err 0.0395 best 0.0360 idle 2 (23s/epoch)
+[22:11:49]   LSBM-A@0.30: epoch  75/150 loss 0.0659 val_err 0.0385 best 0.0360 idle 7 (23s/epoch)
+[22:13:00]   LSBM-A@0.30: epoch  78/150 loss 0.0652 val_err 0.0325 best 0.0325 idle 0 (23s/epoch)
+[22:13:47]   LSBM-A@0.30: epoch  80/150 loss 0.0660 val_err 0.0355 best 0.0325 idle 2 (23s/epoch)
+[22:15:44]   LSBM-A@0.30: epoch  85/150 loss 0.0645 val_err 0.0395 best 0.0325 idle 7 (23s/epoch)
+[22:17:41]   LSBM-A@0.30: epoch  90/150 loss 0.0631 val_err 0.0375 best 0.0325 idle 12 (23s/epoch)
+[22:19:46]   LSBM-A@0.30: epoch  95/150 loss 0.0650 val_err 0.0380 best 0.0325 idle 17 (23s/epoch)
+[22:20:56]   LSBM-A@0.30: stopped after 98 epochs (no_significant_improvement); best val_err 0.0325
+[22:21:40]   SRNet LSBM-A@0.30: P_E(P2)=0.0406  P_E(P3)=0.1140
+[22:22:25]   LSBM-A@0.20: epoch   1/150 loss 0.3135 val_err 0.2075 best 0.2075 idle 0 (23s/epoch)
+[22:22:48]   LSBM-A@0.20: epoch   2/150 loss 0.2274 val_err 0.1030 best 0.1030 idle 0 (23s/epoch)
+[22:23:59]   LSBM-A@0.20: epoch   5/150 loss 0.2144 val_err 0.1115 best 0.1030 idle 3 (23s/epoch)
+[22:25:56]   LSBM-A@0.20: epoch  10/150 loss 0.1929 val_err 0.1015 best 0.1030 idle 8 (23s/epoch)
+[22:27:30]   LSBM-A@0.20: epoch  14/150 loss 0.2014 val_err 0.0960 best 0.0960 idle 0 (23s/epoch)
+[22:27:54]   LSBM-A@0.20: epoch  15/150 loss 0.1901 val_err 0.1040 best 0.0960 idle 1 (23s/epoch)
+[22:28:41]   LSBM-A@0.20: epoch  17/150 loss 0.1920 val_err 0.0910 best 0.0910 idle 0 (23s/epoch)
+[22:29:52]   LSBM-A@0.20: epoch  20/150 loss 0.1767 val_err 0.1435 best 0.0910 idle 3 (23s/epoch)
+[22:31:59]   LSBM-A@0.20: epoch  25/150 loss 0.1782 val_err 0.1345 best 0.0910 idle 8 (31s/epoch)
+[22:33:59]   LSBM-A@0.20: epoch  30/150 loss 0.1752 val_err 0.1905 best 0.0910 idle 13 (23s/epoch)
+[22:35:58]   LSBM-A@0.20: epoch  35/150 loss 0.1745 val_err 0.0855 best 0.0855 idle 0 (23s/epoch)
+[22:37:56]   LSBM-A@0.20: epoch  40/150 loss 0.1590 val_err 0.1015 best 0.0855 idle 5 (23s/epoch)
+[22:39:53]   LSBM-A@0.20: epoch  45/150 loss 0.1591 val_err 0.1500 best 0.0855 idle 10 (23s/epoch)
+[22:41:51]   LSBM-A@0.20: epoch  50/150 loss 0.1537 val_err 0.1195 best 0.0855 idle 15 (23s/epoch)
+[22:43:48]   LSBM-A@0.20: epoch  55/150 loss 0.1551 val_err 0.1000 best 0.0855 idle 20 (23s/epoch)
+[22:43:48]   LSBM-A@0.20: no gain above 0.002 for 20 epochs -> learning rate x0.1
+[22:44:12]   LSBM-A@0.20: epoch  56/150 loss 0.1451 val_err 0.0795 best 0.0795 idle 0 (23s/epoch)
+[22:44:35]   LSBM-A@0.20: epoch  57/150 loss 0.1389 val_err 0.0765 best 0.0765 idle 0 (23s/epoch)
+[22:45:46]   LSBM-A@0.20: epoch  60/150 loss 0.1338 val_err 0.0700 best 0.0700 idle 0 (23s/epoch)
+[22:47:53]   LSBM-A@0.20: epoch  65/150 loss 0.1305 val_err 0.0725 best 0.0700 idle 5 (23s/epoch)
+[22:49:51]   LSBM-A@0.20: epoch  70/150 loss 0.1299 val_err 0.0715 best 0.0700 idle 10 (23s/epoch)
+[22:51:48]   LSBM-A@0.20: epoch  75/150 loss 0.1210 val_err 0.0735 best 0.0700 idle 15 (23s/epoch)
+[22:53:55]   LSBM-A@0.20: epoch  80/150 loss 0.1199 val_err 0.0740 best 0.0700 idle 20 (23s/epoch)
+[22:53:56]   LSBM-A@0.20: stopped after 80 epochs (no_significant_improvement); best val_err 0.0700
+[22:54:43]   SRNet LSBM-A@0.20: P_E(P2)=0.0715  P_E(P3)=0.1616
+[22:55:34]   LSBM-A@0.10: epoch   1/150 loss 0.4883 val_err 0.2655 best 0.2655 idle 0 (23s/epoch)
+[22:55:58]   LSBM-A@0.10: epoch   2/150 loss 0.4470 val_err 0.2470 best 0.2470 idle 0 (23s/epoch)
+[22:57:08]   LSBM-A@0.10: epoch   5/150 loss 0.4362 val_err 0.3230 best 0.2470 idle 3 (23s/epoch)
+[22:59:06]   LSBM-A@0.10: epoch  10/150 loss 0.4233 val_err 0.3160 best 0.2470 idle 8 (23s/epoch)
+[22:59:30]   LSBM-A@0.10: epoch  11/150 loss 0.4131 val_err 0.2295 best 0.2295 idle 0 (23s/epoch)
+[23:01:03]   LSBM-A@0.10: epoch  15/150 loss 0.4132 val_err 0.4805 best 0.2295 idle 4 (23s/epoch)
+[23:02:38]   LSBM-A@0.10: epoch  19/150 loss 0.3977 val_err 0.2095 best 0.2095 idle 0 (23s/epoch)
+[23:03:01]   LSBM-A@0.10: epoch  20/150 loss 0.3916 val_err 0.3015 best 0.2095 idle 1 (23s/epoch)
+[23:04:58]   LSBM-A@0.10: epoch  25/150 loss 0.3838 val_err 0.1985 best 0.1985 idle 0 (23s/epoch)
+[23:07:06]   LSBM-A@0.10: epoch  30/150 loss 0.3766 val_err 0.3265 best 0.1985 idle 5 (23s/epoch)
+[23:09:04]   LSBM-A@0.10: epoch  35/150 loss 0.3640 val_err 0.2200 best 0.1985 idle 10 (23s/epoch)
+[23:10:15]   LSBM-A@0.10: epoch  38/150 loss 0.3565 val_err 0.1915 best 0.1915 idle 0 (24s/epoch)
+[23:11:02]   LSBM-A@0.10: epoch  40/150 loss 0.3532 val_err 0.1930 best 0.1915 idle 2 (23s/epoch)
+[23:11:50]   LSBM-A@0.10: epoch  42/150 loss 0.3500 val_err 0.1890 best 0.1890 idle 0 (23s/epoch)
+[23:13:00]   LSBM-A@0.10: epoch  45/150 loss 0.3512 val_err 0.2090 best 0.1890 idle 3 (23s/epoch)
+[23:14:59]   LSBM-A@0.10: epoch  50/150 loss 0.3385 val_err 0.1895 best 0.1890 idle 8 (23s/epoch)
+[23:16:56]   LSBM-A@0.10: epoch  55/150 loss 0.3398 val_err 0.2165 best 0.1890 idle 13 (23s/epoch)
+[23:17:43]   LSBM-A@0.10: epoch  57/150 loss 0.3391 val_err 0.1825 best 0.1825 idle 0 (23s/epoch)
+[23:18:30]   LSBM-A@0.10: epoch  59/150 loss 0.3284 val_err 0.1700 best 0.1700 idle 0 (23s/epoch)
+[23:18:54]   LSBM-A@0.10: epoch  60/150 loss 0.3276 val_err 0.2565 best 0.1700 idle 1 (23s/epoch)
+[23:21:04]   LSBM-A@0.10: epoch  65/150 loss 0.3333 val_err 0.1725 best 0.1700 idle 6 (24s/epoch)
+[23:23:02]   LSBM-A@0.10: epoch  70/150 loss 0.3244 val_err 0.2280 best 0.1700 idle 11 (23s/epoch)
+[23:25:00]   LSBM-A@0.10: epoch  75/150 loss 0.3162 val_err 0.2220 best 0.1700 idle 16 (23s/epoch)
+[23:26:34]   LSBM-A@0.10: no gain above 0.002 for 20 epochs -> learning rate x0.1
+[23:26:58]   LSBM-A@0.10: epoch  80/150 loss 0.2963 val_err 0.1635 best 0.1635 idle 0 (24s/epoch)
+[23:28:56]   LSBM-A@0.10: epoch  85/150 loss 0.2847 val_err 0.1585 best 0.1585 idle 0 (23s/epoch)
+[23:30:53]   LSBM-A@0.10: epoch  90/150 loss 0.2845 val_err 0.1670 best 0.1585 idle 5 (23s/epoch)
+[23:32:51]   LSBM-A@0.10: epoch  95/150 loss 0.2709 val_err 0.1610 best 0.1585 idle 10 (23s/epoch)
+[23:34:01]   LSBM-A@0.10: epoch  98/150 loss 0.2774 val_err 0.1555 best 0.1555 idle 0 (23s/epoch)
+[23:34:48]   LSBM-A@0.10: epoch 100/150 loss 0.2761 val_err 0.1670 best 0.1555 idle 2 (23s/epoch)
+[23:36:45]   LSBM-A@0.10: epoch 105/150 loss 0.2695 val_err 0.1575 best 0.1555 idle 7 (23s/epoch)
+[23:38:56]   LSBM-A@0.10: epoch 110/150 loss 0.2649 val_err 0.1560 best 0.1555 idle 12 (23s/epoch)
+[23:40:54]   LSBM-A@0.10: epoch 115/150 loss 0.2630 val_err 0.1570 best 0.1555 idle 17 (23s/epoch)
+[23:42:05]   LSBM-A@0.10: stopped after 118 epochs (no_significant_improvement); best val_err 0.1555
+[23:42:56]   SRNet LSBM-A@0.10: P_E(P2)=0.1613  P_E(P3)=0.2335
+[23:43:44]   LSBM-A@0.05: epoch   1/150 loss 0.5181 val_err 0.3235 best 0.3235 idle 0 (23s/epoch)
+[23:44:08]   LSBM-A@0.05: epoch   2/150 loss 0.5005 val_err 0.3085 best 0.3085 idle 0 (23s/epoch)
+[23:44:31]   LSBM-A@0.05: epoch   3/150 loss 0.4973 val_err 0.2750 best 0.2750 idle 0 (23s/epoch)
+[23:45:18]   LSBM-A@0.05: epoch   5/150 loss 0.4971 val_err 0.3090 best 0.2750 idle 2 (23s/epoch)
+[23:47:28]   LSBM-A@0.05: epoch  10/150 loss 0.4852 val_err 0.3135 best 0.2750 idle 7 (24s/epoch)
+[23:49:25]   LSBM-A@0.05: epoch  15/150 loss 0.4795 val_err 0.3380 best 0.2750 idle 12 (23s/epoch)
+[23:51:22]   LSBM-A@0.05: epoch  20/150 loss 0.4740 val_err 0.3125 best 0.2750 idle 17 (23s/epoch)
+[23:52:33]   LSBM-A@0.05: epoch  23/150 loss 0.4738 val_err 0.2710 best 0.2710 idle 0 (23s/epoch)
+[23:53:22]   LSBM-A@0.05: epoch  25/150 loss 0.4692 val_err 0.2615 best 0.2615 idle 0 (23s/epoch)
+[23:55:19]   LSBM-A@0.05: epoch  30/150 loss 0.4609 val_err 0.3060 best 0.2615 idle 5 (23s/epoch)
+[23:57:17]   LSBM-A@0.05: epoch  35/150 loss 0.4576 val_err 0.3015 best 0.2615 idle 10 (24s/epoch)
+[23:57:40]   LSBM-A@0.05: epoch  36/150 loss 0.4564 val_err 0.2575 best 0.2575 idle 0 (23s/epoch)
+[23:59:14]   LSBM-A@0.05: epoch  40/150 loss 0.4508 val_err 0.2835 best 0.2575 idle 4 (23s/epoch)
+[00:01:12]   LSBM-A@0.05: epoch  45/150 loss 0.4580 val_err 0.3650 best 0.2575 idle 9 (23s/epoch)
+[00:03:20]   LSBM-A@0.05: epoch  50/150 loss 0.4490 val_err 0.3265 best 0.2575 idle 14 (24s/epoch)
+[00:05:18]   LSBM-A@0.05: epoch  55/150 loss 0.4436 val_err 0.3295 best 0.2575 idle 19 (23s/epoch)
+[00:05:41]   LSBM-A@0.05: no gain above 0.002 for 20 epochs -> learning rate x0.1
+[00:06:05]   LSBM-A@0.05: epoch  57/150 loss 0.4311 val_err 0.2455 best 0.2455 idle 0 (24s/epoch)
+[00:07:15]   LSBM-A@0.05: epoch  60/150 loss 0.4202 val_err 0.2475 best 0.2455 idle 3 (23s/epoch)
+[00:08:03]   LSBM-A@0.05: epoch  62/150 loss 0.4149 val_err 0.2425 best 0.2425 idle 0 (23s/epoch)
+[00:09:13]   LSBM-A@0.05: epoch  65/150 loss 0.4151 val_err 0.2460 best 0.2425 idle 3 (23s/epoch)
+[00:11:12]   LSBM-A@0.05: epoch  70/150 loss 0.4074 val_err 0.2475 best 0.2425 idle 8 (23s/epoch)
+[00:13:09]   LSBM-A@0.05: epoch  75/150 loss 0.4006 val_err 0.2475 best 0.2425 idle 13 (23s/epoch)
+[00:15:07]   LSBM-A@0.05: epoch  80/150 loss 0.4038 val_err 0.2415 best 0.2425 idle 18 (23s/epoch)
+[00:15:38]   LSBM-A@0.05: epoch  81/150 loss 0.3977 val_err 0.2395 best 0.2395 idle 0 (30s/epoch)
+[00:16:25]   LSBM-A@0.05: epoch  83/150 loss 0.4026 val_err 0.2360 best 0.2360 idle 0 (23s/epoch)
+[00:17:12]   LSBM-A@0.05: epoch  85/150 loss 0.3977 val_err 0.2395 best 0.2360 idle 2 (23s/epoch)
+[00:19:10]   LSBM-A@0.05: epoch  90/150 loss 0.3983 val_err 0.2380 best 0.2360 idle 7 (23s/epoch)
+[00:21:07]   LSBM-A@0.05: epoch  95/150 loss 0.3950 val_err 0.2400 best 0.2360 idle 12 (23s/epoch)
+[00:23:05]   LSBM-A@0.05: epoch 100/150 loss 0.3914 val_err 0.2470 best 0.2360 idle 17 (23s/epoch)
+[00:24:15]   LSBM-A@0.05: stopped after 103 epochs (no_significant_improvement); best val_err 0.2360
+[00:25:00]   SRNet LSBM-A@0.05: P_E(P2)=0.2414  P_E(P3)=0.3093
+[00:25:53]   HILL@0.40: epoch   1/400 loss 0.7524 val_err 0.4995 best 0.4995 idle 0 (23s/epoch)
+[00:27:27]   HILL@0.40: epoch   5/400 loss 0.6931 val_err 0.5005 best 0.4995 idle 0 (23s/epoch)
+[00:29:24]   HILL@0.40: epoch  10/400 loss 0.6928 val_err 0.4995 best 0.4995 idle 0 (23s/epoch)
+[00:31:31]   HILL@0.40: epoch  15/400 loss 0.6928 val_err 0.5000 best 0.4995 idle 0 (23s/epoch)
+[00:33:29]   HILL@0.40: epoch  20/400 loss 0.6931 val_err 0.5000 best 0.4995 idle 0 (23s/epoch)
+[00:35:26]   HILL@0.40: epoch  25/400 loss 0.6929 val_err 0.4995 best 0.4995 idle 0 (23s/epoch)
+[00:37:23]   HILL@0.40: epoch  30/400 loss 0.6925 val_err 0.5000 best 0.4995 idle 0 (23s/epoch)
+[00:39:21]   HILL@0.40: epoch  35/400 loss 0.6925 val_err 0.4980 best 0.4995 idle 0 (23s/epoch)
+[00:41:31]   HILL@0.40: epoch  40/400 loss 0.6922 val_err 0.4990 best 0.4995 idle 0 (23s/epoch)
+[00:43:29]   HILL@0.40: epoch  45/400 loss 0.6924 val_err 0.5000 best 0.4995 idle 0 (23s/epoch)
+[00:45:26]   HILL@0.40: epoch  50/400 loss 0.6925 val_err 0.4990 best 0.4995 idle 0 (23s/epoch)
+[00:47:26]   HILL@0.40: epoch  55/400 loss 0.6938 val_err 0.5000 best 0.4995 idle 0 (23s/epoch)
+[00:49:24]   HILL@0.40: epoch  60/400 loss 0.6926 val_err 0.5000 best 0.4995 idle 0 (24s/epoch)
+[00:51:32]   HILL@0.40: epoch  65/400 loss 0.6926 val_err 0.4990 best 0.4995 idle 0 (23s/epoch)
+[00:53:30]   HILL@0.40: epoch  70/400 loss 0.6927 val_err 0.4980 best 0.4995 idle 0 (23s/epoch)
+[00:55:28]   HILL@0.40: epoch  75/400 loss 0.6930 val_err 0.5000 best 0.4995 idle 0 (23s/epoch)
+[00:57:31]   HILL@0.40: epoch  80/400 loss 0.6928 val_err 0.5000 best 0.4995 idle 0 (23s/epoch)
+[00:59:29]   HILL@0.40: epoch  85/400 loss 0.6927 val_err 0.4980 best 0.4995 idle 5 (24s/epoch)
+[01:01:36]   HILL@0.40: epoch  90/400 loss 0.6924 val_err 0.5000 best 0.4995 idle 10 (24s/epoch)
+[01:03:36]   HILL@0.40: epoch  95/400 loss 0.6925 val_err 0.5000 best 0.4995 idle 15 (23s/epoch)
+[01:05:34]   HILL@0.40: epoch 100/400 loss 0.6922 val_err 0.4990 best 0.4995 idle 20 (23s/epoch)
+[01:05:34]   HILL@0.40: no gain above 0.002 for 20 epochs -> learning rate x0.1
+[01:07:35]   HILL@0.40: epoch 105/400 loss 0.6928 val_err 0.5000 best 0.4995 idle 5 (23s/epoch)
+[01:09:33]   HILL@0.40: epoch 110/400 loss 0.6922 val_err 0.4995 best 0.4995 idle 10 (24s/epoch)
+[01:11:38]   HILL@0.40: epoch 115/400 loss 0.6921 val_err 0.4985 best 0.4995 idle 15 (31s/epoch)
+[01:13:37]   HILL@0.40: epoch 120/400 loss 0.6920 val_err 0.4990 best 0.4995 idle 20 (23s/epoch)
+[01:13:37]   HILL@0.40: stopped after 120 epochs (no_significant_improvement); best val_err 0.4995
+[01:14:31]   SRNet HILL@0.40: P_E(P2)=0.4992  P_E(P3)=0.4994
+[01:15:28]   HILL@0.30: epoch   1/400 loss 0.7270 val_err 0.5005 best 0.5005 idle 0 (23s/epoch)
+[01:17:02]   HILL@0.30: epoch   5/400 loss 0.6931 val_err 0.5005 best 0.5005 idle 0 (23s/epoch)
+[01:19:00]   HILL@0.30: epoch  10/400 loss 0.6933 val_err 0.5000 best 0.5005 idle 0 (23s/epoch)
+[01:20:58]   HILL@0.30: epoch  15/400 loss 0.6931 val_err 0.5000 best 0.5005 idle 0 (23s/epoch)
+[01:22:55]   HILL@0.30: epoch  20/400 loss 0.6930 val_err 0.5000 best 0.5005 idle 0 (23s/epoch)
+[01:24:53]   HILL@0.30: epoch  25/400 loss 0.6933 val_err 0.5000 best 0.5005 idle 0 (23s/epoch)
+[01:27:00]   HILL@0.30: epoch  30/400 loss 0.6927 val_err 0.4995 best 0.5005 idle 0 (23s/epoch)
+[01:28:58]   HILL@0.30: epoch  35/400 loss 0.6931 val_err 0.5000 best 0.5005 idle 0 (23s/epoch)
+[01:30:55]   HILL@0.30: epoch  40/400 loss 0.6931 val_err 0.5005 best 0.5005 idle 0 (23s/epoch)
+[01:32:53]   HILL@0.30: epoch  45/400 loss 0.6932 val_err 0.5000 best 0.5005 idle 0 (23s/epoch)
+[01:34:50]   HILL@0.30: epoch  50/400 loss 0.6932 val_err 0.4995 best 0.5005 idle 0 (23s/epoch)
+[01:36:56]   HILL@0.30: epoch  55/400 loss 0.6927 val_err 0.5000 best 0.5005 idle 0 (23s/epoch)
+[01:37:43]   HILL@0.30: epoch  57/400 loss 0.6929 val_err 0.4985 best 0.4985 idle 0 (23s/epoch)
+[01:38:53]   HILL@0.30: epoch  60/400 loss 0.6933 val_err 0.5000 best 0.4985 idle 0 (23s/epoch)
+[01:40:51]   HILL@0.30: epoch  65/400 loss 0.6927 val_err 0.4995 best 0.4985 idle 0 (23s/epoch)
+[01:42:49]   HILL@0.30: epoch  70/400 loss 0.6911 val_err 0.4860 best 0.4860 idle 0 (23s/epoch)
+[01:43:35]   HILL@0.30: epoch  72/400 loss 0.6875 val_err 0.4485 best 0.4485 idle 0 (23s/epoch)
+[01:44:46]   HILL@0.30: epoch  75/400 loss 0.6759 val_err 0.4420 best 0.4420 idle 0 (23s/epoch)
+[01:45:56]   HILL@0.30: epoch  78/400 loss 0.6695 val_err 0.4205 best 0.4205 idle 0 (23s/epoch)
+[01:46:43]   HILL@0.30: epoch  80/400 loss 0.6645 val_err 0.4335 best 0.4205 idle 2 (23s/epoch)
+[01:48:27]   HILL@0.30: epoch  84/400 loss 0.6505 val_err 0.4135 best 0.4135 idle 0 (24s/epoch)
+[01:48:51]   HILL@0.30: epoch  85/400 loss 0.6454 val_err 0.3995 best 0.3995 idle 0 (23s/epoch)
+[01:49:14]   HILL@0.30: epoch  86/400 loss 0.6371 val_err 0.3940 best 0.3940 idle 0 (23s/epoch)
+[01:49:38]   HILL@0.30: epoch  87/400 loss 0.6245 val_err 0.3730 best 0.3730 idle 0 (24s/epoch)
+[01:50:49]   HILL@0.30: epoch  90/400 loss 0.6035 val_err 0.4365 best 0.3730 idle 3 (23s/epoch)
+[01:51:36]   HILL@0.30: epoch  92/400 loss 0.5941 val_err 0.3520 best 0.3520 idle 0 (23s/epoch)
+[01:52:23]   HILL@0.30: epoch  94/400 loss 0.5823 val_err 0.3405 best 0.3405 idle 0 (23s/epoch)
+[01:52:46]   HILL@0.30: epoch  95/400 loss 0.5779 val_err 0.3570 best 0.3405 idle 1 (24s/epoch)
+[01:53:10]   HILL@0.30: epoch  96/400 loss 0.5693 val_err 0.3320 best 0.3320 idle 0 (23s/epoch)
+[01:53:57]   HILL@0.30: epoch  98/400 loss 0.5626 val_err 0.3300 best 0.3300 idle 0 (23s/epoch)
+[01:54:44]   HILL@0.30: epoch 100/400 loss 0.5490 val_err 0.3710 best 0.3300 idle 2 (23s/epoch)
+[01:55:54]   HILL@0.30: epoch 103/400 loss 0.5372 val_err 0.3180 best 0.3180 idle 0 (23s/epoch)
+[01:56:44]   HILL@0.30: epoch 105/400 loss 0.5334 val_err 0.3185 best 0.3180 idle 2 (26s/epoch)
+[01:57:31]   HILL@0.30: epoch 107/400 loss 0.5251 val_err 0.3135 best 0.3135 idle 0 (23s/epoch)
+[01:58:49]   HILL@0.30: epoch 110/400 loss 0.5163 val_err 0.3310 best 0.3135 idle 3 (31s/epoch)
+[01:59:13]   HILL@0.30: epoch 111/400 loss 0.5165 val_err 0.2845 best 0.2845 idle 0 (24s/epoch)
+[02:00:47]   HILL@0.30: epoch 115/400 loss 0.5029 val_err 0.3625 best 0.2845 idle 4 (23s/epoch)
+[02:01:34]   HILL@0.30: epoch 117/400 loss 0.4987 val_err 0.2775 best 0.2775 idle 0 (23s/epoch)
+[02:02:45]   HILL@0.30: epoch 120/400 loss 0.4933 val_err 0.3615 best 0.2775 idle 3 (23s/epoch)
+[02:04:42]   HILL@0.30: epoch 125/400 loss 0.4859 val_err 0.2890 best 0.2775 idle 8 (23s/epoch)
+[02:06:40]   HILL@0.30: epoch 130/400 loss 0.4842 val_err 0.3015 best 0.2775 idle 13 (23s/epoch)
+[02:07:03]   HILL@0.30: epoch 131/400 loss 0.4839 val_err 0.2715 best 0.2715 idle 0 (23s/epoch)
+[02:08:37]   HILL@0.30: epoch 135/400 loss 0.4735 val_err 0.3290 best 0.2715 idle 4 (23s/epoch)
+[02:10:44]   HILL@0.30: epoch 140/400 loss 0.4706 val_err 0.3100 best 0.2715 idle 9 (23s/epoch)
+[02:12:41]   HILL@0.30: epoch 145/400 loss 0.4658 val_err 0.2780 best 0.2715 idle 14 (23s/epoch)
+[02:14:38]   HILL@0.30: epoch 150/400 loss 0.4578 val_err 0.2710 best 0.2715 idle 19 (23s/epoch)
+[02:15:01]   HILL@0.30: epoch 151/400 loss 0.4582 val_err 0.2645 best 0.2645 idle 0 (23s/epoch)
+[02:16:35]   HILL@0.30: epoch 155/400 loss 0.4490 val_err 0.2715 best 0.2645 idle 4 (23s/epoch)
+[02:18:37]   HILL@0.30: epoch 160/400 loss 0.4533 val_err 0.2615 best 0.2615 idle 0 (23s/epoch)
+[02:20:35]   HILL@0.30: epoch 165/400 loss 0.4426 val_err 0.3310 best 0.2615 idle 5 (23s/epoch)
+[02:22:32]   HILL@0.30: epoch 170/400 loss 0.4391 val_err 0.3290 best 0.2615 idle 10 (23s/epoch)
+[02:24:30]   HILL@0.30: epoch 175/400 loss 0.4397 val_err 0.2925 best 0.2615 idle 15 (23s/epoch)
+[02:26:35]   HILL@0.30: epoch 180/400 loss 0.4282 val_err 0.3050 best 0.2615 idle 20 (23s/epoch)
+[02:26:35]   HILL@0.30: no gain above 0.002 for 20 epochs -> learning rate x0.1
+[02:27:00]   HILL@0.30: epoch 181/400 loss 0.4208 val_err 0.2455 best 0.2455 idle 0 (25s/epoch)
+[02:28:11]   HILL@0.30: epoch 184/400 loss 0.4037 val_err 0.2400 best 0.2400 idle 0 (23s/epoch)
+[02:28:35]   HILL@0.30: epoch 185/400 loss 0.3992 val_err 0.2455 best 0.2400 idle 1 (23s/epoch)
+[02:30:32]   HILL@0.30: epoch 190/400 loss 0.3932 val_err 0.2440 best 0.2400 idle 6 (23s/epoch)
+[02:32:06]   HILL@0.30: epoch 194/400 loss 0.3874 val_err 0.2360 best 0.2360 idle 0 (23s/epoch)
+[02:32:30]   HILL@0.30: epoch 195/400 loss 0.3908 val_err 0.2385 best 0.2360 idle 1 (23s/epoch)
+[02:34:28]   HILL@0.30: epoch 200/400 loss 0.3852 val_err 0.2435 best 0.2360 idle 6 (23s/epoch)
+[02:36:26]   HILL@0.30: epoch 205/400 loss 0.3881 val_err 0.2530 best 0.2360 idle 11 (23s/epoch)
+[02:36:49]   HILL@0.30: epoch 206/400 loss 0.3776 val_err 0.2335 best 0.2335 idle 0 (23s/epoch)
+[02:38:33]   HILL@0.30: epoch 210/400 loss 0.3793 val_err 0.2365 best 0.2335 idle 4 (23s/epoch)
+[02:40:31]   HILL@0.30: epoch 215/400 loss 0.3793 val_err 0.2340 best 0.2335 idle 9 (23s/epoch)
+[02:42:28]   HILL@0.30: epoch 220/400 loss 0.3813 val_err 0.2465 best 0.2335 idle 14 (23s/epoch)
+[02:44:25]   HILL@0.30: epoch 225/400 loss 0.3758 val_err 0.2465 best 0.2335 idle 19 (23s/epoch)
+[02:44:49]   HILL@0.30: stopped after 226 epochs (no_significant_improvement); best val_err 0.2335
+[02:45:48]   SRNet HILL@0.30: P_E(P2)=0.2313  P_E(P3)=0.3186
+[02:46:47]   HILL@0.20: epoch   1/150 loss 0.5590 val_err 0.3245 best 0.3245 idle 0 (23s/epoch)
+[02:48:22]   HILL@0.20: epoch   5/150 loss 0.5272 val_err 0.3215 best 0.3215 idle 0 (23s/epoch)
+[02:50:19]   HILL@0.20: epoch  10/150 loss 0.5261 val_err 0.3765 best 0.3215 idle 5 (23s/epoch)
+[02:52:16]   HILL@0.20: epoch  15/150 loss 0.5255 val_err 0.3155 best 0.3155 idle 0 (23s/epoch)
+[02:53:50]   HILL@0.20: epoch  19/150 loss 0.5212 val_err 0.3115 best 0.3115 idle 0 (23s/epoch)
+[02:54:14]   HILL@0.20: epoch  20/150 loss 0.5145 val_err 0.3125 best 0.3115 idle 1 (23s/epoch)
+[02:56:22]   HILL@0.20: epoch  25/150 loss 0.5192 val_err 0.3105 best 0.3115 idle 6 (32s/epoch)
+[02:58:20]   HILL@0.20: epoch  30/150 loss 0.5127 val_err 0.3560 best 0.3115 idle 11 (23s/epoch)
+[03:00:17]   HILL@0.20: epoch  35/150 loss 0.5129 val_err 0.3425 best 0.3115 idle 16 (23s/epoch)
+[03:01:51]   HILL@0.20: no gain above 0.002 for 20 epochs -> learning rate x0.1
+[03:02:15]   HILL@0.20: epoch  40/150 loss 0.4957 val_err 0.3025 best 0.3025 idle 0 (24s/epoch)
+[03:02:38]   HILL@0.20: epoch  41/150 loss 0.4877 val_err 0.3000 best 0.3000 idle 0 (23s/epoch)
+[03:03:25]   HILL@0.20: epoch  43/150 loss 0.4788 val_err 0.2860 best 0.2860 idle 0 (23s/epoch)
+[03:04:12]   HILL@0.20: epoch  45/150 loss 0.4718 val_err 0.2910 best 0.2860 idle 2 (23s/epoch)
+[03:06:09]   HILL@0.20: epoch  50/150 loss 0.4691 val_err 0.2945 best 0.2860 idle 7 (23s/epoch)
+[03:08:06]   HILL@0.20: epoch  55/150 loss 0.4665 val_err 0.2890 best 0.2860 idle 12 (23s/epoch)
+[03:09:40]   HILL@0.20: epoch  59/150 loss 0.4644 val_err 0.2810 best 0.2810 idle 0 (23s/epoch)
+[03:10:04]   HILL@0.20: epoch  60/150 loss 0.4600 val_err 0.2895 best 0.2810 idle 1 (23s/epoch)
+[03:12:04]   HILL@0.20: epoch  65/150 loss 0.4582 val_err 0.2870 best 0.2810 idle 6 (24s/epoch)
+[03:14:09]   HILL@0.20: epoch  70/150 loss 0.4575 val_err 0.2910 best 0.2810 idle 11 (23s/epoch)
+[03:16:07]   HILL@0.20: epoch  75/150 loss 0.4543 val_err 0.2895 best 0.2810 idle 16 (23s/epoch)
+[03:17:41]   HILL@0.20: stopped after 79 epochs (no_significant_improvement); best val_err 0.2810
+[03:18:30]   SRNet HILL@0.20: P_E(P2)=0.2886  P_E(P3)=0.3630
+[03:19:27]   HILL@0.10: epoch   1/150 loss 0.6351 val_err 0.3925 best 0.3925 idle 0 (23s/epoch)
+[03:21:01]   HILL@0.10: epoch   5/150 loss 0.6156 val_err 0.3915 best 0.3925 idle 4 (23s/epoch)
+[03:22:58]   HILL@0.10: epoch  10/150 loss 0.6125 val_err 0.4020 best 0.3925 idle 9 (23s/epoch)
+[03:24:32]   HILL@0.10: epoch  14/150 loss 0.6114 val_err 0.3860 best 0.3860 idle 0 (23s/epoch)
+[03:24:56]   HILL@0.10: epoch  15/150 loss 0.6103 val_err 0.4015 best 0.3860 idle 1 (23s/epoch)
+[03:26:53]   HILL@0.10: epoch  20/150 loss 0.6075 val_err 0.4130 best 0.3860 idle 6 (23s/epoch)
+[03:29:01]   HILL@0.10: epoch  25/150 loss 0.6066 val_err 0.4035 best 0.3860 idle 11 (31s/epoch)
+[03:30:59]   HILL@0.10: epoch  30/150 loss 0.6032 val_err 0.4225 best 0.3860 idle 16 (23s/epoch)
+[03:32:33]   HILL@0.10: no gain above 0.002 for 20 epochs -> learning rate x0.1
+[03:32:57]   HILL@0.10: epoch  35/150 loss 0.5927 val_err 0.3810 best 0.3810 idle 0 (24s/epoch)
+[03:33:20]   HILL@0.10: epoch  36/150 loss 0.5843 val_err 0.3740 best 0.3740 idle 0 (23s/epoch)
+[03:34:54]   HILL@0.10: epoch  40/150 loss 0.5773 val_err 0.3745 best 0.3740 idle 4 (23s/epoch)
+[03:35:18]   HILL@0.10: epoch  41/150 loss 0.5778 val_err 0.3685 best 0.3685 idle 0 (23s/epoch)
+[03:36:52]   HILL@0.10: epoch  45/150 loss 0.5693 val_err 0.3720 best 0.3685 idle 4 (23s/epoch)
+[03:38:53]   HILL@0.10: epoch  50/150 loss 0.5692 val_err 0.3700 best 0.3685 idle 9 (23s/epoch)
+[03:39:16]   HILL@0.10: epoch  51/150 loss 0.5681 val_err 0.3630 best 0.3630 idle 0 (23s/epoch)
+[03:40:50]   HILL@0.10: epoch  55/150 loss 0.5656 val_err 0.3700 best 0.3630 idle 4 (23s/epoch)
+[03:42:48]   HILL@0.10: epoch  60/150 loss 0.5624 val_err 0.3745 best 0.3630 idle 9 (23s/epoch)
+[03:44:54]   HILL@0.10: epoch  65/150 loss 0.5616 val_err 0.3860 best 0.3630 idle 14 (23s/epoch)
+[03:45:41]   HILL@0.10: epoch  67/150 loss 0.5619 val_err 0.3605 best 0.3605 idle 0 (23s/epoch)
+[03:46:51]   HILL@0.10: epoch  70/150 loss 0.5592 val_err 0.3765 best 0.3605 idle 3 (23s/epoch)
+[03:48:51]   HILL@0.10: epoch  75/150 loss 0.5582 val_err 0.3670 best 0.3605 idle 8 (23s/epoch)
+[03:50:49]   HILL@0.10: epoch  80/150 loss 0.5550 val_err 0.3795 best 0.3605 idle 13 (23s/epoch)
+[03:52:46]   HILL@0.10: epoch  85/150 loss 0.5572 val_err 0.3735 best 0.3605 idle 18 (23s/epoch)
+[03:53:33]   HILL@0.10: stopped after 87 epochs (no_significant_improvement); best val_err 0.3605
+[03:54:34]   SRNet HILL@0.10: P_E(P2)=0.3646  P_E(P3)=0.4131
+[03:55:29]   HILL@0.05: epoch   1/150 loss 0.6780 val_err 0.4465 best 0.4465 idle 0 (23s/epoch)
+[03:57:03]   HILL@0.05: epoch   5/150 loss 0.6604 val_err 0.4595 best 0.4465 idle 4 (23s/epoch)
+[03:57:26]   HILL@0.05: epoch   6/150 loss 0.6620 val_err 0.4400 best 0.4400 idle 0 (23s/epoch)
+[03:59:03]   HILL@0.05: epoch  10/150 loss 0.6601 val_err 0.4625 best 0.4400 idle 4 (23s/epoch)
+[04:01:00]   HILL@0.05: epoch  15/150 loss 0.6583 val_err 0.4625 best 0.4400 idle 9 (23s/epoch)
+[04:02:59]   HILL@0.05: epoch  20/150 loss 0.6562 val_err 0.4695 best 0.4400 idle 14 (23s/epoch)
+[04:05:02]   HILL@0.05: epoch  25/150 loss 0.6545 val_err 0.4525 best 0.4400 idle 19 (29s/epoch)
+[04:05:26]   HILL@0.05: no gain above 0.002 for 20 epochs -> learning rate x0.1
+[04:05:50]   HILL@0.05: epoch  27/150 loss 0.6517 val_err 0.4315 best 0.4315 idle 0 (23s/epoch)
+[04:07:00]   HILL@0.05: epoch  30/150 loss 0.6403 val_err 0.4365 best 0.4315 idle 3 (23s/epoch)
+[04:09:00]   HILL@0.05: epoch  35/150 loss 0.6360 val_err 0.4270 best 0.4270 idle 0 (24s/epoch)
+[04:10:58]   HILL@0.05: epoch  40/150 loss 0.6335 val_err 0.4335 best 0.4270 idle 5 (23s/epoch)
+[04:11:21]   HILL@0.05: epoch  41/150 loss 0.6328 val_err 0.4215 best 0.4215 idle 0 (23s/epoch)
+[04:12:55]   HILL@0.05: epoch  45/150 loss 0.6279 val_err 0.4245 best 0.4215 idle 4 (23s/epoch)
+[04:13:19]   HILL@0.05: epoch  46/150 loss 0.6312 val_err 0.4165 best 0.4165 idle 0 (23s/epoch)
+[04:14:53]   HILL@0.05: epoch  50/150 loss 0.6288 val_err 0.4250 best 0.4165 idle 4 (23s/epoch)
+[04:16:58]   HILL@0.05: epoch  55/150 loss 0.6268 val_err 0.4275 best 0.4165 idle 9 (23s/epoch)
+[04:18:58]   HILL@0.05: epoch  60/150 loss 0.6260 val_err 0.4320 best 0.4165 idle 14 (24s/epoch)
+[04:20:56]   HILL@0.05: epoch  65/150 loss 0.6265 val_err 0.4355 best 0.4165 idle 19 (23s/epoch)
+[04:21:19]   HILL@0.05: stopped after 66 epochs (no_significant_improvement); best val_err 0.4165
+[04:22:21]   SRNet HILL@0.05: P_E(P2)=0.4228  P_E(P3)=0.4506
+[04:23:15]   S-UNIWARD@0.40: epoch   1/400 loss 0.7394 val_err 0.5000 best 0.5000 idle 0 (23s/epoch)
+[04:24:48]   S-UNIWARD@0.40: epoch   5/400 loss 0.6932 val_err 0.4995 best 0.5000 idle 0 (23s/epoch)
+[04:26:46]   S-UNIWARD@0.40: epoch  10/400 loss 0.6932 val_err 0.5010 best 0.5000 idle 0 (23s/epoch)
+[04:28:45]   S-UNIWARD@0.40: epoch  15/400 loss 0.6932 val_err 0.5000 best 0.5000 idle 0 (25s/epoch)
+[04:30:43]   S-UNIWARD@0.40: epoch  20/400 loss 0.6933 val_err 0.5005 best 0.5000 idle 0 (23s/epoch)
+[04:32:46]   S-UNIWARD@0.40: epoch  25/400 loss 0.6933 val_err 0.5000 best 0.5000 idle 0 (29s/epoch)
+[04:34:45]   S-UNIWARD@0.40: epoch  30/400 loss 0.6933 val_err 0.5000 best 0.5000 idle 0 (23s/epoch)
+[04:36:42]   S-UNIWARD@0.40: epoch  35/400 loss 0.6933 val_err 0.4995 best 0.5000 idle 0 (23s/epoch)
+[04:38:40]   S-UNIWARD@0.40: epoch  40/400 loss 0.6933 val_err 0.5005 best 0.5000 idle 0 (23s/epoch)
+[04:40:40]   S-UNIWARD@0.40: epoch  45/400 loss 0.6932 val_err 0.5000 best 0.5000 idle 0 (23s/epoch)
+[04:42:14]   S-UNIWARD@0.40: epoch  49/400 loss 0.6933 val_err 0.4975 best 0.4975 idle 0 (24s/epoch)
+[04:42:38]   S-UNIWARD@0.40: epoch  50/400 loss 0.6931 val_err 0.4995 best 0.4975 idle 0 (23s/epoch)
+[04:44:35]   S-UNIWARD@0.40: epoch  55/400 loss 0.6932 val_err 0.5000 best 0.4975 idle 0 (23s/epoch)
+[04:46:33]   S-UNIWARD@0.40: epoch  60/400 loss 0.6932 val_err 0.4990 best 0.4975 idle 0 (23s/epoch)
+[04:48:30]   S-UNIWARD@0.40: epoch  65/400 loss 0.6932 val_err 0.5000 best 0.4975 idle 0 (23s/epoch)
+[04:50:30]   S-UNIWARD@0.40: epoch  70/400 loss 0.6932 val_err 0.5000 best 0.4975 idle 0 (23s/epoch)
+[04:52:40]   S-UNIWARD@0.40: epoch  75/400 loss 0.6932 val_err 0.4990 best 0.4975 idle 0 (35s/epoch)
+[04:54:38]   S-UNIWARD@0.40: epoch  80/400 loss 0.6931 val_err 0.5000 best 0.4975 idle 0 (23s/epoch)
+[04:56:35]   S-UNIWARD@0.40: epoch  85/400 loss 0.6931 val_err 0.5005 best 0.4975 idle 5 (23s/epoch)
+[04:57:22]   S-UNIWARD@0.40: epoch  87/400 loss 0.6930 val_err 0.4920 best 0.4920 idle 0 (24s/epoch)
+[04:58:33]   S-UNIWARD@0.40: epoch  90/400 loss 0.6931 val_err 0.4980 best 0.4920 idle 3 (23s/epoch)
+[05:00:30]   S-UNIWARD@0.40: epoch  95/400 loss 0.6930 val_err 0.4975 best 0.4920 idle 8 (23s/epoch)
+[05:02:27]   S-UNIWARD@0.40: epoch 100/400 loss 0.6932 val_err 0.4985 best 0.4920 idle 13 (23s/epoch)
+[05:04:01]   S-UNIWARD@0.40: epoch 104/400 loss 0.6930 val_err 0.4880 best 0.4880 idle 0 (23s/epoch)
+[05:04:25]   S-UNIWARD@0.40: epoch 105/400 loss 0.6933 val_err 0.5005 best 0.4880 idle 1 (23s/epoch)
+[05:06:22]   S-UNIWARD@0.40: epoch 110/400 loss 0.6930 val_err 0.5000 best 0.4880 idle 6 (23s/epoch)
+[05:08:28]   S-UNIWARD@0.40: epoch 115/400 loss 0.6931 val_err 0.4995 best 0.4880 idle 11 (23s/epoch)
+[05:10:28]   S-UNIWARD@0.40: epoch 120/400 loss 0.6931 val_err 0.5000 best 0.4880 idle 16 (23s/epoch)
+[05:12:02]   S-UNIWARD@0.40: no gain above 0.002 for 20 epochs -> learning rate x0.1
+[05:12:26]   S-UNIWARD@0.40: epoch 125/400 loss 0.6886 val_err 0.4870 best 0.4880 idle 1 (23s/epoch)
+[05:13:13]   S-UNIWARD@0.40: epoch 127/400 loss 0.6840 val_err 0.4840 best 0.4840 idle 0 (24s/epoch)
+[05:13:36]   S-UNIWARD@0.40: epoch 128/400 loss 0.6800 val_err 0.4810 best 0.4810 idle 0 (23s/epoch)
+[05:14:23]   S-UNIWARD@0.40: epoch 130/400 loss 0.6775 val_err 0.4750 best 0.4750 idle 0 (23s/epoch)
+[05:16:21]   S-UNIWARD@0.40: epoch 135/400 loss 0.6721 val_err 0.4895 best 0.4750 idle 5 (23s/epoch)
+[05:18:18]   S-UNIWARD@0.40: epoch 140/400 loss 0.6679 val_err 0.4795 best 0.4750 idle 10 (23s/epoch)
+[05:18:42]   S-UNIWARD@0.40: epoch 141/400 loss 0.6688 val_err 0.4725 best 0.4725 idle 0 (23s/epoch)
+[05:20:19]   S-UNIWARD@0.40: epoch 145/400 loss 0.6647 val_err 0.4850 best 0.4725 idle 4 (23s/epoch)
+[05:22:17]   S-UNIWARD@0.40: epoch 150/400 loss 0.6597 val_err 0.4700 best 0.4700 idle 0 (23s/epoch)
+[05:24:22]   S-UNIWARD@0.40: epoch 155/400 loss 0.6579 val_err 0.4845 best 0.4700 idle 5 (23s/epoch)
+[05:26:20]   S-UNIWARD@0.40: epoch 160/400 loss 0.6537 val_err 0.4840 best 0.4700 idle 10 (23s/epoch)
+[05:27:07]   S-UNIWARD@0.40: epoch 162/400 loss 0.6506 val_err 0.4665 best 0.4665 idle 0 (24s/epoch)
+[05:28:18]   S-UNIWARD@0.40: epoch 165/400 loss 0.6490 val_err 0.4860 best 0.4665 idle 3 (23s/epoch)
+[05:30:17]   S-UNIWARD@0.40: epoch 170/400 loss 0.6500 val_err 0.4780 best 0.4665 idle 8 (23s/epoch)
+[05:30:41]   S-UNIWARD@0.40: epoch 171/400 loss 0.6494 val_err 0.4600 best 0.4600 idle 0 (23s/epoch)
+[05:32:15]   S-UNIWARD@0.40: epoch 175/400 loss 0.6431 val_err 0.4645 best 0.4600 idle 4 (23s/epoch)
+[05:32:39]   S-UNIWARD@0.40: epoch 176/400 loss 0.6440 val_err 0.4510 best 0.4510 idle 0 (23s/epoch)
+[05:34:13]   S-UNIWARD@0.40: epoch 180/400 loss 0.6383 val_err 0.4695 best 0.4510 idle 4 (23s/epoch)
+[05:36:10]   S-UNIWARD@0.40: epoch 185/400 loss 0.6378 val_err 0.4665 best 0.4510 idle 9 (23s/epoch)
+[05:38:16]   S-UNIWARD@0.40: epoch 190/400 loss 0.6336 val_err 0.4645 best 0.4510 idle 14 (23s/epoch)
+[05:40:17]   S-UNIWARD@0.40: epoch 195/400 loss 0.6329 val_err 0.4570 best 0.4510 idle 19 (23s/epoch)
+[05:40:40]   S-UNIWARD@0.40: stopped after 196 epochs (no_significant_improvement); best val_err 0.4510
+[05:41:27]   SRNet S-UNIWARD@0.40: P_E(P2)=0.4640  P_E(P3)=0.4770
+[05:42:14]   S-UNIWARD@0.30: epoch   1/150 loss 0.6950 val_err 0.4995 best 0.4995 idle 0 (23s/epoch)
+[05:43:48]   S-UNIWARD@0.30: epoch   5/150 loss 0.6932 val_err 0.4990 best 0.4995 idle 4 (23s/epoch)
+[05:45:45]   S-UNIWARD@0.30: epoch  10/150 loss 0.6932 val_err 0.5005 best 0.4995 idle 9 (23s/epoch)
+[05:47:42]   S-UNIWARD@0.30: epoch  15/150 loss 0.6932 val_err 0.4990 best 0.4995 idle 14 (23s/epoch)
+[05:49:40]   S-UNIWARD@0.30: epoch  20/150 loss 0.6932 val_err 0.4975 best 0.4995 idle 19 (24s/epoch)
+[05:50:04]   S-UNIWARD@0.30: no gain above 0.002 for 20 epochs -> learning rate x0.1
+[05:51:48]   S-UNIWARD@0.30: epoch  25/150 loss 0.6932 val_err 0.4990 best 0.4995 idle 4 (34s/epoch)
+[05:53:49]   S-UNIWARD@0.30: epoch  30/150 loss 0.6930 val_err 0.4995 best 0.4995 idle 9 (23s/epoch)
+[05:54:13]   S-UNIWARD@0.30: epoch  31/150 loss 0.6925 val_err 0.4965 best 0.4965 idle 0 (23s/epoch)
+[05:55:47]   S-UNIWARD@0.30: epoch  35/150 loss 0.6885 val_err 0.4940 best 0.4940 idle 0 (23s/epoch)
+[05:57:44]   S-UNIWARD@0.30: epoch  40/150 loss 0.6851 val_err 0.4980 best 0.4940 idle 5 (23s/epoch)
+[05:59:43]   S-UNIWARD@0.30: epoch  45/150 loss 0.6925 val_err 0.4920 best 0.4940 idle 10 (24s/epoch)
+[06:01:40]   S-UNIWARD@0.30: epoch  50/150 loss 0.6921 val_err 0.4920 best 0.4940 idle 15 (23s/epoch)
+[06:02:30]   S-UNIWARD@0.30: epoch  52/150 loss 0.6913 val_err 0.4915 best 0.4915 idle 0 (26s/epoch)
+[06:03:40]   S-UNIWARD@0.30: epoch  55/150 loss 0.6896 val_err 0.4930 best 0.4915 idle 3 (23s/epoch)
+[06:05:46]   S-UNIWARD@0.30: epoch  60/150 loss 0.6856 val_err 0.4965 best 0.4915 idle 8 (23s/epoch)
+[06:07:43]   S-UNIWARD@0.30: epoch  65/150 loss 0.6793 val_err 0.4935 best 0.4915 idle 13 (23s/epoch)
+[06:09:41]   S-UNIWARD@0.30: epoch  70/150 loss 0.6778 val_err 0.4975 best 0.4915 idle 18 (23s/epoch)
+[06:10:28]   S-UNIWARD@0.30: stopped after 72 epochs (no_significant_improvement); best val_err 0.4915
+[06:11:16]   SRNet S-UNIWARD@0.30: P_E(P2)=0.4916  P_E(P3)=0.4977
+[06:12:06]   S-UNIWARD@0.20: epoch   1/150 loss 0.6950 val_err 0.4985 best 0.4985 idle 0 (23s/epoch)
+[06:13:40]   S-UNIWARD@0.20: epoch   5/150 loss 0.6932 val_err 0.5005 best 0.4985 idle 4 (23s/epoch)
+[06:15:38]   S-UNIWARD@0.20: epoch  10/150 loss 0.6932 val_err 0.4995 best 0.4985 idle 9 (23s/epoch)
+[06:17:35]   S-UNIWARD@0.20: epoch  15/150 loss 0.6933 val_err 0.5000 best 0.4985 idle 14 (23s/epoch)
+[06:19:33]   S-UNIWARD@0.20: epoch  20/150 loss 0.6932 val_err 0.5000 best 0.4985 idle 19 (24s/epoch)
+[06:19:56]   S-UNIWARD@0.20: no gain above 0.002 for 20 epochs -> learning rate x0.1
+[06:21:30]   S-UNIWARD@0.20: epoch  25/150 loss 0.6932 val_err 0.5000 best 0.4985 idle 4 (23s/epoch)
+[06:23:39]   S-UNIWARD@0.20: epoch  30/150 loss 0.6930 val_err 0.4990 best 0.4985 idle 9 (23s/epoch)
+[06:24:26]   S-UNIWARD@0.20: epoch  32/150 loss 0.6931 val_err 0.4965 best 0.4965 idle 0 (24s/epoch)
+[06:25:37]   S-UNIWARD@0.20: epoch  35/150 loss 0.6928 val_err 0.4985 best 0.4965 idle 3 (23s/epoch)
+[06:27:35]   S-UNIWARD@0.20: epoch  40/150 loss 0.6932 val_err 0.4990 best 0.4965 idle 8 (23s/epoch)
+[06:29:32]   S-UNIWARD@0.20: epoch  45/150 loss 0.6920 val_err 0.4985 best 0.4965 idle 13 (24s/epoch)
+[06:31:30]   S-UNIWARD@0.20: epoch  50/150 loss 0.6915 val_err 0.4975 best 0.4965 idle 18 (23s/epoch)
+[06:32:17]   S-UNIWARD@0.20: stopped after 52 epochs (no_significant_improvement); best val_err 0.4965
+[06:33:05]   SRNet S-UNIWARD@0.20: P_E(P2)=0.4976  P_E(P3)=0.4984
+[06:33:55]   S-UNIWARD@0.10: epoch   1/150 loss 0.6956 val_err 0.4995 best 0.4995 idle 0 (23s/epoch)
+[06:35:29]   S-UNIWARD@0.10: epoch   5/150 loss 0.6932 val_err 0.4990 best 0.4995 idle 4 (23s/epoch)
+[06:37:27]   S-UNIWARD@0.10: epoch  10/150 loss 0.6932 val_err 0.5005 best 0.4995 idle 9 (23s/epoch)
+[06:39:25]   S-UNIWARD@0.10: epoch  15/150 loss 0.6932 val_err 0.5000 best 0.4995 idle 14 (23s/epoch)
+[06:41:22]   S-UNIWARD@0.10: epoch  20/150 loss 0.6932 val_err 0.5005 best 0.4995 idle 19 (23s/epoch)
+[06:41:46]   S-UNIWARD@0.10: no gain above 0.002 for 20 epochs -> learning rate x0.1
+[06:43:20]   S-UNIWARD@0.10: epoch  25/150 loss 0.6932 val_err 0.5000 best 0.4995 idle 4 (23s/epoch)
+[06:45:27]   S-UNIWARD@0.10: epoch  30/150 loss 0.6932 val_err 0.5000 best 0.4995 idle 9 (23s/epoch)
+[06:47:24]   S-UNIWARD@0.10: epoch  35/150 loss 0.6932 val_err 0.5005 best 0.4995 idle 14 (23s/epoch)
+[06:49:22]   S-UNIWARD@0.10: epoch  40/150 loss 0.6932 val_err 0.4985 best 0.4995 idle 19 (23s/epoch)
+[06:49:46]   S-UNIWARD@0.10: epoch  41/150 loss 0.6932 val_err 0.4965 best 0.4965 idle 0 (24s/epoch)
+[06:51:20]   S-UNIWARD@0.10: epoch  45/150 loss 0.6932 val_err 0.4995 best 0.4965 idle 4 (23s/epoch)
+[06:53:17]   S-UNIWARD@0.10: epoch  50/150 loss 0.6932 val_err 0.5010 best 0.4965 idle 9 (23s/epoch)
+[06:55:15]   S-UNIWARD@0.10: epoch  55/150 loss 0.6932 val_err 0.5000 best 0.4965 idle 14 (23s/epoch)
+[06:57:15]   S-UNIWARD@0.10: epoch  60/150 loss 0.6932 val_err 0.5015 best 0.4965 idle 19 (23s/epoch)
+[06:57:38]   S-UNIWARD@0.10: stopped after 61 epochs (no_significant_improvement); best val_err 0.4965
+[06:58:26]   SRNet S-UNIWARD@0.10: P_E(P2)=0.4987  P_E(P3)=0.4995
+[06:59:17]   S-UNIWARD@0.05: epoch   1/150 loss 0.6955 val_err 0.4995 best 0.4995 idle 0 (23s/epoch)
+[07:00:51]   S-UNIWARD@0.05: epoch   5/150 loss 0.6932 val_err 0.5020 best 0.4995 idle 4 (23s/epoch)
+[07:02:49]   S-UNIWARD@0.05: epoch  10/150 loss 0.6932 val_err 0.5010 best 0.4995 idle 9 (23s/epoch)
+[07:04:46]   S-UNIWARD@0.05: epoch  15/150 loss 0.6932 val_err 0.5000 best 0.4995 idle 14 (23s/epoch)
+[07:06:44]   S-UNIWARD@0.05: epoch  20/150 loss 0.6932 val_err 0.5000 best 0.4995 idle 19 (23s/epoch)
+[07:07:08]   S-UNIWARD@0.05: no gain above 0.002 for 20 epochs -> learning rate x0.1
+[07:08:42]   S-UNIWARD@0.05: epoch  25/150 loss 0.6932 val_err 0.4995 best 0.4995 idle 4 (23s/epoch)
+[07:10:49]   S-UNIWARD@0.05: epoch  30/150 loss 0.6932 val_err 0.4985 best 0.4995 idle 9 (23s/epoch)
+[07:12:47]   S-UNIWARD@0.05: epoch  35/150 loss 0.6932 val_err 0.5000 best 0.4995 idle 14 (23s/epoch)
+[07:14:45]   S-UNIWARD@0.05: epoch  40/150 loss 0.6932 val_err 0.5000 best 0.4995 idle 19 (23s/epoch)
+[07:15:08]   S-UNIWARD@0.05: stopped after 41 epochs (no_significant_improvement); best val_err 0.4995
+[07:15:49]   SRNet S-UNIWARD@0.05: P_E(P2)=0.4999  P_E(P3)=0.5001
+[07:15:50]   measures [1/20] LSBM@0.05 (1s)
+[07:15:51]   measures [2/20] LSBM@0.10 (2s)
+[07:15:52]   measures [3/20] LSBM@0.20 (3s)
+[07:15:52]   measures [4/20] LSBM@0.30 (4s)
+[07:15:53]   measures [5/20] LSBM@0.40 (4s)
+[07:15:54]   measures [6/20] LSBM-A@0.05 (5s)
+[07:15:55]   measures [7/20] LSBM-A@0.10 (6s)
+[07:15:56]   measures [8/20] LSBM-A@0.20 (7s)
+[07:15:57]   measures [9/20] LSBM-A@0.30 (8s)
+[07:15:58]   measures [10/20] LSBM-A@0.40 (9s)
+[07:15:59]   measures [11/20] HILL@0.05 (10s)
+[07:16:00]   measures [12/20] HILL@0.10 (11s)
+[07:16:00]   measures [13/20] HILL@0.20 (11s)
+[07:16:01]   measures [14/20] HILL@0.30 (12s)
+[07:16:02]   measures [15/20] HILL@0.40 (13s)
+[07:16:03]   measures [16/20] S-UNIWARD@0.05 (14s)
+[07:16:04]   measures [17/20] S-UNIWARD@0.10 (15s)
+[07:16:05]   measures [18/20] S-UNIWARD@0.20 (16s)
+[07:16:06]   measures [19/20] S-UNIWARD@0.30 (17s)
+[07:16:07]   measures [20/20] S-UNIWARD@0.40 (18s)
+[07:16:36] Spearman correlation between measure and P_E (negative = the measure tracks detectability):
+detector                 FLD-SPAM  LR-F13  RF-F13  SRNet
+space measure                                           
+F13   Deflection           -0.958  -0.979  -0.924 -0.761
+      Fisher (max)         -0.941  -0.971  -0.909 -0.738
+      Fisher (mean)        -0.943  -0.970  -0.911 -0.749
+      JS (mean)            -0.964  -0.964  -0.923 -0.814
+      MMD                  -0.940  -0.964  -0.899 -0.734
+      Mean shift           -0.943  -0.970  -0.911 -0.749
+      Paired deflection    -0.850  -0.872  -0.874 -0.752
+SPAM  Deflection           -0.998  -0.989  -0.979 -0.829
+      Fisher (max)         -0.995  -0.986  -0.973 -0.823
+      Fisher (mean)        -0.986  -0.985  -0.954 -0.823
+      JS (mean)            -0.974  -0.973  -0.936 -0.803
+      MMD                  -0.979  -0.976  -0.947 -0.836
+      Mean shift           -0.986  -0.985  -0.954 -0.823
+      Paired deflection    -0.971  -0.973  -0.969 -0.782
+[07:17:19]   control, bit bias 0.5: done
+[07:18:00]   control, bit bias 0.75: done
+[07:18:00] Whitening control under P2:
+protocol  bit_bias  alpha detector    auc  delta_auc      lo      hi  effect_declared
+      P2      0.50    0.0   LR-F13 0.5934     0.0000  0.0000  0.0000            False
+      P2      0.50    0.0   RF-F13 0.6069     0.0000  0.0000  0.0000            False
+      P2      0.50    0.0 FLD-SPAM 0.9538     0.0000  0.0000  0.0000            False
+      P2      0.50    0.5   LR-F13 0.5939     0.0005 -0.0003  0.0011            False
+      P2      0.50    0.5   RF-F13 0.6060    -0.0009 -0.0033  0.0015            False
+      P2      0.50    0.5 FLD-SPAM 0.9539     0.0001 -0.0010  0.0011            False
+      P2      0.50    1.0   LR-F13 0.5938     0.0004 -0.0003  0.0011            False
+      P2      0.50    1.0   RF-F13 0.6078     0.0010 -0.0015  0.0033            False
+      P2      0.50    1.0 FLD-SPAM 0.9535    -0.0003 -0.0014  0.0008            False
+      P2      0.75    0.0   LR-F13 0.9792     0.0000  0.0000  0.0000            False
+      P2      0.75    0.0   RF-F13 0.9954     0.0000  0.0000  0.0000            False
+      P2      0.75    0.0 FLD-SPAM 0.9927     0.0000  0.0000  0.0000            False
+      P2      0.75    0.5   LR-F13 0.9421    -0.0371 -0.0408 -0.0334             True
+      P2      0.75    0.5   RF-F13 0.9855    -0.0099 -0.0118 -0.0081             True
+      P2      0.75    0.5 FLD-SPAM 0.9603    -0.0324 -0.0353 -0.0296             True
+      P2      0.75    1.0   LR-F13 0.5940    -0.3852 -0.3897 -0.3807             True
+      P2      0.75    1.0   RF-F13 0.6072    -0.3882 -0.3938 -0.3830             True
+      P2      0.75    1.0 FLD-SPAM 0.9529    -0.0399 -0.0431 -0.0366             True
+[07:18:00] P0 replicates: 8000 runs x 5 whitening levels
+[07:19:15]   P0 400/8000 (74s)
+[07:20:13]   P0 800/8000 (132s)
+[07:21:14]   P0 1200/8000 (194s)
+[07:22:13]   P0 1600/8000 (253s)
+[07:23:13]   P0 2000/8000 (313s)
+[07:24:14]   P0 2400/8000 (373s)
+[07:25:14]   P0 2800/8000 (434s)
+[07:26:15]   P0 3200/8000 (494s)
+[07:27:16]   P0 3600/8000 (556s)
+[07:28:13]   P0 4000/8000 (613s)
+[07:29:13]   P0 4400/8000 (672s)
+[07:30:16]   P0 4800/8000 (735s)
+[07:31:14]   P0 5200/8000 (794s)
+[07:32:14]   P0 5600/8000 (854s)
+[07:33:11]   P0 6000/8000 (911s)
+[07:34:12]   P0 6400/8000 (972s)
+[07:35:14]   P0 6800/8000 (1033s)
+[07:36:14]   P0 7200/8000 (1093s)
+[07:37:10]   P0 7600/8000 (1149s)
+[07:38:06]   P0 8000/8000 (1206s)
+[07:38:07] P0 control summary: {
+ "n_runs": 8000,
+ "rate_preferred_alpha_nonzero": 0.796,
+ "rate_expected_under_exchangeability": 0.8,
+ "preferred_alpha_histogram": {
+  "a0.00": 0.204,
+  "a0.25": 0.201,
+  "a0.50": 0.202375,
+  "a0.75": 0.195,
+  "a1.00": 0.197625
+ },
+ "median_auc_range_across_alpha": 0.04132231404958675,
+ "rate_range_above_0.05": 0.447375,
+ "mean_auc": 0.9222181818181819,
+ "sd_auc_between_replicates": 0.10304558798354368
+}
+[07:38:36] Standard deviation of an AUC estimate from n test covers (all detectors and conditions):
+ n_test  median    max
+     11  0.0447 0.0853
+     50  0.0189 0.0392
+    200  0.0092 0.0197
+   1000  0.0043 0.0092
+   5000  0.0019 0.0039
+[07:38:36]   wrote Tables/tab_detection.tex
+[07:38:36]   wrote Tables/tab_protocol.tex
+[07:38:36]   wrote Tables/tab_predictor.tex
+[07:38:36]   wrote Tables/tab_control.tex
+[07:38:37]   wrote Figures/fig_pe_vs_payload.pdf
+[07:38:39]   wrote Figures/fig_measure_vs_pe.pdf
+[07:38:39]   wrote Figures/fig_control_legacy.pdf
+[07:38:40]   wrote Figures/fig_auc_sd_vs_ntest.pdf
+[07:38:40] All outputs written to /home/hamamh/Outputs/Cover_Stego_Separability
+[07:40:47] Project Cover_Stego_Separability | QUICK=False | covers=10000 | jobs=7
+[07:40:47] DATA_ROOT=/scratch/hamamh/Datasets
+WORK_DIR=/scratch/hamamh/work/Cover_Stego_Separability
+OUT_DIR=/home/hamamh/Outputs/Cover_Stego_Separability
+[07:40:47] Covers already prepared; loading cache.
+[07:40:48] Covers (10000, 256, 256), shifted test covers (5000, 256, 256), source=BOSSbase_1.01
+[07:40:48] Embedding self-tests passed (simulator rate, S-UNIWARD cost vs brute force, LSBM change rate).
+[07:40:48] Generating 20 stego sets on the main source and on the shifted test source
+[07:40:51] Change rates (first 50 covers): LSBM@0.05=0.025, LSBM@0.10=0.050, LSBM@0.20=0.100, LSBM@0.30=0.150, LSBM@0.40=0.200, LSBM-A@0.05=0.025, LSBM-A@0.10=0.050, LSBM-A@0.20=0.100, LSBM-A@0.30=0.150, LSBM-A@0.40=0.200, HILL@0.05=0.007, HILL@0.10=0.017, HILL@0.20=0.037, HILL@0.30=0.061, HILL@0.40=0.087, S-UNIWARD@0.05=0.007, S-UNIWARD@0.10=0.014, S-UNIWARD@0.20=0.033, S-UNIWARD@0.30=0.053, S-UNIWARD@0.40=0.076
+[07:40:51] Extracting features
+[07:40:59] Feature extraction done.
+[07:40:59] P1 row-level split: 0.395 of test rows have their pair partner in training
+[07:41:21]   [1/20] LSBM@0.05 done (22s)
+[07:41:42]   [2/20] LSBM@0.10 done (43s)
+[07:42:04]   [3/20] LSBM@0.20 done (65s)
+[07:42:25]   [4/20] LSBM@0.30 done (86s)
+[07:42:47]   [5/20] LSBM@0.40 done (107s)
+[07:43:08]   [6/20] LSBM-A@0.05 done (129s)
+[07:43:30]   [7/20] LSBM-A@0.10 done (151s)
+[07:43:52]   [8/20] LSBM-A@0.20 done (172s)
+[07:44:13]   [9/20] LSBM-A@0.30 done (194s)
+[07:44:34]   [10/20] LSBM-A@0.40 done (215s)
+[07:44:56]   [11/20] HILL@0.05 done (237s)
+[07:45:18]   [12/20] HILL@0.10 done (259s)
+[07:45:40]   [13/20] HILL@0.20 done (280s)
+[07:46:01]   [14/20] HILL@0.30 done (302s)
+[07:46:23]   [15/20] HILL@0.40 done (324s)
+[07:46:45]   [16/20] S-UNIWARD@0.05 done (345s)
+[07:47:06]   [17/20] S-UNIWARD@0.10 done (367s)
+[07:47:28]   [18/20] S-UNIWARD@0.20 done (389s)
+[07:47:50]   [19/20] S-UNIWARD@0.30 done (410s)
+[07:48:11]   [20/20] S-UNIWARD@0.40 done (432s)
+[07:48:11] Feature detectors, P2 (source-disjoint):
+detector           FLD-SPAM  LR-F13  RF-F13
+embedder  payload                          
+HILL      0.05       0.4922  0.5002  0.5034
+          0.10       0.4862  0.4996  0.5011
+          0.20       0.4566  0.4990  0.4991
+          0.30       0.4281  0.4977  0.4978
+          0.40       0.3966  0.4953  0.4983
+LSBM      0.05       0.2362  0.4822  0.4838
+          0.10       0.1714  0.4654  0.4637
+          0.20       0.1158  0.4279  0.4170
+          0.30       0.0854  0.3844  0.3749
+          0.40       0.0682  0.3454  0.3308
+LSBM-A    0.05       0.4497  0.4983  0.4968
+          0.10       0.3374  0.4966  0.4910
+          0.20       0.1724  0.4793  0.4567
+          0.30       0.1119  0.4415  0.4240
+          0.40       0.0831  0.3876  0.3749
+S-UNIWARD 0.05       0.4885  0.5005  0.5025
+          0.10       0.4735  0.4990  0.5000
+          0.20       0.4355  0.4974  0.4980
+          0.30       0.3820  0.4952  0.4927
+          0.40       0.3405  0.4899  0.4937
+[07:48:13]   P1 breakdown LSBM@0.05 done
+[07:48:14]   P1 breakdown LSBM@0.10 done
+[07:48:16]   P1 breakdown LSBM@0.20 done
+[07:48:17]   P1 breakdown LSBM@0.30 done
+[07:48:18]   P1 breakdown LSBM@0.40 done
+[07:48:20]   P1 breakdown LSBM-A@0.05 done
+[07:48:21]   P1 breakdown LSBM-A@0.10 done
+[07:48:22]   P1 breakdown LSBM-A@0.20 done
+[07:48:24]   P1 breakdown LSBM-A@0.30 done
+[07:48:25]   P1 breakdown LSBM-A@0.40 done
+[07:48:27]   P1 breakdown HILL@0.05 done
+[07:48:28]   P1 breakdown HILL@0.10 done
+[07:48:29]   P1 breakdown HILL@0.20 done
+[07:48:31]   P1 breakdown HILL@0.30 done
+[07:48:32]   P1 breakdown HILL@0.40 done
+[07:48:33]   P1 breakdown S-UNIWARD@0.05 done
+[07:48:35]   P1 breakdown S-UNIWARD@0.10 done
+[07:48:36]   P1 breakdown S-UNIWARD@0.20 done
+[07:48:38]   P1 breakdown S-UNIWARD@0.30 done
+[07:48:39]   P1 breakdown S-UNIWARD@0.40 done
+[07:48:39] P1 breakdown (mean AUC over conditions):
+          auc_all  auc_partner_in_train  auc_partner_not_in_train
+detector                                                         
+FLD-SPAM    0.711                 0.673                     0.735
+LR-F13      0.528                 0.515                     0.537
+RF-F13      0.507                 0.444                     0.548
+[07:48:47] SRNet device: cuda (NVIDIA H100 80GB HBM3)
+[07:49:46]   SRNet LSBM@0.40: P_E(P2)=0.0354  P_E(P3)=0.1510
+[07:50:34]   SRNet LSBM@0.30: P_E(P2)=0.0418  P_E(P3)=0.1595
+[07:51:28]   SRNet LSBM@0.20: P_E(P2)=0.0466  P_E(P3)=0.1575
+[07:52:04]   SRNet LSBM@0.10: P_E(P2)=0.0638  P_E(P3)=0.1817
+[07:52:49]   SRNet LSBM@0.05: P_E(P2)=0.0745  P_E(P3)=0.1812
+[07:53:26]   SRNet LSBM-A@0.40: P_E(P2)=0.0311  P_E(P3)=0.0960
+[07:54:02]   SRNet LSBM-A@0.30: P_E(P2)=0.0406  P_E(P3)=0.1140
+[07:54:40]   SRNet LSBM-A@0.20: P_E(P2)=0.0715  P_E(P3)=0.1616
+[07:55:27]   SRNet LSBM-A@0.10: P_E(P2)=0.1613  P_E(P3)=0.2335
+[07:56:10]   SRNet LSBM-A@0.05: P_E(P2)=0.2414  P_E(P3)=0.3093
+[07:56:48]   SRNet HILL@0.40: P_E(P2)=0.4992  P_E(P3)=0.4994
+[07:57:41]   SRNet HILL@0.30: P_E(P2)=0.2313  P_E(P3)=0.3186
+[07:58:22]   SRNet HILL@0.20: P_E(P2)=0.2886  P_E(P3)=0.3630
+[07:59:19]   SRNet HILL@0.10: P_E(P2)=0.3646  P_E(P3)=0.4131
+[08:00:14]   SRNet HILL@0.05: P_E(P2)=0.4228  P_E(P3)=0.4506
+[08:01:03]   SRNet S-UNIWARD@0.40: P_E(P2)=0.4640  P_E(P3)=0.4770
+[08:01:44]   SRNet S-UNIWARD@0.30: P_E(P2)=0.4916  P_E(P3)=0.4977
+[08:02:31]   SRNet S-UNIWARD@0.20: P_E(P2)=0.4976  P_E(P3)=0.4984
+[08:03:12]   SRNet S-UNIWARD@0.10: P_E(P2)=0.4987  P_E(P3)=0.4995
+[08:03:48]   SRNet S-UNIWARD@0.05: P_E(P2)=0.4999  P_E(P3)=0.5001
+[08:03:49]   measures [1/20] LSBM@0.05 (1s)
+[08:03:49]   measures [2/20] LSBM@0.10 (2s)
+[08:03:50]   measures [3/20] LSBM@0.20 (3s)
+[08:03:51]   measures [4/20] LSBM@0.30 (3s)
+[08:03:52]   measures [5/20] LSBM@0.40 (4s)
+[08:03:53]   measures [6/20] LSBM-A@0.05 (5s)
+[08:03:54]   measures [7/20] LSBM-A@0.10 (6s)
+[08:03:55]   measures [8/20] LSBM-A@0.20 (7s)
+[08:03:56]   measures [9/20] LSBM-A@0.30 (8s)
+[08:03:56]   measures [10/20] LSBM-A@0.40 (9s)
+[08:03:57]   measures [11/20] HILL@0.05 (10s)
+[08:03:58]   measures [12/20] HILL@0.10 (10s)
+[08:03:59]   measures [13/20] HILL@0.20 (11s)
+[08:04:00]   measures [14/20] HILL@0.30 (12s)
+[08:04:01]   measures [15/20] HILL@0.40 (13s)
+[08:04:02]   measures [16/20] S-UNIWARD@0.05 (14s)
+[08:04:03]   measures [17/20] S-UNIWARD@0.10 (15s)
+[08:04:03]   measures [18/20] S-UNIWARD@0.20 (16s)
+[08:04:04]   measures [19/20] S-UNIWARD@0.30 (17s)
+[08:04:05]   measures [20/20] S-UNIWARD@0.40 (17s)
+[08:04:35] Spearman correlation between measure and P_E (negative = the measure tracks detectability):
+detector                 FLD-SPAM  LR-F13  RF-F13  SRNet
+space measure                                           
+F13   Deflection           -0.958  -0.979  -0.924 -0.761
+      Fisher (max)         -0.941  -0.971  -0.909 -0.738
+      Fisher (mean)        -0.943  -0.970  -0.911 -0.749
+      JS (mean)            -0.964  -0.964  -0.923 -0.814
+      MMD                  -0.940  -0.964  -0.899 -0.734
+      Mean shift           -0.943  -0.970  -0.911 -0.749
+      Paired deflection    -0.850  -0.872  -0.874 -0.752
+SPAM  Deflection           -0.998  -0.989  -0.979 -0.829
+      Fisher (max)         -0.995  -0.986  -0.973 -0.823
+      Fisher (mean)        -0.986  -0.985  -0.954 -0.823
+      JS (mean)            -0.974  -0.973  -0.936 -0.803
+      MMD                  -0.979  -0.976  -0.947 -0.836
+      Mean shift           -0.986  -0.985  -0.954 -0.823
+      Paired deflection    -0.971  -0.973  -0.969 -0.782
+[08:04:37] Baseline, change rate against P_E:
+detector  spearman     lo     hi  kendall_within_payload  n_conditions
+FLD-SPAM    -0.881 -0.980 -0.618                  -0.600            20
+  LR-F13    -0.885 -0.979 -0.636                  -0.667            20
+  RF-F13    -0.848 -0.966 -0.514                  -0.600            20
+   SRNet    -0.699 -0.933 -0.248                  -0.733            20
+[08:05:21]   control, bit bias 0.5: done
+[08:06:02]   control, bit bias 0.75: done
+[08:06:02] Whitening control under P2:
+protocol  bit_bias  alpha detector    auc  delta_auc      lo      hi  effect_declared
+      P2      0.50    0.0   LR-F13 0.5934     0.0000  0.0000  0.0000            False
+      P2      0.50    0.0   RF-F13 0.6069     0.0000  0.0000  0.0000            False
+      P2      0.50    0.0 FLD-SPAM 0.9538     0.0000  0.0000  0.0000            False
+      P2      0.50    0.5   LR-F13 0.5939     0.0005 -0.0003  0.0011            False
+      P2      0.50    0.5   RF-F13 0.6060    -0.0009 -0.0033  0.0015            False
+      P2      0.50    0.5 FLD-SPAM 0.9539     0.0001 -0.0010  0.0011            False
+      P2      0.50    1.0   LR-F13 0.5938     0.0004 -0.0003  0.0011            False
+      P2      0.50    1.0   RF-F13 0.6078     0.0010 -0.0015  0.0033            False
+      P2      0.50    1.0 FLD-SPAM 0.9535    -0.0003 -0.0014  0.0008            False
+      P2      0.75    0.0   LR-F13 0.9792     0.0000  0.0000  0.0000            False
+      P2      0.75    0.0   RF-F13 0.9954     0.0000  0.0000  0.0000            False
+      P2      0.75    0.0 FLD-SPAM 0.9927     0.0000  0.0000  0.0000            False
+      P2      0.75    0.5   LR-F13 0.9421    -0.0371 -0.0408 -0.0334             True
+      P2      0.75    0.5   RF-F13 0.9855    -0.0099 -0.0118 -0.0081             True
+      P2      0.75    0.5 FLD-SPAM 0.9603    -0.0324 -0.0353 -0.0296             True
+      P2      0.75    1.0   LR-F13 0.5940    -0.3852 -0.3897 -0.3807             True
+      P2      0.75    1.0   RF-F13 0.6072    -0.3882 -0.3938 -0.3830             True
+      P2      0.75    1.0 FLD-SPAM 0.9529    -0.0399 -0.0431 -0.0366             True
+[08:06:02] P0 replicates: 8000 runs x 5 whitening levels
+[08:07:16]   P0 400/8000 (74s)
+[08:08:14]   P0 800/8000 (132s)
+[08:09:16]   P0 1200/8000 (194s)
+[08:10:15]   P0 1600/8000 (253s)
+[08:11:15]   P0 2000/8000 (313s)
+[08:12:16]   P0 2400/8000 (373s)
+[08:13:16]   P0 2800/8000 (434s)
+[08:14:17]   P0 3200/8000 (495s)
+[08:15:18]   P0 3600/8000 (556s)
+[08:16:15]   P0 4000/8000 (613s)
+[08:17:15]   P0 4400/8000 (672s)
+[08:18:18]   P0 4800/8000 (735s)
+[08:19:16]   P0 5200/8000 (794s)
+[08:20:16]   P0 5600/8000 (854s)
+[08:21:13]   P0 6000/8000 (911s)
+[08:22:14]   P0 6400/8000 (972s)
+[08:23:16]   P0 6800/8000 (1033s)
+[08:24:16]   P0 7200/8000 (1093s)
+[08:25:12]   P0 7600/8000 (1149s)
+[08:26:08]   P0 8000/8000 (1206s)
+[08:26:08] P0 control summary: {
+ "n_runs": 8000,
+ "rate_preferred_alpha_nonzero": 0.796,
+ "rate_expected_under_exchangeability": 0.8,
+ "preferred_alpha_histogram": {
+  "a0.00": 0.204,
+  "a0.25": 0.201,
+  "a0.50": 0.202375,
+  "a0.75": 0.195,
+  "a1.00": 0.197625
+ },
+ "median_auc_range_across_alpha": 0.04132231404958675,
+ "rate_range_above_0.05": 0.447375,
+ "mean_auc": 0.9222181818181819,
+ "sd_auc_between_replicates": 0.10304558798354368
+}
+[08:26:38] Standard deviation of an AUC estimate from n test covers (all detectors and conditions):
+ n_test  median    max
+     11  0.0447 0.0858
+     50  0.0189 0.0392
+    200  0.0092 0.0197
+   1000  0.0043 0.0092
+   5000  0.0019 0.0039
+[08:26:38]   wrote Tables/tab_detection.tex
+[08:26:38]   wrote Tables/tab_protocol.tex
+[08:26:38]   wrote Tables/tab_predictor.tex
+[08:26:38]   wrote Tables/tab_control.tex
+[08:26:39]   wrote Figures/fig_pe_vs_payload.pdf
+[08:26:41]   wrote Figures/fig_measure_vs_pe.pdf
+[08:26:41]   wrote Figures/fig_control_legacy.pdf
+[08:26:42]   wrote Figures/fig_auc_sd_vs_ntest.pdf
+[08:26:42] All outputs written to /home/hamamh/Outputs/Cover_Stego_Separability
+[15:50:14] Project Cover_Stego_Separability | QUICK=False | covers=10000 | jobs=7
+[15:50:14] DATA_ROOT=/scratch/hamamh/Datasets
+WORK_DIR=/scratch/hamamh/work/Cover_Stego_Separability
+OUT_DIR=/home/hamamh/Outputs/Cover_Stego_Separability
+[15:50:14] Covers already prepared; loading cache.
+[15:50:14] Covers (10000, 256, 256), shifted test covers (5000, 256, 256), source=BOSSbase_1.01
+[15:50:14] Embedding self-tests passed (simulator rate, S-UNIWARD cost vs brute force, LSBM change rate).
+[15:50:14] Generating 20 stego sets on the main source and on the shifted test source
+[15:50:19] Change rates (first 50 covers): LSBM@0.05=0.025, LSBM@0.10=0.050, LSBM@0.20=0.100, LSBM@0.30=0.150, LSBM@0.40=0.200, LSBM-A@0.05=0.025, LSBM-A@0.10=0.050, LSBM-A@0.20=0.100, LSBM-A@0.30=0.150, LSBM-A@0.40=0.200, HILL@0.05=0.007, HILL@0.10=0.017, HILL@0.20=0.037, HILL@0.30=0.061, HILL@0.40=0.087, S-UNIWARD@0.05=0.007, S-UNIWARD@0.10=0.014, S-UNIWARD@0.20=0.033, S-UNIWARD@0.30=0.053, S-UNIWARD@0.40=0.076
+[15:50:19] Extracting features
+[15:50:28] Feature extraction done.
+[15:50:28] P1 row-level split: 0.395 of test rows have their pair partner in training
+[15:50:50]   [1/20] LSBM@0.05 done (22s)
+[15:51:12]   [2/20] LSBM@0.10 done (43s)
+[15:51:33]   [3/20] LSBM@0.20 done (65s)
+[15:51:55]   [4/20] LSBM@0.30 done (86s)
+[15:52:16]   [5/20] LSBM@0.40 done (107s)
+[15:52:37]   [6/20] LSBM-A@0.05 done (129s)
+[15:52:59]   [7/20] LSBM-A@0.10 done (150s)
+[15:53:20]   [8/20] LSBM-A@0.20 done (172s)
+[15:53:41]   [9/20] LSBM-A@0.30 done (193s)
+[15:54:03]   [10/20] LSBM-A@0.40 done (214s)
+[15:54:24]   [11/20] HILL@0.05 done (236s)
+[15:54:46]   [12/20] HILL@0.10 done (257s)
+[15:55:07]   [13/20] HILL@0.20 done (279s)
+[15:55:29]   [14/20] HILL@0.30 done (300s)
+[15:55:50]   [15/20] HILL@0.40 done (322s)
+[15:56:12]   [16/20] S-UNIWARD@0.05 done (343s)
+[15:56:33]   [17/20] S-UNIWARD@0.10 done (365s)
+[15:56:55]   [18/20] S-UNIWARD@0.20 done (386s)
+[15:57:16]   [19/20] S-UNIWARD@0.30 done (408s)
+[15:57:38]   [20/20] S-UNIWARD@0.40 done (429s)
+[15:57:38] Feature detectors, P2 (source-disjoint):
+detector           FLD-SPAM  LR-F13  RF-F13
+embedder  payload                          
+HILL      0.05       0.4922  0.5002  0.5032
+          0.10       0.4862  0.4996  0.5011
+          0.20       0.4566  0.4990  0.4990
+          0.30       0.4281  0.4977  0.4978
+          0.40       0.3966  0.4953  0.4983
+LSBM      0.05       0.2362  0.4822  0.4838
+          0.10       0.1714  0.4654  0.4637
+          0.20       0.1158  0.4279  0.4170
+          0.30       0.0854  0.3844  0.3749
+          0.40       0.0682  0.3454  0.3308
+LSBM-A    0.05       0.4497  0.4983  0.4968
+          0.10       0.3374  0.4966  0.4910
+          0.20       0.1724  0.4793  0.4567
+          0.30       0.1119  0.4415  0.4240
+          0.40       0.0831  0.3876  0.3749
+S-UNIWARD 0.05       0.4885  0.5005  0.5025
+          0.10       0.4735  0.4990  0.5000
+          0.20       0.4355  0.4974  0.4980
+          0.30       0.3820  0.4952  0.4928
+          0.40       0.3405  0.4899  0.4937
+[15:57:39]   P1 breakdown LSBM@0.05 done
+[15:57:41]   P1 breakdown LSBM@0.10 done
+[15:57:42]   P1 breakdown LSBM@0.20 done
+[15:57:43]   P1 breakdown LSBM@0.30 done
+[15:57:45]   P1 breakdown LSBM@0.40 done
+[15:57:46]   P1 breakdown LSBM-A@0.05 done
+[15:57:47]   P1 breakdown LSBM-A@0.10 done
+[15:57:49]   P1 breakdown LSBM-A@0.20 done
+[15:57:50]   P1 breakdown LSBM-A@0.30 done
+[15:57:52]   P1 breakdown LSBM-A@0.40 done
+[15:57:53]   P1 breakdown HILL@0.05 done
+[15:57:54]   P1 breakdown HILL@0.10 done
+[15:57:56]   P1 breakdown HILL@0.20 done
+[15:57:57]   P1 breakdown HILL@0.30 done
+[15:57:58]   P1 breakdown HILL@0.40 done
+[15:58:00]   P1 breakdown S-UNIWARD@0.05 done
+[15:58:01]   P1 breakdown S-UNIWARD@0.10 done
+[15:58:02]   P1 breakdown S-UNIWARD@0.20 done
+[15:58:04]   P1 breakdown S-UNIWARD@0.30 done
+[15:58:05]   P1 breakdown S-UNIWARD@0.40 done
+[15:58:05] P1 breakdown (mean AUC over conditions):
+          auc_all  auc_partner_in_train  auc_partner_not_in_train
+detector                                                         
+FLD-SPAM    0.711                 0.673                     0.735
+LR-F13      0.528                 0.515                     0.537
+RF-F13      0.507                 0.444                     0.548
+[15:58:16] SRNet device: cuda (NVIDIA H100 80GB HBM3)
+[15:59:22]   SRNet LSBM@0.40: P_E(P2)=0.0354  P_E(P3)=0.1510
+[16:00:07]   SRNet LSBM@0.30: P_E(P2)=0.0418  P_E(P3)=0.1595
+[16:00:54]   SRNet LSBM@0.20: P_E(P2)=0.0466  P_E(P3)=0.1575
+[16:01:43]   SRNet LSBM@0.10: P_E(P2)=0.0638  P_E(P3)=0.1817
+[16:02:28]   SRNet LSBM@0.05: P_E(P2)=0.0745  P_E(P3)=0.1812
+[16:03:18]   SRNet LSBM-A@0.40: P_E(P2)=0.0311  P_E(P3)=0.0960
+[16:03:58]   SRNet LSBM-A@0.30: P_E(P2)=0.0406  P_E(P3)=0.1140
+[16:04:38]   SRNet LSBM-A@0.20: P_E(P2)=0.0715  P_E(P3)=0.1616
+[16:05:17]   SRNet LSBM-A@0.10: P_E(P2)=0.1613  P_E(P3)=0.2335
+[16:06:02]   SRNet LSBM-A@0.05: P_E(P2)=0.2414  P_E(P3)=0.3093
+[16:07:09]   HILL@0.40: epoch   1/400 loss 0.8487 val_err 0.4380 best 0.4380 idle 0 (26s/epoch)
+[16:07:33]   HILL@0.40: epoch   2/400 loss 0.6489 val_err 0.3945 best 0.3945 idle 0 (23s/epoch)
+[16:07:56]   HILL@0.40: epoch   3/400 loss 0.6121 val_err 0.3675 best 0.3675 idle 0 (23s/epoch)
+[16:08:43]   HILL@0.40: epoch   5/400 loss 0.5720 val_err 0.4565 best 0.3675 idle 2 (23s/epoch)
+[16:09:30]   HILL@0.40: epoch   7/400 loss 0.5490 val_err 0.3415 best 0.3415 idle 0 (23s/epoch)
+[16:09:53]   HILL@0.40: epoch   8/400 loss 0.5383 val_err 0.2980 best 0.2980 idle 0 (23s/epoch)
+[16:10:40]   HILL@0.40: epoch  10/400 loss 0.5233 val_err 0.3200 best 0.2980 idle 2 (23s/epoch)
+[16:12:37]   HILL@0.40: epoch  15/400 loss 0.4860 val_err 0.3580 best 0.2980 idle 7 (23s/epoch)
+[16:13:48]   HILL@0.40: epoch  18/400 loss 0.4710 val_err 0.2820 best 0.2820 idle 0 (23s/epoch)
+[16:14:34]   HILL@0.40: epoch  20/400 loss 0.4684 val_err 0.2755 best 0.2755 idle 0 (23s/epoch)
+[16:16:08]   HILL@0.40: epoch  24/400 loss 0.4483 val_err 0.2680 best 0.2680 idle 0 (23s/epoch)
+[16:16:32]   HILL@0.40: epoch  25/400 loss 0.4474 val_err 0.3270 best 0.2680 idle 1 (23s/epoch)
+[16:17:54]   HILL@0.40: epoch  28/400 loss 0.4376 val_err 0.2655 best 0.2655 idle 0 (23s/epoch)
+[16:18:41]   HILL@0.40: epoch  30/400 loss 0.4324 val_err 0.3015 best 0.2655 idle 2 (23s/epoch)
+[16:20:14]   HILL@0.40: epoch  34/400 loss 0.4248 val_err 0.2445 best 0.2445 idle 0 (23s/epoch)
+[16:20:38]   HILL@0.40: epoch  35/400 loss 0.4228 val_err 0.3895 best 0.2445 idle 1 (23s/epoch)
+[16:22:35]   HILL@0.40: epoch  40/400 loss 0.4232 val_err 0.2925 best 0.2445 idle 6 (23s/epoch)
+[16:24:32]   HILL@0.40: epoch  45/400 loss 0.4123 val_err 0.2380 best 0.2380 idle 0 (23s/epoch)
+[16:26:29]   HILL@0.40: epoch  50/400 loss 0.4015 val_err 0.2570 best 0.2380 idle 5 (23s/epoch)
+[16:27:18]   HILL@0.40: epoch  52/400 loss 0.3965 val_err 0.2265 best 0.2265 idle 0 (26s/epoch)
+[16:28:36]   HILL@0.40: epoch  55/400 loss 0.3941 val_err 0.2280 best 0.2265 idle 3 (24s/epoch)
+[16:30:33]   HILL@0.40: epoch  60/400 loss 0.3899 val_err 0.2470 best 0.2265 idle 8 (23s/epoch)
+[16:32:31]   HILL@0.40: epoch  65/400 loss 0.3842 val_err 0.2780 best 0.2265 idle 13 (23s/epoch)
+[16:34:28]   HILL@0.40: epoch  70/400 loss 0.3812 val_err 0.3115 best 0.2265 idle 18 (23s/epoch)
+[16:35:15]   HILL@0.40: no gain above 0.002 for 20 epochs -> learning rate x0.1
+[16:35:38]   HILL@0.40: epoch  73/400 loss 0.3653 val_err 0.2125 best 0.2125 idle 0 (23s/epoch)
+[16:36:02]   HILL@0.40: epoch  74/400 loss 0.3526 val_err 0.2065 best 0.2065 idle 0 (23s/epoch)
+[16:36:25]   HILL@0.40: epoch  75/400 loss 0.3507 val_err 0.2050 best 0.2065 idle 1 (23s/epoch)
+[16:38:25]   HILL@0.40: epoch  80/400 loss 0.3453 val_err 0.2160 best 0.2065 idle 6 (23s/epoch)
+[16:39:12]   HILL@0.40: epoch  82/400 loss 0.3394 val_err 0.2040 best 0.2040 idle 0 (23s/epoch)
+[16:40:22]   HILL@0.40: epoch  85/400 loss 0.3335 val_err 0.2100 best 0.2040 idle 3 (23s/epoch)
+[16:42:19]   HILL@0.40: epoch  90/400 loss 0.3316 val_err 0.2075 best 0.2040 idle 8 (23s/epoch)
+[16:43:53]   HILL@0.40: epoch  94/400 loss 0.3272 val_err 0.1920 best 0.1920 idle 0 (23s/epoch)
+[16:44:17]   HILL@0.40: epoch  95/400 loss 0.3265 val_err 0.2070 best 0.1920 idle 1 (23s/epoch)
+[16:46:23]   HILL@0.40: epoch 100/400 loss 0.3274 val_err 0.2035 best 0.1920 idle 6 (23s/epoch)
+[16:48:21]   HILL@0.40: epoch 105/400 loss 0.3276 val_err 0.2055 best 0.1920 idle 11 (23s/epoch)
+[16:50:21]   HILL@0.40: epoch 110/400 loss 0.3233 val_err 0.2010 best 0.1920 idle 16 (23s/epoch)
+[16:51:55]   HILL@0.40: stopped after 114 epochs (no_significant_improvement); best val_err 0.1920
+[16:52:39]   SRNet HILL@0.40: P_E(P2)=0.1943  P_E(P3)=0.2739
+[16:53:38]   HILL@0.30: epoch   1/150 loss 0.5029 val_err 0.3110 best 0.3110 idle 0 (23s/epoch)
+[16:54:02]   HILL@0.30: epoch   2/150 loss 0.4701 val_err 0.2935 best 0.2935 idle 0 (23s/epoch)
+[16:54:49]   HILL@0.30: epoch   4/150 loss 0.4661 val_err 0.2730 best 0.2730 idle 0 (23s/epoch)
+[16:55:12]   HILL@0.30: epoch   5/150 loss 0.4623 val_err 0.2915 best 0.2730 idle 1 (23s/epoch)
+[16:57:10]   HILL@0.30: epoch  10/150 loss 0.4553 val_err 0.3045 best 0.2730 idle 6 (23s/epoch)
+[16:57:57]   HILL@0.30: epoch  12/150 loss 0.4524 val_err 0.2685 best 0.2685 idle 0 (23s/epoch)
+[16:58:20]   HILL@0.30: epoch  13/150 loss 0.4514 val_err 0.2630 best 0.2630 idle 0 (23s/epoch)
+[16:59:07]   HILL@0.30: epoch  15/150 loss 0.4536 val_err 0.3745 best 0.2630 idle 2 (23s/epoch)
+[17:00:18]   HILL@0.30: epoch  18/150 loss 0.4508 val_err 0.2570 best 0.2570 idle 0 (23s/epoch)
+[17:01:05]   HILL@0.30: epoch  20/150 loss 0.4515 val_err 0.3335 best 0.2570 idle 2 (23s/epoch)
+[17:03:13]   HILL@0.30: epoch  25/150 loss 0.4400 val_err 0.3645 best 0.2570 idle 7 (34s/epoch)
+[17:05:11]   HILL@0.30: epoch  30/150 loss 0.4359 val_err 0.2925 best 0.2570 idle 12 (23s/epoch)
+[17:07:08]   HILL@0.30: epoch  35/150 loss 0.4358 val_err 0.3365 best 0.2570 idle 17 (23s/epoch)
+[17:08:19]   HILL@0.30: no gain above 0.002 for 20 epochs -> learning rate x0.1
+[17:08:43]   HILL@0.30: epoch  39/150 loss 0.4188 val_err 0.2455 best 0.2455 idle 0 (24s/epoch)
+[17:09:06]   HILL@0.30: epoch  40/150 loss 0.4072 val_err 0.2350 best 0.2350 idle 0 (23s/epoch)
+[17:11:03]   HILL@0.30: epoch  45/150 loss 0.3960 val_err 0.2400 best 0.2350 idle 5 (23s/epoch)
+[17:13:01]   HILL@0.30: epoch  50/150 loss 0.3912 val_err 0.2345 best 0.2350 idle 10 (23s/epoch)
+[17:14:59]   HILL@0.30: epoch  55/150 loss 0.3867 val_err 0.2390 best 0.2350 idle 15 (23s/epoch)
+[17:16:56]   HILL@0.30: epoch  60/150 loss 0.3798 val_err 0.2400 best 0.2350 idle 20 (23s/epoch)
+[17:16:56]   HILL@0.30: stopped after 60 epochs (no_significant_improvement); best val_err 0.2350
+[17:17:57]   SRNet HILL@0.30: P_E(P2)=0.2388  P_E(P3)=0.3234
+[17:18:54]   HILL@0.20: epoch   1/150 loss 0.5517 val_err 0.3150 best 0.3150 idle 0 (23s/epoch)
+[17:20:28]   HILL@0.20: epoch   5/150 loss 0.5342 val_err 0.3600 best 0.3150 idle 4 (23s/epoch)
+[17:22:25]   HILL@0.20: epoch  10/150 loss 0.5260 val_err 0.3445 best 0.3150 idle 9 (23s/epoch)
+[17:24:22]   HILL@0.20: epoch  15/150 loss 0.5227 val_err 0.3325 best 0.3150 idle 14 (23s/epoch)
+[17:26:19]   HILL@0.20: epoch  20/150 loss 0.5170 val_err 0.3645 best 0.3150 idle 19 (23s/epoch)
+[17:26:43]   HILL@0.20: no gain above 0.002 for 20 epochs -> learning rate x0.1
+[17:27:30]   HILL@0.20: epoch  23/150 loss 0.5018 val_err 0.3090 best 0.3090 idle 0 (23s/epoch)
+[17:27:53]   HILL@0.20: epoch  24/150 loss 0.4958 val_err 0.3015 best 0.3015 idle 0 (23s/epoch)
+[17:28:24]   HILL@0.20: epoch  25/150 loss 0.4971 val_err 0.3020 best 0.3015 idle 1 (31s/epoch)
+[17:30:01]   HILL@0.20: epoch  29/150 loss 0.4891 val_err 0.2980 best 0.2980 idle 0 (23s/epoch)
+[17:30:24]   HILL@0.20: epoch  30/150 loss 0.4847 val_err 0.3185 best 0.2980 idle 1 (23s/epoch)
+[17:32:21]   HILL@0.20: epoch  35/150 loss 0.4804 val_err 0.2915 best 0.2915 idle 0 (23s/epoch)
+[17:34:18]   HILL@0.20: epoch  40/150 loss 0.4765 val_err 0.3045 best 0.2915 idle 5 (23s/epoch)
+[17:36:15]   HILL@0.20: epoch  45/150 loss 0.4770 val_err 0.3015 best 0.2915 idle 10 (23s/epoch)
+[17:38:12]   HILL@0.20: epoch  50/150 loss 0.4699 val_err 0.2970 best 0.2915 idle 15 (23s/epoch)
+[17:40:20]   HILL@0.20: epoch  55/150 loss 0.4659 val_err 0.2985 best 0.2915 idle 20 (34s/epoch)
+[17:40:21]   HILL@0.20: stopped after 55 epochs (no_significant_improvement); best val_err 0.2915
+[17:41:22]   SRNet HILL@0.20: P_E(P2)=0.2930  P_E(P3)=0.3597
+[17:42:19]   HILL@0.10: epoch   1/150 loss 0.6485 val_err 0.3995 best 0.3995 idle 0 (24s/epoch)
+[17:43:53]   HILL@0.10: epoch   5/150 loss 0.6237 val_err 0.4020 best 0.3995 idle 4 (23s/epoch)
+[17:45:50]   HILL@0.10: epoch  10/150 loss 0.6216 val_err 0.3965 best 0.3965 idle 0 (23s/epoch)
+[17:47:47]   HILL@0.10: epoch  15/150 loss 0.6198 val_err 0.4010 best 0.3965 idle 5 (23s/epoch)
+[17:49:44]   HILL@0.10: epoch  20/150 loss 0.6170 val_err 0.4020 best 0.3965 idle 10 (23s/epoch)
+[17:51:17]   HILL@0.10: epoch  24/150 loss 0.6118 val_err 0.3820 best 0.3820 idle 0 (23s/epoch)
+[17:51:41]   HILL@0.10: epoch  25/150 loss 0.6123 val_err 0.3985 best 0.3820 idle 1 (23s/epoch)
+[17:53:51]   HILL@0.10: epoch  30/150 loss 0.6124 val_err 0.4740 best 0.3820 idle 6 (23s/epoch)
+[17:55:48]   HILL@0.10: epoch  35/150 loss 0.6065 val_err 0.4085 best 0.3820 idle 11 (23s/epoch)
+[17:57:45]   HILL@0.10: epoch  40/150 loss 0.6082 val_err 0.4160 best 0.3820 idle 16 (23s/epoch)
+[17:59:19]   HILL@0.10: no gain above 0.002 for 20 epochs -> learning rate x0.1
+[17:59:43]   HILL@0.10: epoch  45/150 loss 0.5943 val_err 0.3770 best 0.3770 idle 0 (23s/epoch)
+[18:01:40]   HILL@0.10: epoch  50/150 loss 0.5793 val_err 0.3700 best 0.3700 idle 0 (23s/epoch)
+[18:03:39]   HILL@0.10: epoch  55/150 loss 0.5760 val_err 0.3775 best 0.3700 idle 5 (23s/epoch)
+[18:05:36]   HILL@0.10: epoch  60/150 loss 0.5690 val_err 0.3830 best 0.3700 idle 10 (23s/epoch)
+[18:07:34]   HILL@0.10: epoch  65/150 loss 0.5670 val_err 0.3800 best 0.3700 idle 15 (23s/epoch)
+[18:07:57]   HILL@0.10: epoch  66/150 loss 0.5648 val_err 0.3675 best 0.3675 idle 0 (23s/epoch)
+[18:09:31]   HILL@0.10: epoch  70/150 loss 0.5661 val_err 0.3825 best 0.3675 idle 4 (23s/epoch)
+[18:11:38]   HILL@0.10: epoch  75/150 loss 0.5612 val_err 0.3785 best 0.3675 idle 9 (23s/epoch)
+[18:13:38]   HILL@0.10: epoch  80/150 loss 0.5592 val_err 0.3975 best 0.3675 idle 14 (23s/epoch)
+[18:15:35]   HILL@0.10: epoch  85/150 loss 0.5609 val_err 0.3850 best 0.3675 idle 19 (23s/epoch)
+[18:15:58]   HILL@0.10: stopped after 86 epochs (no_significant_improvement); best val_err 0.3675
+[18:16:59]   SRNet HILL@0.10: P_E(P2)=0.3769  P_E(P3)=0.4196
+[18:17:52]   HILL@0.05: epoch   1/150 loss 0.6869 val_err 0.4460 best 0.4460 idle 0 (23s/epoch)
+[18:19:26]   HILL@0.05: epoch   5/150 loss 0.6617 val_err 0.4405 best 0.4405 idle 0 (23s/epoch)
+[18:21:24]   HILL@0.05: epoch  10/150 loss 0.6620 val_err 0.4445 best 0.4405 idle 5 (23s/epoch)
+[18:22:11]   HILL@0.05: epoch  12/150 loss 0.6614 val_err 0.4380 best 0.4380 idle 0 (23s/epoch)
+[18:22:58]   HILL@0.05: epoch  14/150 loss 0.6630 val_err 0.4330 best 0.4330 idle 0 (23s/epoch)
+[18:23:21]   HILL@0.05: epoch  15/150 loss 0.6625 val_err 0.4565 best 0.4330 idle 1 (23s/epoch)
+[18:25:18]   HILL@0.05: epoch  20/150 loss 0.6589 val_err 0.4380 best 0.4330 idle 6 (23s/epoch)
+[18:27:22]   HILL@0.05: epoch  25/150 loss 0.6583 val_err 0.4460 best 0.4330 idle 11 (30s/epoch)
+[18:29:23]   HILL@0.05: epoch  30/150 loss 0.6570 val_err 0.4590 best 0.4330 idle 16 (23s/epoch)
+[18:30:57]   HILL@0.05: no gain above 0.002 for 20 epochs -> learning rate x0.1
+[18:31:21]   HILL@0.05: epoch  35/150 loss 0.6527 val_err 0.4240 best 0.4240 idle 0 (23s/epoch)
+[18:33:18]   HILL@0.05: epoch  40/150 loss 0.6398 val_err 0.4315 best 0.4240 idle 5 (23s/epoch)
+[18:35:15]   HILL@0.05: epoch  45/150 loss 0.6348 val_err 0.4230 best 0.4240 idle 10 (23s/epoch)
+[18:37:13]   HILL@0.05: epoch  50/150 loss 0.6329 val_err 0.4315 best 0.4240 idle 15 (23s/epoch)
+[18:39:12]   HILL@0.05: epoch  55/150 loss 0.6288 val_err 0.4230 best 0.4240 idle 20 (23s/epoch)
+[18:39:12]   HILL@0.05: stopped after 55 epochs (no_significant_improvement); best val_err 0.4240
+[18:40:04]   SRNet HILL@0.05: P_E(P2)=0.4288  P_E(P3)=0.4541
+[18:40:58]   S-UNIWARD@0.40: epoch   1/400 loss 0.8149 val_err 0.4595 best 0.4595 idle 0 (23s/epoch)
+[18:41:21]   S-UNIWARD@0.40: epoch   2/400 loss 0.6437 val_err 0.4225 best 0.4225 idle 0 (23s/epoch)
+[18:41:44]   S-UNIWARD@0.40: epoch   3/400 loss 0.6268 val_err 0.3815 best 0.3815 idle 0 (23s/epoch)
+[18:42:31]   S-UNIWARD@0.40: epoch   5/400 loss 0.5756 val_err 0.3670 best 0.3670 idle 0 (23s/epoch)
+[18:42:55]   S-UNIWARD@0.40: epoch   6/400 loss 0.5622 val_err 0.3505 best 0.3505 idle 0 (23s/epoch)
+[18:43:42]   S-UNIWARD@0.40: epoch   8/400 loss 0.5467 val_err 0.3470 best 0.3470 idle 0 (23s/epoch)
+[18:44:05]   S-UNIWARD@0.40: epoch   9/400 loss 0.5442 val_err 0.3125 best 0.3125 idle 0 (23s/epoch)
+[18:44:28]   S-UNIWARD@0.40: epoch  10/400 loss 0.5429 val_err 0.3125 best 0.3125 idle 1 (23s/epoch)
+[18:46:25]   S-UNIWARD@0.40: epoch  15/400 loss 0.5026 val_err 0.2910 best 0.2910 idle 0 (23s/epoch)
+[18:47:36]   S-UNIWARD@0.40: epoch  18/400 loss 0.4740 val_err 0.2595 best 0.2595 idle 0 (23s/epoch)
+[18:48:23]   S-UNIWARD@0.40: epoch  20/400 loss 0.4679 val_err 0.3320 best 0.2595 idle 2 (23s/epoch)
+[18:48:46]   S-UNIWARD@0.40: epoch  21/400 loss 0.4661 val_err 0.2490 best 0.2490 idle 0 (23s/epoch)
+[18:50:30]   S-UNIWARD@0.40: epoch  25/400 loss 0.4366 val_err 0.2330 best 0.2330 idle 0 (34s/epoch)
+[18:52:30]   S-UNIWARD@0.40: epoch  30/400 loss 0.4161 val_err 0.2820 best 0.2330 idle 5 (24s/epoch)
+[18:54:27]   S-UNIWARD@0.40: epoch  35/400 loss 0.3952 val_err 0.3020 best 0.2330 idle 10 (23s/epoch)
+[18:56:01]   S-UNIWARD@0.40: epoch  39/400 loss 0.3909 val_err 0.1915 best 0.1915 idle 0 (23s/epoch)
+[18:56:24]   S-UNIWARD@0.40: epoch  40/400 loss 0.3791 val_err 0.2305 best 0.1915 idle 1 (23s/epoch)
+[18:58:21]   S-UNIWARD@0.40: epoch  45/400 loss 0.3686 val_err 0.3450 best 0.1915 idle 6 (23s/epoch)
+[19:00:19]   S-UNIWARD@0.40: epoch  50/400 loss 0.3587 val_err 0.1880 best 0.1880 idle 0 (23s/epoch)
+[19:01:16]   S-UNIWARD@0.40: epoch  52/400 loss 0.3469 val_err 0.1850 best 0.1850 idle 0 (24s/epoch)
+[19:02:26]   S-UNIWARD@0.40: epoch  55/400 loss 0.3420 val_err 0.2210 best 0.1850 idle 3 (23s/epoch)
+[19:02:49]   S-UNIWARD@0.40: epoch  56/400 loss 0.3437 val_err 0.1755 best 0.1755 idle 0 (23s/epoch)
+[19:04:23]   S-UNIWARD@0.40: epoch  60/400 loss 0.3450 val_err 0.2285 best 0.1755 idle 4 (23s/epoch)
+[19:06:23]   S-UNIWARD@0.40: epoch  65/400 loss 0.3303 val_err 0.1975 best 0.1755 idle 9 (26s/epoch)
+[19:08:20]   S-UNIWARD@0.40: epoch  70/400 loss 0.3187 val_err 0.2310 best 0.1755 idle 14 (23s/epoch)
+[19:10:17]   S-UNIWARD@0.40: epoch  75/400 loss 0.3122 val_err 0.2720 best 0.1755 idle 19 (23s/epoch)
+[19:10:40]   S-UNIWARD@0.40: no gain above 0.002 for 20 epochs -> learning rate x0.1
+[19:11:04]   S-UNIWARD@0.40: epoch  77/400 loss 0.3044 val_err 0.1550 best 0.1550 idle 0 (23s/epoch)
+[19:12:25]   S-UNIWARD@0.40: epoch  80/400 loss 0.2917 val_err 0.1685 best 0.1550 idle 3 (23s/epoch)
+[19:14:22]   S-UNIWARD@0.40: epoch  85/400 loss 0.2750 val_err 0.1665 best 0.1550 idle 8 (23s/epoch)
+[19:16:20]   S-UNIWARD@0.40: epoch  90/400 loss 0.2695 val_err 0.1530 best 0.1550 idle 13 (23s/epoch)
+[19:17:30]   S-UNIWARD@0.40: epoch  93/400 loss 0.2670 val_err 0.1515 best 0.1515 idle 0 (23s/epoch)
+[19:18:17]   S-UNIWARD@0.40: epoch  95/400 loss 0.2671 val_err 0.1525 best 0.1515 idle 2 (23s/epoch)
+[19:19:51]   S-UNIWARD@0.40: epoch  99/400 loss 0.2664 val_err 0.1480 best 0.1480 idle 0 (23s/epoch)
+[19:20:14]   S-UNIWARD@0.40: epoch 100/400 loss 0.2642 val_err 0.1580 best 0.1480 idle 1 (23s/epoch)
+[19:22:14]   S-UNIWARD@0.40: epoch 105/400 loss 0.2594 val_err 0.1570 best 0.1480 idle 6 (23s/epoch)
+[19:22:37]   S-UNIWARD@0.40: epoch 106/400 loss 0.2634 val_err 0.1410 best 0.1410 idle 0 (23s/epoch)
+[19:24:11]   S-UNIWARD@0.40: epoch 110/400 loss 0.2605 val_err 0.1720 best 0.1410 idle 4 (23s/epoch)
+[19:26:08]   S-UNIWARD@0.40: epoch 115/400 loss 0.2576 val_err 0.1495 best 0.1410 idle 9 (23s/epoch)
+[19:28:14]   S-UNIWARD@0.40: epoch 120/400 loss 0.2534 val_err 0.1495 best 0.1410 idle 14 (23s/epoch)
+[19:30:11]   S-UNIWARD@0.40: epoch 125/400 loss 0.2521 val_err 0.1615 best 0.1410 idle 19 (23s/epoch)
+[19:30:34]   S-UNIWARD@0.40: stopped after 126 epochs (no_significant_improvement); best val_err 0.1410
+[19:31:38]   SRNet S-UNIWARD@0.40: P_E(P2)=0.1453  P_E(P3)=0.2981
+[19:32:38]   S-UNIWARD@0.30: epoch   1/150 loss 0.4781 val_err 0.2300 best 0.2300 idle 0 (24s/epoch)
+[19:33:49]   S-UNIWARD@0.30: epoch   4/150 loss 0.4269 val_err 0.2270 best 0.2270 idle 0 (23s/epoch)
+[19:34:12]   S-UNIWARD@0.30: epoch   5/150 loss 0.4204 val_err 0.2420 best 0.2270 idle 1 (23s/epoch)
+[19:34:59]   S-UNIWARD@0.30: epoch   7/150 loss 0.4196 val_err 0.2215 best 0.2215 idle 0 (23s/epoch)
+[19:35:23]   S-UNIWARD@0.30: epoch   8/150 loss 0.4148 val_err 0.2170 best 0.2170 idle 0 (23s/epoch)
+[19:36:10]   S-UNIWARD@0.30: epoch  10/150 loss 0.4108 val_err 0.3155 best 0.2170 idle 2 (23s/epoch)
+[19:38:07]   S-UNIWARD@0.30: epoch  15/150 loss 0.4013 val_err 0.3350 best 0.2170 idle 7 (23s/epoch)
+[19:40:05]   S-UNIWARD@0.30: epoch  20/150 loss 0.3966 val_err 0.2260 best 0.2170 idle 12 (23s/epoch)
+[19:42:07]   S-UNIWARD@0.30: epoch  25/150 loss 0.3917 val_err 0.2465 best 0.2170 idle 17 (29s/epoch)
+[19:43:21]   S-UNIWARD@0.30: epoch  28/150 loss 0.3849 val_err 0.2090 best 0.2090 idle 0 (23s/epoch)
+[19:44:08]   S-UNIWARD@0.30: epoch  30/150 loss 0.3810 val_err 0.2245 best 0.2090 idle 2 (23s/epoch)
+[19:46:05]   S-UNIWARD@0.30: epoch  35/150 loss 0.3781 val_err 0.2220 best 0.2090 idle 7 (23s/epoch)
+[19:48:03]   S-UNIWARD@0.30: epoch  40/150 loss 0.3710 val_err 0.2025 best 0.2025 idle 0 (23s/epoch)
+[19:50:00]   S-UNIWARD@0.30: epoch  45/150 loss 0.3648 val_err 0.2455 best 0.2025 idle 5 (23s/epoch)
+[19:51:58]   S-UNIWARD@0.30: epoch  50/150 loss 0.3637 val_err 0.2310 best 0.2025 idle 10 (23s/epoch)
+[19:52:21]   S-UNIWARD@0.30: epoch  51/150 loss 0.3623 val_err 0.1945 best 0.1945 idle 0 (23s/epoch)
+[19:54:09]   S-UNIWARD@0.30: epoch  55/150 loss 0.3551 val_err 0.2065 best 0.1945 idle 4 (24s/epoch)
+[19:56:06]   S-UNIWARD@0.30: epoch  60/150 loss 0.3554 val_err 0.2370 best 0.1945 idle 9 (23s/epoch)
+[19:56:30]   S-UNIWARD@0.30: epoch  61/150 loss 0.3526 val_err 0.1785 best 0.1785 idle 0 (23s/epoch)
+[19:58:04]   S-UNIWARD@0.30: epoch  65/150 loss 0.3479 val_err 0.2420 best 0.1785 idle 4 (23s/epoch)
+[20:00:02]   S-UNIWARD@0.30: epoch  70/150 loss 0.3495 val_err 0.2315 best 0.1785 idle 9 (23s/epoch)
+[20:01:59]   S-UNIWARD@0.30: epoch  75/150 loss 0.3444 val_err 0.2555 best 0.1785 idle 14 (23s/epoch)
+[20:03:57]   S-UNIWARD@0.30: epoch  80/150 loss 0.3412 val_err 0.2115 best 0.1785 idle 19 (23s/epoch)
+[20:04:20]   S-UNIWARD@0.30: no gain above 0.002 for 20 epochs -> learning rate x0.1
+[20:04:44]   S-UNIWARD@0.30: epoch  82/150 loss 0.3134 val_err 0.1660 best 0.1660 idle 0 (23s/epoch)
+[20:05:54]   S-UNIWARD@0.30: epoch  85/150 loss 0.2998 val_err 0.1625 best 0.1625 idle 0 (23s/epoch)
+[20:08:03]   S-UNIWARD@0.30: epoch  90/150 loss 0.2854 val_err 0.1620 best 0.1625 idle 5 (24s/epoch)
+[20:10:00]   S-UNIWARD@0.30: epoch  95/150 loss 0.2868 val_err 0.1660 best 0.1625 idle 10 (23s/epoch)
+[20:11:58]   S-UNIWARD@0.30: epoch 100/150 loss 0.2816 val_err 0.1710 best 0.1625 idle 15 (23s/epoch)
+[20:13:55]   S-UNIWARD@0.30: epoch 105/150 loss 0.2742 val_err 0.1695 best 0.1625 idle 20 (23s/epoch)
+[20:13:55]   S-UNIWARD@0.30: stopped after 105 epochs (no_significant_improvement); best val_err 0.1625
+[20:14:45]   SRNet S-UNIWARD@0.30: P_E(P2)=0.1733  P_E(P3)=0.3207
+[20:15:31]   S-UNIWARD@0.20: epoch   1/150 loss 0.4890 val_err 0.2695 best 0.2695 idle 0 (23s/epoch)
+[20:17:05]   S-UNIWARD@0.20: epoch   5/150 loss 0.4625 val_err 0.3705 best 0.2695 idle 4 (23s/epoch)
+[20:18:39]   S-UNIWARD@0.20: epoch   9/150 loss 0.4597 val_err 0.2490 best 0.2490 idle 0 (23s/epoch)
+[20:19:03]   S-UNIWARD@0.20: epoch  10/150 loss 0.4597 val_err 0.2795 best 0.2490 idle 1 (23s/epoch)
+[20:19:26]   S-UNIWARD@0.20: epoch  11/150 loss 0.4566 val_err 0.2405 best 0.2405 idle 0 (23s/epoch)
+[20:21:00]   S-UNIWARD@0.20: epoch  15/150 loss 0.4496 val_err 0.2585 best 0.2405 idle 4 (23s/epoch)
+[20:22:58]   S-UNIWARD@0.20: epoch  20/150 loss 0.4463 val_err 0.3255 best 0.2405 idle 9 (23s/epoch)
+[20:25:04]   S-UNIWARD@0.20: epoch  25/150 loss 0.4465 val_err 0.2630 best 0.2405 idle 14 (32s/epoch)
+[20:27:05]   S-UNIWARD@0.20: epoch  30/150 loss 0.4368 val_err 0.2695 best 0.2405 idle 19 (23s/epoch)
+[20:27:29]   S-UNIWARD@0.20: no gain above 0.002 for 20 epochs -> learning rate x0.1
+[20:27:52]   S-UNIWARD@0.20: epoch  32/150 loss 0.4201 val_err 0.2285 best 0.2285 idle 0 (23s/epoch)
+[20:28:40]   S-UNIWARD@0.20: epoch  34/150 loss 0.4052 val_err 0.2240 best 0.2240 idle 0 (23s/epoch)
+[20:29:03]   S-UNIWARD@0.20: epoch  35/150 loss 0.4034 val_err 0.2410 best 0.2240 idle 1 (23s/epoch)
+[20:31:01]   S-UNIWARD@0.20: epoch  40/150 loss 0.3925 val_err 0.2285 best 0.2240 idle 6 (23s/epoch)
+[20:32:58]   S-UNIWARD@0.20: epoch  45/150 loss 0.3900 val_err 0.2215 best 0.2215 idle 0 (23s/epoch)
+[20:34:56]   S-UNIWARD@0.20: epoch  50/150 loss 0.3871 val_err 0.2380 best 0.2215 idle 5 (23s/epoch)
+[20:36:55]   S-UNIWARD@0.20: epoch  55/150 loss 0.3784 val_err 0.2235 best 0.2215 idle 10 (23s/epoch)
+[20:39:04]   S-UNIWARD@0.20: epoch  60/150 loss 0.3810 val_err 0.2385 best 0.2215 idle 15 (23s/epoch)
+[20:41:01]   S-UNIWARD@0.20: epoch  65/150 loss 0.3755 val_err 0.2275 best 0.2215 idle 20 (23s/epoch)
+[20:41:01]   S-UNIWARD@0.20: stopped after 65 epochs (no_significant_improvement); best val_err 0.2215
+[20:42:00]   SRNet S-UNIWARD@0.20: P_E(P2)=0.2375  P_E(P3)=0.3797
+[20:42:44]   S-UNIWARD@0.10: epoch   1/150 loss 0.6064 val_err 0.3895 best 0.3895 idle 0 (23s/epoch)
+[20:43:08]   S-UNIWARD@0.10: epoch   2/150 loss 0.5894 val_err 0.3800 best 0.3800 idle 0 (23s/epoch)
+[20:44:19]   S-UNIWARD@0.10: epoch   5/150 loss 0.5876 val_err 0.3795 best 0.3800 idle 3 (23s/epoch)
+[20:45:06]   S-UNIWARD@0.10: epoch   7/150 loss 0.5886 val_err 0.3665 best 0.3665 idle 0 (23s/epoch)
+[20:46:16]   S-UNIWARD@0.10: epoch  10/150 loss 0.5864 val_err 0.3550 best 0.3550 idle 0 (23s/epoch)
+[20:47:50]   S-UNIWARD@0.10: epoch  14/150 loss 0.5795 val_err 0.3520 best 0.3520 idle 0 (23s/epoch)
+[20:48:14]   S-UNIWARD@0.10: epoch  15/150 loss 0.5776 val_err 0.3960 best 0.3520 idle 1 (23s/epoch)
+[20:50:12]   S-UNIWARD@0.10: epoch  20/150 loss 0.5811 val_err 0.3640 best 0.3520 idle 6 (23s/epoch)
+[20:52:18]   S-UNIWARD@0.10: epoch  25/150 loss 0.5750 val_err 0.4115 best 0.3520 idle 11 (32s/epoch)
+[20:54:18]   S-UNIWARD@0.10: epoch  30/150 loss 0.5706 val_err 0.3855 best 0.3520 idle 16 (23s/epoch)
+[20:55:52]   S-UNIWARD@0.10: no gain above 0.002 for 20 epochs -> learning rate x0.1
+[20:56:16]   S-UNIWARD@0.10: epoch  35/150 loss 0.5575 val_err 0.3395 best 0.3395 idle 0 (24s/epoch)
+[20:56:39]   S-UNIWARD@0.10: epoch  36/150 loss 0.5484 val_err 0.3360 best 0.3360 idle 0 (23s/epoch)
+[20:58:13]   S-UNIWARD@0.10: epoch  40/150 loss 0.5401 val_err 0.3400 best 0.3360 idle 4 (23s/epoch)
+[20:59:00]   S-UNIWARD@0.10: epoch  42/150 loss 0.5389 val_err 0.3270 best 0.3270 idle 0 (23s/epoch)
+[21:00:11]   S-UNIWARD@0.10: epoch  45/150 loss 0.5356 val_err 0.3285 best 0.3270 idle 3 (23s/epoch)
+[21:02:08]   S-UNIWARD@0.10: epoch  50/150 loss 0.5281 val_err 0.3490 best 0.3270 idle 8 (23s/epoch)
+[21:04:06]   S-UNIWARD@0.10: epoch  55/150 loss 0.5301 val_err 0.3275 best 0.3270 idle 13 (23s/epoch)
+[21:06:03]   S-UNIWARD@0.10: epoch  60/150 loss 0.5253 val_err 0.3320 best 0.3270 idle 18 (23s/epoch)
+[21:07:05]   S-UNIWARD@0.10: stopped after 62 epochs (no_significant_improvement); best val_err 0.3270
+[21:07:53]   SRNet S-UNIWARD@0.10: P_E(P2)=0.3349  P_E(P3)=0.4377
+[21:08:39]   S-UNIWARD@0.05: epoch   1/150 loss 0.6631 val_err 0.4320 best 0.4320 idle 0 (24s/epoch)
+[21:10:14]   S-UNIWARD@0.05: epoch   5/150 loss 0.6513 val_err 0.4385 best 0.4320 idle 4 (23s/epoch)
+[21:11:24]   S-UNIWARD@0.05: epoch   8/150 loss 0.6518 val_err 0.4145 best 0.4145 idle 0 (23s/epoch)
+[21:12:11]   S-UNIWARD@0.05: epoch  10/150 loss 0.6522 val_err 0.4165 best 0.4145 idle 2 (23s/epoch)
+[21:14:09]   S-UNIWARD@0.05: epoch  15/150 loss 0.6481 val_err 0.4400 best 0.4145 idle 7 (23s/epoch)
+[21:16:07]   S-UNIWARD@0.05: epoch  20/150 loss 0.6486 val_err 0.4360 best 0.4145 idle 12 (23s/epoch)
+[21:18:15]   S-UNIWARD@0.05: epoch  25/150 loss 0.6486 val_err 0.4220 best 0.4145 idle 17 (34s/epoch)
+[21:19:28]   S-UNIWARD@0.05: no gain above 0.002 for 20 epochs -> learning rate x0.1
+[21:20:15]   S-UNIWARD@0.05: epoch  30/150 loss 0.6347 val_err 0.4110 best 0.4110 idle 0 (23s/epoch)
+[21:21:02]   S-UNIWARD@0.05: epoch  32/150 loss 0.6305 val_err 0.4025 best 0.4025 idle 0 (23s/epoch)
+[21:22:13]   S-UNIWARD@0.05: epoch  35/150 loss 0.6277 val_err 0.4095 best 0.4025 idle 3 (23s/epoch)
+[21:24:10]   S-UNIWARD@0.05: epoch  40/150 loss 0.6263 val_err 0.4090 best 0.4025 idle 8 (23s/epoch)
+[21:26:08]   S-UNIWARD@0.05: epoch  45/150 loss 0.6233 val_err 0.4080 best 0.4025 idle 13 (23s/epoch)
+[21:28:06]   S-UNIWARD@0.05: epoch  50/150 loss 0.6194 val_err 0.4040 best 0.4025 idle 18 (23s/epoch)
+[21:28:55]   S-UNIWARD@0.05: stopped after 52 epochs (no_significant_improvement); best val_err 0.4025
+[21:29:30]   SRNet S-UNIWARD@0.05: P_E(P2)=0.4074  P_E(P3)=0.4625
+[21:29:31]   measures [1/20] LSBM@0.05 (1s)
+[21:29:32]   measures [2/20] LSBM@0.10 (2s)
+[21:29:32]   measures [3/20] LSBM@0.20 (3s)
+[21:29:33]   measures [4/20] LSBM@0.30 (3s)
+[21:29:34]   measures [5/20] LSBM@0.40 (4s)
+[21:29:35]   measures [6/20] LSBM-A@0.05 (5s)
+[21:29:36]   measures [7/20] LSBM-A@0.10 (6s)
+[21:29:37]   measures [8/20] LSBM-A@0.20 (7s)
+[21:29:38]   measures [9/20] LSBM-A@0.30 (8s)
+[21:29:38]   measures [10/20] LSBM-A@0.40 (9s)
+[21:29:39]   measures [11/20] HILL@0.05 (10s)
+[21:29:40]   measures [12/20] HILL@0.10 (10s)
+[21:29:41]   measures [13/20] HILL@0.20 (11s)
+[21:29:42]   measures [14/20] HILL@0.30 (12s)
+[21:29:43]   measures [15/20] HILL@0.40 (13s)
+[21:29:44]   measures [16/20] S-UNIWARD@0.05 (14s)
+[21:29:45]   measures [17/20] S-UNIWARD@0.10 (15s)
+[21:29:45]   measures [18/20] S-UNIWARD@0.20 (16s)
+[21:29:46]   measures [19/20] S-UNIWARD@0.30 (16s)
+[21:29:47]   measures [20/20] S-UNIWARD@0.40 (17s)
+[21:30:16] Spearman correlation between measure and P_E (negative = the measure tracks detectability):
+detector                 FLD-SPAM  LR-F13  RF-F13  SRNet
+space measure                                           
+F13   Deflection           -0.958  -0.979  -0.924 -0.958
+      Fisher (max)         -0.941  -0.971  -0.909 -0.946
+      Fisher (mean)        -0.943  -0.970  -0.911 -0.944
+      JS (mean)            -0.964  -0.964  -0.923 -0.961
+      MMD                  -0.940  -0.964  -0.899 -0.943
+      Mean shift           -0.943  -0.970  -0.911 -0.944
+      Paired deflection    -0.850  -0.872  -0.874 -0.854
+SPAM  Deflection           -0.998  -0.989  -0.979 -0.995
+      Fisher (max)         -0.995  -0.986  -0.973 -0.992
+      Fisher (mean)        -0.986  -0.985  -0.954 -0.985
+      JS (mean)            -0.974  -0.973  -0.936 -0.973
+      MMD                  -0.979  -0.976  -0.947 -0.976
+      Mean shift           -0.986  -0.985  -0.954 -0.985
+      Paired deflection    -0.971  -0.973  -0.969 -0.962
+[21:30:18] Baseline, change rate against P_E:
+detector  spearman     lo     hi  kendall_within_payload  n_conditions
+FLD-SPAM    -0.881 -0.980 -0.618                  -0.600            20
+  LR-F13    -0.885 -0.979 -0.636                  -0.667            20
+  RF-F13    -0.848 -0.966 -0.514                  -0.600            20
+   SRNet    -0.877 -0.969 -0.605                  -0.467            20
+[21:31:01]   control, bit bias 0.5: done
+[21:31:42]   control, bit bias 0.75: done
+[21:31:42] Whitening control under P2:
+protocol  bit_bias  alpha detector    auc  delta_auc      lo      hi  effect_declared
+      P2      0.50    0.0   LR-F13 0.5934     0.0000  0.0000  0.0000            False
+      P2      0.50    0.0   RF-F13 0.6069     0.0000  0.0000  0.0000            False
+      P2      0.50    0.0 FLD-SPAM 0.9538     0.0000  0.0000  0.0000            False
+      P2      0.50    0.5   LR-F13 0.5939     0.0005 -0.0003  0.0011            False
+      P2      0.50    0.5   RF-F13 0.6060    -0.0009 -0.0033  0.0015            False
+      P2      0.50    0.5 FLD-SPAM 0.9539     0.0001 -0.0010  0.0011            False
+      P2      0.50    1.0   LR-F13 0.5938     0.0004 -0.0003  0.0011            False
+      P2      0.50    1.0   RF-F13 0.6078     0.0010 -0.0015  0.0033            False
+      P2      0.50    1.0 FLD-SPAM 0.9535    -0.0003 -0.0014  0.0008            False
+      P2      0.75    0.0   LR-F13 0.9792     0.0000  0.0000  0.0000            False
+      P2      0.75    0.0   RF-F13 0.9954     0.0000  0.0000  0.0000            False
+      P2      0.75    0.0 FLD-SPAM 0.9927     0.0000  0.0000  0.0000            False
+      P2      0.75    0.5   LR-F13 0.9421    -0.0371 -0.0408 -0.0334             True
+      P2      0.75    0.5   RF-F13 0.9855    -0.0099 -0.0118 -0.0081             True
+      P2      0.75    0.5 FLD-SPAM 0.9603    -0.0324 -0.0353 -0.0296             True
+      P2      0.75    1.0   LR-F13 0.5940    -0.3852 -0.3897 -0.3807             True
+      P2      0.75    1.0   RF-F13 0.6072    -0.3882 -0.3938 -0.3830             True
+      P2      0.75    1.0 FLD-SPAM 0.9529    -0.0399 -0.0431 -0.0366             True
+[21:31:42] P0 replicates: 8000 runs x 5 whitening levels
+[21:32:59]   P0 400/8000 (77s)
+[21:33:58]   P0 800/8000 (135s)
+[21:34:59]   P0 1200/8000 (197s)
+[21:35:58]   P0 1600/8000 (255s)
+[21:36:58]   P0 2000/8000 (316s)
+[21:37:59]   P0 2400/8000 (376s)
+[21:38:59]   P0 2800/8000 (437s)
+[21:40:00]   P0 3200/8000 (497s)
+[21:41:01]   P0 3600/8000 (558s)
+[21:41:58]   P0 4000/8000 (616s)
+[21:42:58]   P0 4400/8000 (675s)
+[21:44:01]   P0 4800/8000 (739s)
+[21:45:00]   P0 5200/8000 (797s)
+[21:45:59]   P0 5600/8000 (857s)
+[21:46:57]   P0 6000/8000 (914s)
+[21:47:58]   P0 6400/8000 (976s)
+[21:49:00]   P0 6800/8000 (1037s)
+[21:50:00]   P0 7200/8000 (1097s)
+[21:50:56]   P0 7600/8000 (1154s)
+[21:51:53]   P0 8000/8000 (1210s)
+[21:51:53] P0 control summary: {
+ "n_runs": 8000,
+ "rate_preferred_alpha_nonzero": 0.796,
+ "rate_expected_under_exchangeability": 0.8,
+ "preferred_alpha_histogram": {
+  "a0.00": 0.204,
+  "a0.25": 0.201,
+  "a0.50": 0.202375,
+  "a0.75": 0.195,
+  "a1.00": 0.197625
+ },
+ "median_auc_range_across_alpha": 0.04132231404958675,
+ "rate_range_above_0.05": 0.447375,
+ "mean_auc": 0.9222181818181819,
+ "sd_auc_between_replicates": 0.10304558798354368
+}
+[21:52:23] Standard deviation of an AUC estimate from n test covers (all detectors and conditions):
+ n_test  median    max
+     11  0.0501 0.0857
+     50  0.0212 0.0392
+    200  0.0103 0.0203
+   1000  0.0047 0.0094
+   5000  0.0021 0.0038
+[21:52:23]   wrote Tables/tab_detection.tex
+[21:52:23]   wrote Tables/tab_protocol.tex
+[21:52:23]   wrote Tables/tab_predictor.tex
+[21:52:23]   wrote Tables/tab_control.tex
+[21:52:25]   wrote Figures/fig_pe_vs_payload.pdf
+[21:52:26]   wrote Figures/fig_measure_vs_pe.pdf
+[21:52:26]   wrote Figures/fig_control_legacy.pdf
+[21:52:26]   wrote Figures/fig_auc_sd_vs_ntest.pdf
+[21:52:26] All outputs written to /home/hamamh/Outputs/Cover_Stego_Separability
